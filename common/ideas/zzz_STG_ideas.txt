@@ -114,7 +114,7 @@ ideas = {
 					}
 				}
 			}
-			traits = { captain_of_industry }
+			traits = { war_industrialist }
 		}
 		danilka = {
 			
@@ -157,7 +157,22 @@ ideas = {
 				}
 				
 			}
-			traits = { war_industrialist }
+			traits = { captain_of_industry }
+		}
+		amber_flyagin = {
+		
+			allowed = {
+				original_tag = STG
+			}
+			traits = { STG_amber_flyagin }
+		}
+		alexandra_mistina = {
+		
+			allowed = {
+				original_tag = STG
+			}
+			
+			traits = { STG_alexandra_mistina }
 		}
 	}
 	army_chief = {

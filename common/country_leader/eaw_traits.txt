@@ -3796,4 +3796,13 @@ ai_focus_aggressive_factor = 1
 		research_speed_factor = 0.05
 		production_factory_max_efficiency_factor = 0.10
 	}
+	STG_alexandra_mistina = {
+		stability_factor = 0.05
+		enemy_operative_detection_chance_factor = 0.1
+		resistance_damage_to_garrison = -0.2
+	}
+	STG_amber_flyagin = {
+		compliance_gain = 0.025
+		own_operative_detection_chance_factor = -0.15
+	}
 }

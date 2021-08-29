@@ -81,7 +81,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {
+	option = {#Vasya option
 		name = stalliongrad.4.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.4.a" }
 		custom_effect_tooltip = STG_increase_v_2
@@ -104,8 +104,31 @@ country_event = {
 	            max = 100
             }
 	}
-	option = {
+	option = {#Left Option; should also boost left support
 		name = stalliongrad.4.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.4.b" }
+		custom_effect_tooltip = STG_increase_o_2
+			add_to_variable = {
+			    var = STG_opposition_support_v
+			    value = 2
+		    }
+		    clamp_variable = {
+	            var = STG_opposition_support_v
+	            min = 0
+	            max = 100
+            }
+			subtract_from_variable = {
+			    var = STG_vasya_support_v
+			    value = 2
+		    }
+		    clamp_variable = {
+	            var = STG_vasya_support_v
+	            min = 0
+	            max = 100
+            }
+		}
+		option = {#Right Option; should also boost right support
+		name = stalliongrad.4.c
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.4.b" }
 		custom_effect_tooltip = STG_increase_o_2
 			add_to_variable = {
@@ -160,8 +183,31 @@ country_event = {
 	            max = 100
             }
 	}
-	option = {
+	option = {#Right Option; should also boost right support
 		name = stalliongrad.5.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.b" }
+		custom_effect_tooltip = STG_increase_o_2
+			add_to_variable = {
+			    var = STG_opposition_support_v
+			    value = 2
+		    }
+		    clamp_variable = {
+	            var = STG_opposition_support_v
+	            min = 0
+	            max = 100
+            }
+			subtract_from_variable = {
+			    var = STG_vasya_support_v
+			    value = 2
+		    }
+		    clamp_variable = {
+	            var = STG_vasya_support_v
+	            min = 0
+	            max = 100
+            }
+		}
+		option = {#Ultra Option; should also boost ultra support
+		name = stalliongrad.5.c
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.b" }
 		custom_effect_tooltip = STG_increase_o_2
 			add_to_variable = {

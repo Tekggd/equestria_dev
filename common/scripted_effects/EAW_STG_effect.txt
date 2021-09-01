@@ -192,3 +192,57 @@ STG_sladkova_industry_upd = {
 		add_idea = STG_sladkova_industry
 	}
 }
+STG_check_party_variables_part_1 = {
+	clamp_variable = {
+		var = STG_main_party_influence
+		min = 0
+		max = 5
+	}
+	clamp_variable = {
+		var = STG_main_party_support
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = STG_opposition_influence
+		min = 0
+		max = 5
+	}
+	clamp_variable = {
+		var = STG_opposition_support
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = STG_main_party_influence_2
+		min = 0
+		max = 5
+	}
+	clamp_variable = {
+		var = STG_main_party_support_2
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = STG_left_opposition_influence
+		min = 0
+		max = 5
+	}
+	clamp_variable = {
+		var = STG_left_opposition_support
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = STG_right_opposition_influence
+		min = 0
+		max = 5
+	}
+	clamp_variable = {
+		var = STG_right_opposition_support
+		min = 0
+		max = 100
+	}
+}
+#Crutch for party mechanic part 1
+#

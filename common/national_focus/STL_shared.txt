@@ -14,7 +14,7 @@
 	}
 	shared_focus = {
 		id = STL_ally_griffons
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_grf
 		cost = 3.00
 		x = -3
 		y = 1
@@ -49,7 +49,7 @@
 	
 	shared_focus = {
 		id = STL_ally_stg
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_stl
 		cost = 3.00
 		x = 0
 		y = 1
@@ -76,7 +76,7 @@
 
 	shared_focus = {
 		id = STL_ally_eqs
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_eqs_friendship
 		cost = 3.00
 		x = 3
 		y = 1
@@ -111,7 +111,7 @@
 	
 	shared_focus = {
 		id = STL_feather_bangs_leads
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_worst_case
 		cost = 3.00
 		x = -1
 		y = 1
@@ -135,7 +135,7 @@
 	}
 	shared_focus = {
 		id = STL_party_favor_leads
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_socialist_union
 		cost = 3.00
 		x = 1
 		y = 1
@@ -185,7 +185,7 @@
 
 	shared_focus = {
 		id = STL_night_glider_leads
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_compromise
 		cost = 3.00
 		x = 2
 		y = 1
@@ -210,7 +210,7 @@
 	}	
 	shared_focus = {
 		id = STL_sugar_belle_leads
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_celestia
 		cost = 3.00
 		x = 1
 		y = 1
@@ -236,7 +236,7 @@
 	
 	shared_focus = {
 		id = STL_one_leader
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_socialist_progress
 		cost = 3.00
 		x = 1
 		y = 1
@@ -256,7 +256,7 @@
 	}	
 	shared_focus = {
 		id = STL_centralized_state
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_conditions
 		cost = 3.00
 		x = 1
 		y = 1
@@ -281,7 +281,7 @@
 	
 	shared_focus = {
 		id = STL_confederalist_state
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_socialist_cooperation
 		cost = 3.00
 		x = 1
 		y = 1
@@ -306,7 +306,7 @@
 	
 	shared_focus = {
 		id = STL_equestrian_model
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_eqs
 		cost = 3.00
 		x = 1
 		y = 1
@@ -327,7 +327,7 @@
 
 	shared_focus = {
 		id = STL_equal_footing
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_socialist_justice
 		cost = 3.00
 		x = 1
 		y = 1
@@ -350,7 +350,7 @@
 
 	shared_focus = {
 		id = STL_powerful_friend
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_socialist_expansion
 		cost = 3.00
 		x = 1
 		y = 1
@@ -373,7 +373,7 @@
 
 	shared_focus = {
 		id = STL_accept_our_reality
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_stg_socialist_flagwave
 		cost = 3.00
 		x = 1
 		y = 1
@@ -395,7 +395,7 @@
 	}	
 	shared_focus = {
 		id = STL_our_future_secured
-		icon = GFX_focus_eqc_memories_of_our_town
+		icon = GFX_goal_elections
 		cost = 3.00
 		x = 0
 		y = 1

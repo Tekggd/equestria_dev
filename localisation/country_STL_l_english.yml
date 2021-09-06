@@ -1,7 +1,7 @@
 ﻿l_english:
 
- POLITICS_FEATHERBANGS:0 "A local heartthrob, Feather Bangs lost his love interest to a Ponyville stallion. Quick to move on, the entire incident has piqued his curiosity in the power of friendship and the ways of Equestria."
- POLITICS_DOUBLEDIAMOND:0 "A faithful follower of Starlight Glimmer's Equalist philosophy, Double Diamond would see Equality succeed by following the lead of the Communists in Stalliongrad."
+ POLITICS_FEATHERBANGS:0 "A local heartthrob, Feather Bangs lost his love interest to a Ponyville stallion. Quick to move on, Feather Bangs has come to realize that capitalism is necessary for the conditions to create equalism."
+ POLITICS_DOUBLEDIAMOND:0 "A faithful follower of Starlight Glimmer's Equalist philosophy, Double Diamond would see Equality succeed by applying the spirit of Equalism without all its idiosyncrasies."
 
  ### countryname ###
 
@@ -40,7 +40,7 @@
  STL_ally_eqs_desc:0 "#TODO: Crystal Empire and their overlords should be our friends."
 
  STL_feather_bangs_leads:0 "The Reaction of Feather Bangs"
- STL_feather_bangs_leads_desc:0 "#TODO: Musician and heartthrob Feather Bangs captivates with the return of capitalism and an end to collectivization. Prosperity for all!."
+ STL_feather_bangs_leads_desc:0 "#TODO: Musician and heartthrob Feather Bangs captivates with the return of capitalism and an end to collectivization. Prosperity for all!"
 
  STL_party_favor_leads:0 "The Orthodoxy of Party Favor"
  STL_party_favor_leads_desc:0 "#TODO: Balloon-maker and Marksist-Stallionist Party Favor draws the most eyes with his mainstream Stalliongrad & Redtail positions. His pragmatism earns him favor."
@@ -70,7 +70,7 @@
  STL_equal_footing_desc:0 "#TODO: We want to be seen as a real nation."
 
  STL_powerful_friend:0 "A Powerful Protector"
- STL_equal_footing_desc:0 "#TODO: We need someone to look out for us."
+ STL_powerful_friend_desc:0 "#TODO: We need someone to look out for us."
 
  STL_accept_our_reality:0 "Accept Our Reality"
  STL_accept_our_reality_desc:0 "#TODO: We're going to become the puppet of our chosen friend."

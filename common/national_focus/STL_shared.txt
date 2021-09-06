@@ -1,0 +1,414 @@
+
+	shared_focus = {
+		id = STL_our_future_uncertain
+		icon = GFX_equalist
+		cost = 3.00
+		x = 4
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_our_future_uncertain"
+			country_event = {
+				id = starlight.1 days = 1
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_ally_griffons
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = -3
+		y = 1
+		relative_position_id = STL_our_future_uncertain
+		prerequisite = {
+			focus = STL_our_future_uncertain
+		}
+		mutually_exclusive = {
+			focus = STL_ally_eqs
+			focus = STL_ally_stg
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_ally_griffons"
+			add_opinion_modifier = {
+				target = GRF
+				modifier = made_friends
+			}
+			add_opinion_modifier = {
+				target = GFF
+				modifier = made_friends
+			}
+			reverse_add_opinion_modifier = {
+				target = GRF
+				modifier = made_friends
+			}
+			reverse_add_opinion_modifier = {
+				target = GFF
+				modifier = made_friends
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = STL_ally_stg
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 0
+		y = 1
+		relative_position_id = STL_our_future_uncertain
+		prerequisite = {
+			focus = STL_our_future_uncertain
+		}
+		mutually_exclusive = {
+			focus = STL_ally_eqs
+			focus = STL_ally_griffons
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_ally_stg"
+			add_opinion_modifier = {
+				target = STG
+				modifier = made_friends
+			}
+			reverse_add_opinion_modifier = {
+				target = STG
+				modifier = made_friends
+			}
+		}
+	}
+
+	shared_focus = {
+		id = STL_ally_eqs
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 3
+		y = 1
+		relative_position_id = STL_our_future_uncertain
+		prerequisite = {
+			focus = STL_our_future_uncertain
+		}
+		mutually_exclusive = {
+			focus = STL_ally_griffons
+			focus = STL_ally_stg
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_ally_eqs"
+			add_opinion_modifier = {
+				target = EQS
+				modifier = made_friends
+			}
+			add_opinion_modifier = {
+				target = CRY
+				modifier = made_friends
+			}
+			reverse_add_opinion_modifier = {
+				target = EQS
+				modifier = made_friends
+			}
+			reverse_add_opinion_modifier = {
+				target = CRY
+				modifier = made_friends
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = STL_feather_bangs_leads
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = -1
+		y = 1
+		relative_position_id = STL_ally_griffons
+		mutually_exclusive = {
+			focus = STL_party_favor_leads
+			focus = STL_double_diamond_leads
+			focus = STL_night_glider_leads
+			focus = STL_sugar_belle_leads
+		}
+		prerequisite = {
+			focus = STL_ally_griffons
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_feather_bangs_leads"
+			country_event = {
+				id = starlight.2
+				days = 1
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_party_favor_leads
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_ally_griffons
+		mutually_exclusive = {
+			focus = STL_feather_bangs_leads
+			focus = STL_double_diamond_leads
+			focus = STL_night_glider_leads
+			focus = STL_sugar_belle_leads
+		}
+		prerequisite = {
+			focus = STL_ally_griffons
+			focus = STL_ally_stg
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_party_favor_leads"
+			country_event = {
+				id = starlight.3
+				days = 1
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_double_diamond_leads
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 0
+		y = 1
+		relative_position_id = STL_ally_stg
+		mutually_exclusive = {
+			focus = STL_party_favor_leads
+			focus = STL_feather_bangs_leads
+			focus = STL_night_glider_leads
+			focus = STL_sugar_belle_leads
+		}
+		prerequisite = {
+			focus = STL_ally_stg
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_double_diamond_leads"
+			country_event = {
+				id = starlight.4
+				days = 1
+			}
+		}
+	}
+
+	shared_focus = {
+		id = STL_night_glider_leads
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 2
+		y = 1
+		relative_position_id = STL_ally_stg
+		mutually_exclusive = {
+			focus = STL_party_favor_leads
+			focus = STL_double_diamond_leads
+			focus = STL_feather_bangs_leads
+			focus = STL_sugar_belle_leads
+		}
+		prerequisite = {
+			focus = STL_ally_stg
+			focus = STL_ally_eqs
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_night_glider_leads"
+			country_event = {
+				id = starlight.5
+				days = 1
+			}
+		}
+	}	
+	shared_focus = {
+		id = STL_sugar_belle_leads
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_ally_eqs
+		mutually_exclusive = {
+			focus = STL_party_favor_leads
+			focus = STL_double_diamond_leads
+			focus = STL_night_glider_leads
+			focus = STL_feather_bangs_leads
+		}
+		prerequisite = {
+			focus = STL_ally_eqs
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_night_glider_leads"
+			country_event = {
+				id = starlight.6
+				days = 1
+			}
+		}
+	}	
+	
+	
+	shared_focus = {
+		id = STL_one_leader
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_feather_bangs_leads
+		mutually_exclusive = {
+			focus = STL_centralized_state
+			focus = STL_confederalist_state
+			focus = STL_equestrian_model
+		}
+		prerequisite = {
+			focus = STL_feather_bangs_leads
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_one_leader"
+			set_country_flag = STL_absolute_leader
+		}
+	}	
+	shared_focus = {
+		id = STL_centralized_state
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_party_favor_leads
+		mutually_exclusive = {
+			focus = STL_one_leader
+			focus = STL_confederalist_state
+			focus = STL_equestrian_model
+		}
+		prerequisite = {
+			focus = STL_feather_bangs_leads
+			focus = STL_party_favor_leads
+			focus = STL_double_diamond_leads
+			focus = STL_night_glider_leads
+			focus = STL_sugar_belle_leads
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_centralized_state"
+			set_country_flag = STL_centralized
+		}
+	}	
+	
+	shared_focus = {
+		id = STL_confederalist_state
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_double_diamond_leads
+		mutually_exclusive = {
+			focus = STL_centralized_state
+			focus = STL_one_leader
+			focus = STL_equestrian_model
+		}
+		prerequisite = {
+			focus = STL_feather_bangs_leads
+			focus = STL_party_favor_leads
+			focus = STL_double_diamond_leads
+			focus = STL_night_glider_leads
+			focus = STL_sugar_belle_leads
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_confederalist_state"
+			set_country_flag = STL_confederalist
+		}
+	}	
+	
+	shared_focus = {
+		id = STL_equestrian_model
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_night_glider_leads
+		mutually_exclusive = {
+			focus = STL_centralized_state
+			focus = STL_confederalist_state
+			focus = STL_one_leader
+		}
+		prerequisite = {
+			focus = STL_sugar_belle_leads
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_equestrian_model"
+			set_country_flag = STL_equestrian_leader
+		}
+	}	
+
+	shared_focus = {
+		id = STL_equal_footing
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_one_leader
+		mutually_exclusive = {
+			focus = STL_powerful_friend
+			focus = STL_accept_our_reality
+		}
+		prerequisite = {
+			focus = STL_one_leader
+			focus = STL_centralized_state
+			focus = STL_confederalist_state
+			focus = STL_equestrian_model
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_equal_footing"
+			# event requesting mutual guarantees & NAP with whatever friend you picked
+		}
+	}	
+
+	shared_focus = {
+		id = STL_powerful_friend
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_centralized_state
+		mutually_exclusive = {
+			focus = STL_equal_footing
+			focus = STL_accept_our_reality
+		}
+		prerequisite = {
+			focus = STL_one_leader
+			focus = STL_centralized_state
+			focus = STL_confederalist_state
+			focus = STL_equestrian_model
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
+			# event requesting guarantee+NAP with whatever friend you picked
+		}
+	}	
+
+	shared_focus = {
+		id = STL_accept_our_reality
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 1
+		y = 1
+		relative_position_id = STL_confederalist_state
+		mutually_exclusive = {
+			focus = STL_powerful_friend
+			focus = STL_equal_footing
+		}
+		prerequisite = {
+			focus = STL_one_leader
+			focus = STL_centralized_state
+			focus = STL_confederalist_state
+			focus = STL_equestrian_model
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
+			# event requesting to become puppet with selected friend
+		}
+	}	
+	shared_focus = {
+		id = STL_our_future_secured
+		icon = GFX_focus_eqc_memories_of_our_town
+		cost = 3.00
+		x = 0
+		y = 1
+		relative_position_id = STL_powerful_friend
+		prerequisite = {
+			focus = STL_equal_footing
+			focus = STL_powerful_friend
+			focus = STL_accept_our_reality
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
+			remove_ideas = STL_collapsing_coalition
+			# event announcing the winner of the new elections
+		}
+	}	
+	

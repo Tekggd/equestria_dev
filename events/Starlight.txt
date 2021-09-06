@@ -212,6 +212,7 @@ country_event = { ## Who becomes new leader?
 			ruling_party = neutrality
 			elections_allowed = no
 		}
+		set_cosmetic_tag = STL_MY
 	}
 	option = { # Party Favor wins
 		name = starlight.10.b
@@ -226,6 +227,7 @@ country_event = { ## Who becomes new leader?
 				STL_stg_simp
 			}
 		}
+		set_cosmetic_tag = STL_OUR
 	}
 	option = { # +Double Diamond wins
 		name = starlight.10.c
@@ -250,5 +252,6 @@ country_event = { ## Who becomes new leader?
 			ruling_party = democratic
 			elections_allowed = no
 		}
+		set_cosmetic_tag = STL_MY
 	}
 }

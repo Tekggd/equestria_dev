@@ -18,6 +18,11 @@
  #STL_neutrality_ADJ:0 "Townie"# Different duplicate from Eaw
  #STL_communism_ADJ:0 "Equal"# Different duplicate from Eaw
 
+
+ STL_MY_neutrality:0 "Townsville"
+ STL_MY_neutrality_DEF:0 "The City of Townsville"
+ STL_MY_neutrality_ADJ:0 "Townie"
+
  STL_MY_communism:0 "Townsville"
  STL_MY_communism_DEF:0 "The City of Townsville"
  STL_MY_communism_ADJ:0 "Townie"

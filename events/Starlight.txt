@@ -102,3 +102,153 @@ country_event = { ## Sugar Belle takes the lead
 		}
 	}
 }
+
+country_event = { ## STL asks to guarantee us, NAP us, and mil access us
+	id = starlight.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.7"}
+	title = starlight7.t
+	desc = starlight.7.d
+	picture = GFX_event_our_town
+
+	is_triggered_only = yes
+
+	option = { # Yes
+		name = starlight.7.a
+		give_guarantee = STL
+		give_military_access = STL
+		diplomatic_relation = {
+			country = STL
+			relation = non_aggression_pact
+			active = yes
+		}
+		STL = {
+			give_guarantee = FROM
+			give_military_access = FROM
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { # No
+		name = starlight.7.b
+	}
+}
+
+country_event = { ## STL asks for guarantee and non aggression pact
+	id = starlight.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.8"}
+	title = starlight.8.t
+	desc = starlight.8.d
+	picture = GFX_event_our_town
+
+	is_triggered_only = yes
+
+	option = { # Yes
+		name = starlight.8.a
+		give_guarantee = STL
+		diplomatic_relation = {
+			country = STL
+			relation = non_aggression_pact
+			active = yes
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { # No
+		name = starlight.8.b
+	}
+}
+country_event = { ## STL asks to become our puppet
+	id = starlight.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.8"}
+	title = starlight.8.t
+	desc = starlight.8.d
+	picture = GFX_event_our_town
+
+	is_triggered_only = yes
+
+	option = { # Yes
+		name = starlight.9.a
+		FROM = {
+			get_current_government_type = yes
+		}
+		effect_tooltip = {		
+			puppet = FROM
+		}
+		hidden_effect = {
+			if = {
+				limit = { has_dlc = "Together for Victory" }
+				set_autonomy = { target = FROM autonomy_state = autonomy_dominion }
+			}
+			else = {		
+				puppet = FROM
+			}
+			FROM = {
+				restore_previous_government_type = yes
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { # No
+		name = starlight.9.b
+	}
+}
+
+country_event = { ## Who becomes new leader?
+	id = starlight.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.10"}
+	title = starlight.10.t
+	desc = starlight.10.d
+	picture = GFX_event_our_town
+
+	is_triggered_only = yes
+	#I'll set up the triggers and code later, this is for testing
+	option = { # Feather Bangs wins
+		name = starlight.10.a
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+	}
+	option = { # Party Favor wins
+		name = starlight.10.b
+
+		create_country_leader = {
+			name = "Party Favor"
+			desc = "POLITICS_PARTYFAVOR"
+			picture = "PartyFavor.tga"
+			expire = "1965.1.1"
+			ideology = leninism
+			traits = {
+				STL_stg_simp
+			}
+		}
+	}
+	option = { # +Double Diamond wins
+		name = starlight.10.c
+	}
+	option = { # Night Glider wins
+		name = starlight.10.e
+
+		create_country_leader = {
+			name = "Night Glider"
+			desc = "POLITICS_NIGHTGLIDER"
+			picture = "NightGlider.tga"
+			expire = "1965.1.1"
+			ideology = democratic_socialism
+			traits = {
+				STL_idealist
+			}
+		}
+	}
+	option = { # Sugar Belle wins
+		name = starlight.10.f
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = no
+		}
+	}
+}

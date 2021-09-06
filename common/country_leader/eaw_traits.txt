@@ -3884,12 +3884,56 @@ ai_focus_aggressive_factor = 1
 		}
 	}
 	STL_night_ace = { 
+		random = no
 		air_night_penalty = -0.2
 		air_ace_generation_chance_factor = 0.05
 		communism_drift = 0.01
 		
 		ai_will_do = {
 			factor = 2
+		}
+	}
+	STL_stg_simp = {
+		random = no
+		communism_acceptance = 70
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		production_speed_infrastructure_factor = 0.1
+		communism_drift = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_idealist = {
+		random = no
+		communism_drift = 0.01
+		research_speed_factor = 0.05
+		compliance_growth = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_eqs_simp = {
+		random = no
+		democratic_acceptance = 70
+		democratic_drift = 0.01
+		stability_factor = 0.15
+		war_support_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_pop_star_politician = {
+		random = no
+		neutrality_drift = 0.01
+		political_power_gain = 0.3
+		stability_factor = -0.1
+		war_support_factor = -0.1
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

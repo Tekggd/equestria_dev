@@ -275,7 +275,8 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_centralized_state"
-			set_country_flag = STL_centralized
+			custom_effect_tooltip = STL_resolved_political_matters
+			custom_effect_tooltip = STL_centralized
 		}
 	}	
 	
@@ -300,7 +301,8 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_confederalist_state"
-			set_country_flag = STL_confederalist
+			custom_effect_tooltip = STL_resolved_political_matters
+			custom_effect_tooltip = STL_confederalist
 		}
 	}	
 	
@@ -321,7 +323,8 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_equestrian_model"
-			set_country_flag = STL_equestrian_leader
+			custom_effect_tooltip = STL_resolved_political_matters
+			custom_effect_tooltip = STL_equestrian_leader
 		}
 	}	
 
@@ -344,7 +347,33 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_equal_footing"
-			# event requesting mutual guarantees & NAP with whatever friend you picked
+			if = {
+				limit = {
+					has_completed_focus = STL_ally_eqs
+				}
+				EQS = {
+					country_event = starlight.7
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = STL_ally_stg
+				}
+				STG = {
+					country_event = starlight.7
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = STL_ally_griffons
+				}
+				GRF = {
+					country_event = starlight.7
+				}
+			}
+			else = {
+				custom_effect_tooltip = STL_ally_someone
+			}
 		}
 	}	
 
@@ -367,7 +396,33 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
-			# event requesting guarantee+NAP with whatever friend you picked
+			if = {
+				limit = {
+					has_completed_focus = STL_ally_eqs
+				}
+				EQS = {
+					country_event = starlight.8
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = STL_ally_stg
+				}
+				STG = {
+					country_event = starlight.8
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = STL_ally_griffons
+				}
+				GRF = {
+					country_event = starlight.8
+				}
+			}
+			else = {
+				custom_effect_tooltip = STL_protected_by_someone
+			}
 		}
 	}	
 
@@ -390,7 +445,33 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
-			# event requesting to become puppet with selected friend
+			if = {
+				limit = {
+					has_completed_focus = STL_ally_eqs
+				}
+				EQS = {
+					country_event = starlight.9
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = STL_ally_stg
+				}
+				STG = {
+					country_event = starlight.9
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = STL_ally_griffons
+				}
+				GRF = {
+					country_event = starlight.9
+				}
+			}
+			else = {
+				custom_effect_tooltip = STL_puppeted_by_someone
+			}
 		}
 	}	
 	shared_focus = {
@@ -408,6 +489,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
 			remove_ideas = STL_collapsing_coalition
+			country_event = starlight.10
 			# event announcing the winner of the new elections
 		}
 	}	

@@ -112,7 +112,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = populism
 	traits = {
-		populist
+		STL_pop_star_politician
 	}
 }
 
@@ -123,7 +123,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		resolute_social_democrat
+		STL_eqs_simp
 	}
 }
 

@@ -132,8 +132,39 @@
  starlight.6.d:0 "#TODO: Sugar Belle's harmonic socialism and cooperation with Equestria and the Crystal Empire warm her friends' hearts."
  starlight.6.a:0 "There are many friends still to be made."
 
+ starlight.7.t:0 "[STG.GetName] Asks for Recognition"
+ starlight.7.d:0 "#TODO: Mutual Guarantee, NAP, and mil access."
+ starlight.7.a:0 "Makes sense."
+ starlight.7.b:0 "No thanks."
+
+ starlight.8.t:0 "[STG.GetName] Asks for Protectino"
+ starlight.8.d:0 "#TODO: Guarantee, and NAP."
+ starlight.8.a:0 "Makes sense."
+ starlight.8.b:0 "No thanks."
+
+ starlight.9.t:0 "[STG.GetName] Offers Submission"
+ starlight.9.d:0 "#TODO: They want to be our puppet"
+ starlight.9.a:0 "Sure!"
+ starlight.9.b:0 "No thanks."
 
 
+ starlight.10.t:0 "The Elections"
+ starlight.10.d:0 "#TODO: The votes are counted, and who wins?"
+ starlight.10.a:0 "Feather Bangs!"
+ starlight.10.b:0 "Party Favor!"
+ starlight.10.c:0 "Double Diamond!"
+ starlight.10.e:0 "Night Glider!"
+ starlight.10.c:0 "Sugar Belle!"
+
+ #TOOLTIPS
+ STL_resolved_political_matters:0 "Once we have resolved political matters, we will gain the following:"
+ STL_dictator:0 "§RAbsolute power will be given to our chosen leader. Everything will be fine.§!"
+ STL_centralized:0 "§YCentral government will be given jurisdiction over local areas.§!"
+ STL_confederalist:0 "§YLocal areas will be able to overrule the central government.§!"
+ STL_equestrian_leader:0 "§RThe central government will be completely defanged. Everything will be fine.§!"
+ STL_ally_someone:0 "We will ask our chosen ally to offer a mutual guarantee, military access, and non-aggression pact."
+ STL_protected_by_someone:0 "We will ask our chosen ally to guarantee us and form a non-aggression pact."
+ STL_puppeted_by_someone:0 "We will ask our chosen ally to become our overlord and secure our permanent safety."
 
  #FLAGS
  feather_bangs_elected:0 "Feather Bangs Elected"

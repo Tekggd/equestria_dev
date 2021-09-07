@@ -2,6 +2,9 @@
 
  POLITICS_FEATHERBANGS:0 "A local heartthrob, Feather Bangs lost his love interest to a Ponyville stallion. Quick to move on, Feather Bangs has come to realize that capitalism is necessary for the conditions to create equalism."
  POLITICS_DOUBLEDIAMOND:0 "A faithful follower of Starlight Glimmer's Equalist philosophy, Double Diamond would see Equality succeed by applying the spirit of Equalism without all its idiosyncrasies."
+ POLITICS_NIGHTGLIDER:0 "Hobbyist pilot and dreamer Night Glider seeks to achieve the vision of Starlight Glimmer without her crude methods. Equality is about lifting up, not bringing down."
+ POLITICS_PARTYFAVOR:0 "A balloon-maker and devout Marksist-Stallionist, Party Favor will follow the winds of Stalliongrad no matter how they blow."
+ POLITICS_SUGARBELLE:0 "Sugar Belle's boyfriend Big Macintosh, brother of the Element of Honest, introduced her to Equestrian harmony. This left a profound mark on her, even as she came to see the good in leftism as well. She has syntheszed these ideas into her personal form of harmonic socialism."
 
  ### countryname ###
 
@@ -30,6 +33,12 @@
  #STL_OUR_communism:0 "New Equality"# Different duplicate from Eaw
  #STL_OUR_communism_DEF:0 "The New Equality Commune"# Different duplicate from Eaw
  STL_OUR_communism_ADJ:0 "Equal"
+
+ STL_stallionist_party:0 "OTCP"
+ STL_stallionist_party_long:0 "Our Town Communist Party"
+
+ STL_utopian_party:0 "EFoC"
+ STL_utopian_party_long:0 "Equal Future of Creaturekind"
 
  ########### Starlight Village ############
  STL_our_future_uncertain:0 "Our Future Uncertain"
@@ -105,7 +114,7 @@
  trade_relations_with_stalliongrad_desc:0 "Our isolation has ended, and a healthy flow of goods travels every day with Stalliongrad." 
 
  feather_bangs:0 "Feather Bangs"
- party_flavour:0 "Party Favour"
+ party_flavour:0 "Party Favor"
  sugar_belle:0 "Sugar Belle"
  night_glider:0 "Night Glider"
 
@@ -142,7 +151,7 @@
  starlight.7.a:0 "Makes sense."
  starlight.7.b:0 "No thanks."
 
- starlight.8.t:0 "[STG.GetName] Asks for Protectino"
+ starlight.8.t:0 "[STG.GetName] Asks for Protection"
  starlight.8.d:0 "#TODO: Guarantee, and NAP."
  starlight.8.a:0 "Makes sense."
  starlight.8.b:0 "No thanks."
@@ -159,14 +168,14 @@
  starlight.10.b:0 "Party Favor!"
  starlight.10.c:0 "Double Diamond!"
  starlight.10.e:0 "Night Glider!"
- starlight.10.c:0 "Sugar Belle!"
+ starlight.10.f:0 "Sugar Belle!"
 
  #TOOLTIPS
  STL_resolved_political_matters:0 "Once we have resolved political matters, we will gain the following:"
- STL_dictator:0 "§RAbsolute power will be given to our chosen leader. Everything will be fine.§!"
+ STL_dictator:0 "§RAbsolute power will be given to our chosen leader.§!"
  STL_centralized:0 "§YCentral government will be given jurisdiction over local areas.§!"
  STL_confederalist:0 "§YLocal areas will be able to overrule the central government.§!"
- STL_equestrian_leader:0 "§RThe central government will be completely defanged. Everything will be fine.§!"
+ STL_equestrian_leader:0 "§RThe central government will be completely defanged.§!"
  STL_ally_someone:0 "We will ask our chosen ally to offer a mutual guarantee, military access, and non-aggression pact."
  STL_protected_by_someone:0 "We will ask our chosen ally to guarantee us and form a non-aggression pact."
  STL_puppeted_by_someone:0 "We will ask our chosen ally to become our overlord and secure our permanent safety."

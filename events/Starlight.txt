@@ -228,6 +228,11 @@ country_event = { ## Who becomes new leader?
 			}
 		}
 		set_cosmetic_tag = STL_OUR
+		set_party_name = {
+			ideology = communism
+			name = STL_stallionist_party
+			long_name = STL_stallionist_party_long
+		}
 	}
 	option = { # +Double Diamond wins
 		name = starlight.10.c
@@ -244,6 +249,11 @@ country_event = { ## Who becomes new leader?
 			traits = {
 				STL_idealist
 			}
+		}
+		set_party_name = {
+			ideology = communism
+			name = STL_utopian_party
+			long_name = STL_utopian_party_long
 		}
 	}
 	option = { # Sugar Belle wins

@@ -251,7 +251,8 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STL_one_leader"
-			set_country_flag = STL_absolute_leader
+			custom_effect_tooltip = STL_resolved_political_matters
+			custom_effect_tooltip = STL_dictator
 		}
 	}	
 	shared_focus = {

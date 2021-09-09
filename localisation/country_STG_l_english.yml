@@ -37,7 +37,7 @@ STG_unity_in_party_desc:0 "Much to everypony's surprise, Comrade Vasily's propos
 
 
 STG_nothing_is_changed:0 "Nothing Has Changed"
-STG_nothing_is_changed_desc:0 "Despite the best efforts of Vasily and his allies, the SCP is still a factionalized mess. This situation cannot go on forever, as while we bicker and argue our ponies lose confidence upon us and our agricultural situation deteriorates."
+STG_nothing_is_changed_desc:0 "Despite the best efforts of Vasily and his allies, the SCP is still a factionalized mess. This situation cannot go on forever, as while we bicker and argue our ponies lose confidence in us and our agricultural situation deteriorates."
 STG_sysem_of_goszakaz:0 "Implement A System Of State Orders"
 STG_sysem_of_goszakaz_desc:0 "The food and industrial situation is becoming too dire to let procedural correctness get in the way of a solution. Gensec Altidiya will implement a series of state orders, bypassing the Supreme Soviet and getting our economy back on track, or at least buying us a little more time."
 STG_prodrazverstka:0 "Food Stocks Audit"
@@ -307,7 +307,7 @@ stalliongrad.11.t:0 "Kulaks and peasants"
 stalliongrad.11.d:0 "#TO DO"
 stalliongrad.11.a:0 "#Vasya suggestion"
 stalliongrad.11.b:0 "#opposition suggestion"
-stalliongrad.121.t:0 "Wrangling the Firebrand" #To be integrated into tenth congress event chain
+stalliongrad.121.t:0 "Wrangling the Firebrand" #To be integrated into tenth congress event chain, thanks Honcho!
 stalliongrad.121.d:0 "Sinister Serov was having a lovely bath, listening to some music on his gramophone. It was truly exquisite, the way Prokoniev's sonatas sounded with one's head immersed in hot water. Or at least it would be if it weren't for the muffled sounds of somepony pounding on his door.\n\n"Is it the NKGB or the mailpony? Either way come back later," Sinister drawled, poking his head just above the water.\n"It's Vasya!" came a muffled voice from the other side of the door. Sinister blinked. What did Vasily want?\n"Fine, fine, you have the spare key, just come on in!"\n\nVasily entered the suite mid-sentence: "...didn't want to barge in if you were- oh-for-the-love-of-Tartarus!"\n"Bathing?" finished Sinister, grinning devilishly as Vasily gave an exasperated sigh.\n"Yes, that. What are you doing?"\n"Bathing."\n""The Party Congress starts in less than an hour and we need to coordinate!"\n"Oh I'm terribly sorry Vasya, it slipped my mind. I'm sure I can make it up to you by blowing everypony away at the Congress with another stellar speech in your favour..."\n"Have you even prepared anything?"\n"Come now, you know I simply get going and say what I feel like."\n\nVasily finally made eye contact with his friend, narrowing his eyes.\n"Not this time, Sinnie. This time you're not riling up a crowd, you're making a case to party delegates who deserve to know what they're getting into if they endorse my program. You need to actually be professional, for once."\n"Oh I'll need more than an hour of prep for that, my dear Vasya!"\n"Oh, don't worry. Your only job today is to sit near Mashka and make sure she doesn't disrupt everything. Your big day is tomorrow. I know you, Sinister, and I knew I'd have to wrangle you one way or another."\n\nSinister Serov chuckled, rising out of the bath and making Vasily look away in embarrassment as he lazily walked over to get a towel."
 stalliongrad.121.a:0 ""Indeed you do know me, Vasya. Indeed you do.""
 stalliongrad.12.t:0 "Tenth Party Congress"

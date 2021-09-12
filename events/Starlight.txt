@@ -106,7 +106,7 @@ country_event = { ## Sugar Belle takes the lead
 country_event = { ## STL asks to guarantee us, NAP us, and mil access us
 	id = starlight.7
 	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.7"}
-	title = starlight7.t
+	title = starlight.7.t
 	desc = starlight.7.d
 	picture = GFX_event_our_town
 
@@ -162,8 +162,8 @@ country_event = { ## STL asks for guarantee and non aggression pact
 country_event = { ## STL asks to become our puppet
 	id = starlight.9
 	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.8"}
-	title = starlight.8.t
-	desc = starlight.8.d
+	title = starlight.9.t
+	desc = starlight.9.d
 	picture = GFX_event_our_town
 
 	is_triggered_only = yes

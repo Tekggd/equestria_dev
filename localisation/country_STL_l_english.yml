@@ -146,17 +146,17 @@
  starlight.6.d:0 "#TODO: Sugar Belle's harmonic socialism and cooperation with Equestria and the Crystal Empire warm her friends' hearts."
  starlight.6.a:0 "There are many friends still to be made."
 
- starlight.7.t:0 "[STG.GetName] Asks for Recognition"
+ starlight.7.t:0 "[STL.GetName] Asks for Recognition"
  starlight.7.d:0 "#TODO: Mutual Guarantee, NAP, and mil access."
  starlight.7.a:0 "Makes sense."
  starlight.7.b:0 "No thanks."
 
- starlight.8.t:0 "[STG.GetName] Asks for Protection"
+ starlight.8.t:0 "[STL.GetName] Asks for Protection"
  starlight.8.d:0 "#TODO: Guarantee, and NAP."
  starlight.8.a:0 "Makes sense."
  starlight.8.b:0 "No thanks."
 
- starlight.9.t:0 "[STG.GetName] Offers Submission"
+ starlight.9.t:0 "[STL.GetName] Offers Submission"
  starlight.9.d:0 "#TODO: They want to be our puppet"
  starlight.9.a:0 "Sure!"
  starlight.9.b:0 "No thanks."

@@ -91,6 +91,7 @@ ideas = {
 		}
 		STL_city_state2 = {
 			
+			picture = STL_city_state
 			
 			allowed = {
 				tag = STL
@@ -170,6 +171,20 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.03
 				war_support_weekly = -0.01
+			}
+		}
+	}
+	country = {
+		STL_volunteers = {
+			picture = CES_uphold_harmony
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+
+			modifier = {
+				send_volunteer_divisions_required = -0.75
+				send_volunteer_size = 10
 			}
 		}
 	}

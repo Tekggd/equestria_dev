@@ -170,6 +170,9 @@
  starlight.10.e:0 "Night Glider!"
  starlight.10.f:0 "Sugar Belle!"
 
+ starlight.11.t:0 "Hardliner Coup"
+ starlight.11.d:0 "#TODO: oh gods"
+ starlight.11.a:0 "RIP"
  #TOOLTIPS
  STL_resolved_political_matters:0 "Once we have resolved political matters, we will gain the following:"
  STL_dictator:0 "§RAbsolute power will be given to our chosen leader.§!"

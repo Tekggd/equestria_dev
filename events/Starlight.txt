@@ -265,3 +265,28 @@ country_event = { ## Who becomes new leader?
 		set_cosmetic_tag = STL_MY
 	}
 }
+
+
+country_event = { ## Burlap coup
+	id = starlight.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.11"}
+	title = starlight.11.t
+	desc = starlight.11.d
+	picture = GFX_event_our_town
+
+	is_triggered_only = yes
+	option = { # oh noes
+		name = starlight.11.a
+
+		create_country_leader = {
+			name = "Burlap"
+			desc = "POLITICS_BURLAP"
+			picture = "Burlap.tga"
+			expire = "1965.1.1"
+			ideology = equalism
+			traits = {
+				STL_hardline_equalist
+			}
+		}
+	}
+}

@@ -288,28 +288,6 @@ country_event = { ## Burlap coup
 				STL_hardline_equalist
 			}
 		}
-	}
-}
-country_event = { ## Let STL join our faction?
-	id = starlight.17
-	immediate = {log = "[GetDateText]: [Root.GetName]: event starlight.17"}
-	title = starlight.17.t
-	desc = starlight.17.d
-	picture = GFX_event_our_town
-
-	is_triggered_only = yes
-
-	option = {
-		name = starlight.17.a
-		add_to_faction = STL
-		ai_chance = {
-			factor = 100
-		}
-	}
-	option = {
-		name = starlight.17.b
-		ai_chance = {
-			factor = 0
-		}
+		set_cosmetic_tag = STL_EQUAL
 	}
 }

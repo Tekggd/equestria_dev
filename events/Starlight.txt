@@ -289,5 +289,10 @@ country_event = { ## Burlap coup
 			}
 		}
 		set_cosmetic_tag = STL_EQUAL
+		set_party_name = {
+			ideology = communism
+			name = STL_equal_party
+			long_name = STL_equal_party_long
+		}
 	}
 }

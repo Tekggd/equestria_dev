@@ -40,6 +40,9 @@
  STL_utopian_party:0 "EFoC"
  STL_utopian_party_long:0 "Equal Future of Creaturekind"
 
+ STL_equal_party:0 "TEP"
+ STL_equal_party_long:0 "The True Equality Party"
+
 
 STL_MY_communism:0 "Townsville"
 STL_MY_communism_DEF:0 "The City of Townsville"

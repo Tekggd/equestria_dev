@@ -80,6 +80,13 @@ STL_stg_check:0 "Has full control of all original §YStalliongrad§! [STG.GetFla
 STL_OUR_communism_ADJ:0 "Equal"
 
 
+ starlight_village:0 "The Town with No Name"
+ stl_feather_bangs:0 "Feather Bangs' Our Town"
+ stl_party_favor:0 "Our Country"
+ stl_double_diamond:0 "Our Town"
+ stl_night_glider:0 "Our Town"
+ stl_sugar_belle:0 "Friendship Town"
+
  ########### Starlight Village ############
  STL_our_future_uncertain:0 "Our Future Uncertain"
  STL_our_future_uncertain_desc:0 "The five most important figures in our politics - Double Diamond, Party Favor, Night Glider, Sugar Belle, and Feather Bangs - cannot see eye to eye. Every town meeting leads to an argument, and nothing is getting done. Hopefully the January meeting will be more fruitful."

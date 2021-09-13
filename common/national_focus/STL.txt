@@ -8,6 +8,61 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 1500 y = 10 }
+	continuous_focus_position = { x = -1500 y = 10 }
 	shared_focus = STL_our_future_uncertain
+}
+focus_tree = {
+	id = stl_feather_bangs
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = -1500 y = 10 }
+	shared_focus = STL_our_future_uncertain
+	shared_focus = STL_a_new_millenium
+	shared_focus = STL_feather_bangs_wins
+}
+focus_tree = {
+	id = stl_party_favor
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = -1500 y = 10 }
+	shared_focus = STL_our_future_uncertain
+	shared_focus = STL_a_new_millenium
+	shared_focus = STL_party_favor_wins
+}
+focus_tree = {
+	id = stl_double_diamond
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = -1500 y = 10 }
+	shared_focus = STL_our_future_uncertain
+	shared_focus = STL_a_new_millenium
+	shared_focus = STL_double_diamond_wins
+}
+focus_tree = {
+	id = stl_night_glider
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = -1500 y = 10 }
+	shared_focus = STL_our_future_uncertain
+	shared_focus = STL_a_new_millenium
+	shared_focus = STL_night_glider_wins
+}
+focus_tree = {
+	id = stl_sugar_belle
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = -1500 y = 10 }
+	shared_focus = STL_our_future_uncertain
+	shared_focus = STL_a_new_millenium
+	shared_focus = STL_sugar_belle_wins
 }

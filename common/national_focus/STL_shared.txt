@@ -488,10 +488,218 @@
 			focus = STL_accept_our_reality
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus STL_powerful_friend"
+			log = "[GetDateText]: [Root.GetName]: Focus STL_our_future_secured"
 			remove_ideas = STL_collapsing_coalition
 			country_event = starlight.10
 			# event announcing the winner of the new elections
 		}
 	}	
-	
+	### PARTY FAVOR TREE ###
+
+	shared_focus = {
+		id = STL_feather_bangs_wins
+		icon = GFX_focus_TUR_the_sun_language_theory
+		cost = 5
+		x = 0
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_feather_bangs_wins"
+		}
+	}
+	### PARTY FAVOR TREE ###
+
+	shared_focus = {
+		id = STL_party_favor_wins
+		icon = GFX_focus_generic_join_comintern
+		cost = 5
+		x = 2
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_party_favor_wins"
+		}
+	}
+	### DOUBLE DIAMOND TREE ###
+
+	shared_focus = {
+		id = STL_double_diamond_wins
+		icon = GFX_equalist # placeholder
+		cost = 5
+		x = 4
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_double_diamond_wins"
+		}
+	}
+
+	### NIGHT GLIDER TREE ###
+
+	shared_focus = {
+		id = STL_night_glider_wins
+		icon = GFX_goal_GRF_commies_win
+		cost = 5
+		x = 6
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_night_glider_wins"
+		}
+	}
+	### SUGAR BELLE TREE ###
+
+	shared_focus = {
+		id = STL_sugar_belle_wins
+		icon = GFX_goal_ces_harmony
+		cost = 5
+		x = 8
+		y = 7
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_sugar_belle_wins"
+		}
+	}
+
+	### INDUSTRY TREE ###
+	shared_focus = {
+		id = STL_a_new_millenium
+		icon = GFX_goal_Industrial_Supremacy
+		cost = 5
+		x = 15
+		y = 0
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_a_new_millenium"
+			57 = {
+				set_state_category = city
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_industrial_sector
+		icon = GFX_goal_generic_takeover_industries
+		cost = 5
+		x = -3
+		y = 1
+		relative_position_id = STL_a_new_millenium
+		prerequisite = {
+			focus = STL_a_new_millenium
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_industrial_sector"
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.75
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_electronics_sector
+		icon = GFX_goal_stg_electricity
+		cost = 5
+		x = -1
+		y = 1
+		relative_position_id = STL_a_new_millenium
+		prerequisite = {
+			focus = STL_a_new_millenium
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_electronics_sector"
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.75
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_heavy_industry
+		icon = GFX_goal_socialist_industry
+		cost = 5
+		x = 1
+		y = 1
+		relative_position_id = STL_a_new_millenium
+		prerequisite = {
+			focus = STL_a_new_millenium
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_heavy_industry"
+			57 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_bunker_down
+		icon = GFX_goal_nested_fortifications
+		cost = 5
+		x = 3
+		y = 1
+		relative_position_id = STL_a_new_millenium
+		prerequisite = {
+			focus = STL_a_new_millenium
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_bunker_down"
+			57 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	shared_focus = {
+		id = STL_new_research_methods
+		icon = GFX_goal_double_research
+		cost = 5
+		x = 0
+		y = 2
+		relative_position_id = STL_a_new_millenium
+		prerequisite = {
+			focus = STL_industrial_sector
+		}
+		prerequisite = {
+			focus = STL_electronics_sector
+		}
+		prerequisite = {
+			focus = STL_heavy_industry
+		}
+		prerequisite = {
+			focus = STL_bunker_down
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_new_research_methods"
+			add_research_slots = 1
+		}
+	}

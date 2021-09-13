@@ -213,6 +213,7 @@ country_event = { ## Who becomes new leader?
 			elections_allowed = no
 		}
 		set_cosmetic_tag = STL_MY
+		load_focus_tree = stl_feather_bangs
 	}
 	option = { # Party Favor wins
 		name = starlight.10.b
@@ -233,9 +234,11 @@ country_event = { ## Who becomes new leader?
 			name = STL_stallionist_party
 			long_name = STL_stallionist_party_long
 		}
+		load_focus_tree = stl_party_favor
 	}
 	option = { # +Double Diamond wins
 		name = starlight.10.c
+		load_focus_tree = stl_double_diamond
 	}
 	option = { # Night Glider wins
 		name = starlight.10.e
@@ -255,6 +258,7 @@ country_event = { ## Who becomes new leader?
 			name = STL_utopian_party
 			long_name = STL_utopian_party_long
 		}
+		load_focus_tree = stl_night_glider
 	}
 	option = { # Sugar Belle wins
 		name = starlight.10.f
@@ -263,6 +267,7 @@ country_event = { ## Who becomes new leader?
 			elections_allowed = no
 		}
 		set_cosmetic_tag = STL_MY
+		load_focus_tree = stl_sugar_belle
 	}
 }
 

@@ -3909,6 +3909,8 @@ ai_focus_aggressive_factor = 1
 		communism_drift = 0.01
 		research_speed_factor = 0.05
 		compliance_growth = 0.10
+		democratic_acceptance = 35
+		communism_acceptance = 35
 		ai_will_do = {
 			factor = 1
 		}

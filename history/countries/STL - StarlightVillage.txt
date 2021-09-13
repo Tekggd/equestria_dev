@@ -155,10 +155,11 @@ create_country_leader = {
 	ideology = equalism
 	traits = {
 		STL_moderate_equalist
+		cabinet_crisis
 	}
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Double Diamond"
 	picture = "DoubleDiamond.tga"
 	traits = { pony_race_trait commissar_general organizer }
@@ -177,6 +178,16 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Sugar Belle"
+	picture = "SugarBelle.tga"
+	traits = { pony_race_trait commando }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Feather Bangs"

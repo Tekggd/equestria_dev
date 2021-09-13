@@ -173,6 +173,30 @@ ideas = {
 				war_support_weekly = -0.01
 			}
 		}
+		STL_centralized_govt = {
+			picture = tur_kemalist_officers_loyalty_effect
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				army_morale_factor = 0.05
+				max_planning_factor = 0.05
+			}
+		}
+		STL_confederalist_govt = {
+			picture = gre_political_instability_communism
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				army_org_factor = 0.05
+				land_reinforce_rate = 0.05
+			}
+		}
 	}
 	country = {
 		STL_volunteers = {

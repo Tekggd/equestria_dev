@@ -790,6 +790,7 @@
 					type = bunker
 					level = 4
 					instant_build = yes
+					province = 3335
 				}
 			}
 		}

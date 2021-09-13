@@ -186,7 +186,7 @@ ideas = {
 			}
 		}
 		STL_confederalist_govt = {
-			picture = gre_political_instability_communism
+			picture = tokyo_arsenal
 			allowed = {
 				tag = STL
 			}

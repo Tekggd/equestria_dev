@@ -90,12 +90,12 @@ instant_effect = {
 	### Ships Under Contruction ###
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_submarine_2
+			type = ship_hull_cruiser_2
 			creator = "STG" 
-			version_name = "Series II Srednyaya"
+			version_name = "Molniya Class"
 		}
 		requested_factories = 1
-		progress = 0.5
+		progress = 0.40
 		amount = 1
 	}
 	add_equipment_production = {
@@ -105,7 +105,7 @@ instant_effect = {
 			version_name = "Series II Srednyaya"
 		}
 		requested_factories = 1
-		progress = 0.5
+		progress = 0.50
 		amount = 1
 	}
 	add_equipment_production = {
@@ -150,22 +150,12 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_submarine_2
 			creator = "STG" 
-			version_name = "Molniya Class"
+			version_name = "Series II Srednyaya"
 		}
 		requested_factories = 1
-		progress = 0.70
-		amount = 1
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_light_2
-			creator = "STG" 
-			version_name = "Gnevny Class"
-		}
-		requested_factories = 1
-		progress = 0.90
+		progress = 0.25
 		amount = 1
 	}
 	add_equipment_production = {
@@ -186,6 +176,16 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.70
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "STG" 
+			version_name = "Gnevny Class"
+		}
+		requested_factories = 1
+		progress = 0.60
 		amount = 1
 	}
 }

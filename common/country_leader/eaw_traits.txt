@@ -663,6 +663,7 @@ leader_traits = {
 		opinion_gain_monthly_same_ideology_factor = 1.0
 		trade_opinion_factor = 0.10
 		democratic_drift = 0.1
+		democratic_acceptance = 70
 		ai_focus_peaceful_factor = 0.05
 		
 		ai_will_do = {
@@ -1185,8 +1186,9 @@ leader_traits = {
 		army_speed_factor = 0.05
 		army_morale_factor = 0.05
 		production_speed_arms_factory_factor = 0.1
+		communism_drift = 0.01
 		ai_will_do = {
-			factor = 500
+			factor = 3
 		}
 	}
 	
@@ -1372,6 +1374,17 @@ leader_traits = {
 		stability_factor = 0.05
 		political_power_factor = 0.10
 		global_building_slots_factor = 0.1
+		democratic_drift = 0.01
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	popular_musician = {
+		random = no
+		political_power_factor = 0.10
+		war_support_factor = 0.05
+		neutrality_drift = 0.01
 		ai_will_do = {
 			factor = 1
 		}
@@ -2724,6 +2737,12 @@ ai_focus_aggressive_factor = 1
 		encryption_factor = 1
 		decryption_factor = 1
 	}
+	bar_viira_end_lar = {
+		random = no
+		military_leader_cost_factor = 100
+		crypto_strength = 5
+		decryption_power_factor = 1
+	}
 	bar_viira_end_1 = {
 		random = no
 		research_speed_factor = 0.1
@@ -2733,6 +2752,7 @@ ai_focus_aggressive_factor = 1
 		non_core_manpower = 0.02
 		war_support_factor = 0.2
 		stability_factor = 0.1
+		fascism_drift = 0.01
 	}
 	bar_viira_end_3 = {
 		random = no
@@ -3355,6 +3375,30 @@ ai_focus_aggressive_factor = 1
 		conscription_factor = 0.3
 		military_leader_cost_factor = 100
 	}
+	BAR_despot_herzland = {
+		random = no
+		encryption = 1
+		conscription_factor = -0.15
+		military_leader_cost_factor = 100
+	}
+	BAR_north1_sci = {
+		random = no
+		encryption = 2
+		enemy_operative_capture_chance_factor = 0.15
+		civilian_intel_to_others = -10
+		navy_intel_to_others = -10
+		airforce_intel_to_others = -10
+	}
+	BAR_north3_waste = {
+		random = no
+		no_compliance_gain = 1
+		military_leader_cost_factor = 100
+		research_speed_factor = -0.5
+		stability_factor = -0.4
+		war_support_factor = -0.8
+		political_power_factor = -0.9
+		recruitable_population_factor = -0.8
+	}
 	
 	mother_of_the_republic = {
 		random = no
@@ -3793,16 +3837,105 @@ ai_focus_aggressive_factor = 1
 		}
 	}
 	STG_alevtina_qubysheva = {
+		random = no
 		research_speed_factor = 0.05
 		production_factory_max_efficiency_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	STG_alexandra_mistina = {
+		random = no
 		stability_factor = 0.05
 		enemy_operative_detection_chance_factor = 0.1
 		resistance_damage_to_garrison = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	STG_amber_flyagin = {
+		random = no
 		compliance_gain = 0.025
 		own_operative_detection_chance_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_moderate_equalist = {
+		random = no
+		production_factory_start_efficiency_factor = 0.05
+		communism_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_hardline_equalist = {
+		random = no
+		production_factory_start_efficiency_factor = 0.25
+		production_factory_max_efficiency_factor = -0.10
+		communism_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_night_ace = { 
+		random = no
+		air_night_penalty = -0.2
+		air_ace_generation_chance_factor = 0.05
+		communism_drift = 0.01
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	STL_stg_simp = {
+		random = no
+		communism_acceptance = 70
+		industrial_capacity_dockyard = 0.05
+		industrial_capacity_factory = 0.05
+		production_speed_infrastructure_factor = 0.1
+		communism_drift = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_idealist = {
+		random = no
+		communism_drift = 0.01
+		research_speed_factor = 0.05
+		compliance_growth = 0.10
+		democratic_acceptance = 35
+		communism_acceptance = 35
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_eqs_simp = {
+		random = no
+		democratic_acceptance = 70
+		democratic_drift = 0.01
+		stability_factor = 0.15
+		war_support_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	STL_pop_star_politician = {
+		random = no
+		neutrality_drift = 0.01
+		political_power_gain = 0.3
+		stability_factor = -0.1
+		war_support_factor = -0.1
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		ai_will_do = {
+			factor = 1
+		}
 	}
 }

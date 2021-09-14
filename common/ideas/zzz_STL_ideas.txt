@@ -5,11 +5,21 @@ ideas = {
 			allowed = {
 				original_tag = STL
 			}
-			traits = { popular_figurehead }
+			allowed_to_remove = {
+				NOT = {
+					has_idea = STL_collapsing_coalition
+				}
+			}
+			traits = { popular_musician }
 		}
 		party_flavour = {
 			allowed = {
 				original_tag = STL
+			}
+			allowed_to_remove = {
+				NOT = {
+					has_idea = STL_collapsing_coalition
+				}
 			}
 			traits = { party_maker }
 		}
@@ -17,7 +27,31 @@ ideas = {
 			allowed = {
 				original_tag = STL
 			}
+			allowed_to_remove = {
+				NOT = {
+					has_idea = STL_collapsing_coalition
+				}
+			}
 			traits = { best_baker_in_town }
+		}
+	}
+	air_chief = {
+		
+		night_glider = {
+			
+			allowed = {
+				original_tag = STL
+			}
+			allowed_to_remove = {
+				NOT = {
+					has_idea = STL_collapsing_coalition
+				}
+			}
+			traits = { STL_night_ace }
+			
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 	country = {
@@ -41,8 +75,6 @@ ideas = {
 				political_power_cost = 0.10
 			}
 		}
-	}
-	country = {
 		STL_city_state = {
 			
 			
@@ -57,10 +89,9 @@ ideas = {
 				industrial_capacity_factory = -0.15
 			}
 		}
-	}
-	country = {
 		STL_city_state2 = {
 			
+			picture = STL_city_state
 			
 			allowed = {
 				tag = STL
@@ -73,8 +104,6 @@ ideas = {
 				industrial_capacity_factory = -0.10
 			}
 		}
-	}
-	country = {
 		STL_STG_advisory_military = {
 			picture = stalliongradian_advisors
 			
@@ -90,8 +119,6 @@ ideas = {
 				army_org_factor = 0.05
 			}
 		}
-	}
-	country = {
 		STL_STG_advisory_industry = {
 			picture = stalliongradian_advisors
 			
@@ -107,8 +134,6 @@ ideas = {
 				production_speed_bunker_factor = 0.3
 			}
 		}
-	}
-	country = {
 		STL_new_army_spirit = {
 			picture = stalliongradian_advisors
 			
@@ -123,8 +148,6 @@ ideas = {
 				army_org_factor = 0.1
 			}
 		}
-	}
-	country = {
 		STL_garden_spirit = {
 			
 			allowed = {
@@ -137,6 +160,55 @@ ideas = {
 				land_reinforce_rate = 0.05
 				stability_factor = 0.10
 				MONTHLY_POPULATION = 0.1
+			}
+		}
+		STL_collapsing_coalition = {
+			picture = trotskyite_plot
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -0.03
+				war_support_weekly = -0.01
+			}
+		}
+		STL_centralized_govt = {
+			picture = tur_kemalist_officers_loyalty_effect
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				army_morale_factor = 0.05
+				max_planning_factor = 0.05
+			}
+		}
+		STL_confederalist_govt = {
+			picture = tokyo_arsenal
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				army_org_factor = 0.05
+				land_reinforce_rate = 0.05
+			}
+		}
+	}
+	country = {
+		STL_volunteers = {
+			picture = CES_uphold_harmony
+			allowed = {
+				tag = STL
+			}
+			removal_cost = -1
+
+			modifier = {
+				send_volunteer_divisions_required = -0.75
+				send_volunteer_size = 10
 			}
 		}
 	}

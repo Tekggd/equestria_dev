@@ -5,6 +5,7 @@ oob = "STL_1007"
 set_research_slots = 2
 
 set_technology = {
+	early_fighter = 1
 	pony_race = 1
 	melee_weapons = 1
 	melee_weapons1 = 1
@@ -27,16 +28,24 @@ if = {
 		transport = 1
 	}
 }
+else = {
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		mtg_transport = 1
+	}
+}
 
 generic_DD_template = yes
 generic_CL_template = yes
 
 set_convoys = 69
 set_popularities = {
-	democratic = 23
-	fascism = 1
-	communism = 75
-	neutrality = 1
+	democratic = 15
+	fascism = 0
+	communism = 80
+	neutrality = 5
 }
 set_politics = {
 
@@ -46,22 +55,95 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_variable = {
+	var = STL_feather_bangs_support
+	value = 5
+}
+clamp_variable = {
+	var = STL_feather_bangs_support
+	min = 0
+	max = 100
+}
+set_variable = {
+	var = STL_party_favor_support
+	value = 30
+}
+clamp_variable = {
+	var = STL_party_favor_support
+	min = 0
+	max = 100
+}
+set_variable = {
+	var = STL_double_diamond_support
+	value = 20
+}
+clamp_variable = {
+	var = STL_double_diamond_support
+	min = 0
+	max = 100
+}
+set_variable = {
+	var = STL_night_glider_support
+	value = 30
+}
+clamp_variable = {
+	var = STL_night_glider_support
+	min = 0
+	max = 100
+}
+set_variable = {
+	var = STL_sugar_belle_support
+	value = 15
+}
+clamp_variable = {
+	var = STL_sugar_belle_support
+	min = 0
+	max = 100
+}
 
 add_ideas = {
 	STL_city_state
 	STL_equality_past
+	STL_collapsing_coalition
+	feather_bangs
+	night_glider
+	sugar_belle
+	party_flavour
 }
 
-set_stability = 0.5
+set_stability = 0.9
+set_war_support = 0.45
 
 create_country_leader = {
 	name = "Feather Bangs"
 	desc = "POLITICS_FEATHERBANGS"
 	picture = "FeatherBangs.tga"
 	expire = "1965.1.1"
+	ideology = populism
+	traits = {
+		STL_pop_star_politician
+	}
+}
+
+create_country_leader = {
+	name = "Sugar Belle"
+	desc = "POLITICS_SUGARBELLE"
+	picture = "SugarBelle.tga"
+	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
+		STL_eqs_simp
+	}
+}
 
+create_country_leader = {
+	name = "Nobody"
+	desc = ""
+	picture = "Nobody.tga"
+	expire = "1965.1.1"
+	ideology = ultranationalism
+	traits = {
+		provisional
 	}
 }
 
@@ -72,36 +154,48 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = equalism
 	traits = {
-
+		STL_moderate_equalist
+		cabinet_crisis
 	}
 }
-create_corps_commander = {
-	name = "Grey Bread"
-	picture = "GreyBread.tga"
-	traits = { pony_race_trait commissar_general }
+
+create_field_marshal = {
+	name = "Double Diamond"
+	picture = "DoubleDiamond.tga"
+	traits = { pony_race_trait commissar_general organizer }
 	skill = 4
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 5
 }
 create_corps_commander = {
-	name = "Liquid Miracle"
-	picture = "Miracle.tga"
-	traits = { pony_race_trait panzer_leader winter_specialist }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
+	name = "Party Favor"
+	picture = "PartyFavor.tga"
+	traits = { pony_race_trait inspiring_commissar trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Magic Fly"
-	picture = "MagicFly.tga"
-	traits = { pony_race_trait }
+	name = "Sugar Belle"
+	picture = "SugarBelle.tga"
+	traits = { pony_race_trait commando }
 	skill = 2
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Feather Bangs"
+	picture = "FeatherBangs.tga"
+	traits = { pony_race_trait promising_general }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 	female = yes

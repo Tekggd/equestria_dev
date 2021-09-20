@@ -301,4 +301,5 @@ STG_check_party_variables = {
 #}
 #STG_party_recalculating = {
 #	TODO this shit later (don't forget about status quo)
+#	
 #}

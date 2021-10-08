@@ -107,49 +107,13 @@ country_event = {
 	option = {#Left Option; should also boost left support
 		name = stalliongrad.4.b
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.4.b" }
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-		}
+		vasya_STG_effect = yes
+	}
 		option = {#Right Option; should also boost right support
 		name = stalliongrad.4.c
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.4.b" }
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-		}
+		opposition_STG_effect = yes 
+	}
 }
 country_event = {
 	id = stalliongrad.5
@@ -163,49 +127,13 @@ country_event = {
 	option = {
 		name = stalliongrad.5.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.a" }
-		custom_effect_tooltip = STG_increase_v_2
-			add_to_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
+		vasya_STG_effect = yes
 	}
 	option = {#Right Option; should also boost right support
 		name = stalliongrad.5.b
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.b" }
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-		}
+		opposition_STG_effect = yes
+	}
 		option = {#Ultra Option; should also boost ultra support
 		name = stalliongrad.5.c
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.b" }
@@ -243,50 +171,13 @@ country_event = {
 		name = stalliongrad.6.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.6.a" }
 		add_political_power = 150
-		custom_effect_tooltip = STG_increase_v_2
-			add_to_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
+		vasya_STG_effect = yes
 	}
 	option = {
 		name = stalliongrad.6.b
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.6.b" }
 		add_stability = 0.10
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-		}
+		opposition_STG_effect = yes
 }
 country_event = {
 	id = stalliongrad.7
@@ -424,25 +315,7 @@ country_event = {
 		name = stalliongrad.9.a
 		add_ideas = alevtina_qubysheva
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.9.a" }
-		custom_effect_tooltip = STG_increase_v_2
-			add_to_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
+		vasya_STG_effect = yes
 		153 = {	
 		    add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -513,25 +386,7 @@ country_event = {
 		name = stalliongrad.9.b
 		add_ideas = spikestg
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.9.b" }
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
+		opposition_STG_effect = yes
 		153 = {	
 		    add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -563,52 +418,14 @@ country_event = {
 	option = {
 		name = stalliongrad.10.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.10.a" }
-		custom_effect_tooltip = STG_increase_v_2
+		vasya_STG_effect = yes
 		remove_agrarian_problem_vasya = yes
-			add_to_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-		
 	}
 	option = {
 		name = stalliongrad.10.b
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.10.b" }
-		custom_effect_tooltip = STG_increase_o_2
+		opposition_STG_effect = yes
 		remove_agrarian_problem_karamelka = yes
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-		
 	}
 }
 country_event = {
@@ -623,52 +440,15 @@ country_event = {
 	option = {
 		name = stalliongrad.11.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11.a" }
-		custom_effect_tooltip = STG_increase_v_2
-			add_to_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-	remove_equestrian_embargo_vasya = yes
+		vasya_STG_effect = yes
+		remove_equestrian_embargo_vasya = yes
 	}
 	option = {
 		name = stalliongrad.11.b
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11.b" }
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
+		opposition_STG_effect = yes
 		remove_equestrian_embargo_karamelka = yes
-		}
-		
+	}	
 }
 country_event = {
 	id = stalliongrad.12

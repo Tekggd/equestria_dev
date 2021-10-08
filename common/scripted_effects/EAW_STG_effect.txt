@@ -302,4 +302,75 @@ STG_check_party_variables = {
 #STG_party_recalculating = {
 #	TODO this shit later (don't forget about status quo)
 #	
-#}
+vasya_STG_effect = {
+	add_to_variable = {
+		var = STG_main_party_support
+		value = 2
+		tooltip = STG_main_party_party_support_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_support
+		value = -2
+		tooltip = STG_opposition_support_tt
+	}
+	STG_check_party_variables = yes
+}
+opposition_STG_effect = {
+	add_to_variable = {
+		var = STG_main_party_support
+		value = 2
+		tooltip = STG_main_party_party_support_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_support
+		value = -2
+		tooltip = STG_opposition_support_tt
+	}
+	STG_check_party_variables = yes
+}
+vasya_adv_STG_effect = {
+	add_to_variable = {
+		var = STG_main_party_support
+		value = 2
+		tooltip = STG_main_party_party_support_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_support
+		value = -2
+		tooltip = STG_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_main_party_influence
+		value = 1 
+		tooltip = STG_main_party_influence_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_influence
+		value = -1 
+		tooltip = STG_opposition_influence_tt
+	}
+	STG_check_party_variables = yes
+}
+opposition_adv_STG_effect = {
+	add_to_variable = {
+		var = STG_main_party_support
+		value = 2
+		tooltip = STG_main_party_party_support_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_support
+		value = -2
+		tooltip = STG_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_main_party_influence
+		value = -1 
+		tooltip = STG_main_party_influence_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_influence
+		value = 1 
+		tooltip = STG_opposition_influence_tt
+	}
+	STG_check_party_variables = yes
+}

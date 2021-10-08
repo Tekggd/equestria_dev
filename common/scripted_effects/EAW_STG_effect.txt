@@ -351,6 +351,63 @@ vasya_adv_STG_effect = {
 	}
 	STG_check_party_variables = yes
 }
+opposition_STG_effect_LEFT = {
+	add_to_variable = {
+		var = STG_main_party_support
+		value = 4
+		tooltip = STG_main_party_party_support_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_support
+		value = -4
+		tooltip = STG_opposition_support_tt
+	}
+}
+ebaniy_rot_etoy_matematiki_blyat = {
+	if = {
+		limit = {
+			check_variable = { STG_opposition_support < 30 }
+		}
+		set_country_flag = STG_flag_unity_in_party
+	}
+	else_if = { 
+		limit = {
+			check_variable = { STG_main_party_support < 70 }
+			has_country_flag = STG_EASY_LEFT
+		}
+		set_country_flag = STG_flag_status_quo
+		set_temp_variable = { temp1 = STG_main_party_support }
+		divide_temp_variable = { temp1 = 8 }
+		set_temp_variable = { temp2 = STG_main_party_support_2 }
+		add_to_temp_variable = { temp2 = temp1 }
+		multiply_temp_variable = { temp2 = 4 }
+		set_temp_variable = { temp3 = STG_left_opposition_support }
+		add_to_temp_variable = { temp3 = temp1 }
+		multiply_temp_variable = { temp3 = 3 }
+		set_temp_variable = { temp4 = STG_right_opposition_support }
+		add_to_temp_variable = { temp4 = temp1 }
+		multiply_temp_variable = { temp4 = 1 }
+		}
+	}
+	else_if = { 
+		limit = {
+			check_variable = { STG_main_party_support < 70 }
+		}
+		set_country_flag = STG_flag_status_quo
+		set_temp_variable = { temp1 = STG_main_party_support }
+		divide_temp_variable = { temp1 = 4 }
+		set_temp_variable = { temp2 = STG_main_party_support_2 }
+		add_to_temp_variable = { temp2 = temp1 }
+		multiply_temp_variable = { temp2 = 2 }
+		set_temp_variable = { temp3 = STG_left_opposition_support }
+		add_to_temp_variable = { temp3 = temp1 }
+		multiply_temp_variable = { temp3 = 1 }
+		set_temp_variable = { temp4 = STG_right_opposition_support }
+		add_to_temp_variable = { temp4 = temp1 }
+		multiply_temp_variable = { temp4 = 1 }
+		}
+	}
+}
 opposition_adv_STG_effect = {
 	add_to_variable = {
 		var = STG_main_party_support

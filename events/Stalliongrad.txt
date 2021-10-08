@@ -137,26 +137,8 @@ country_event = {
 		option = {#Ultra Option; should also boost ultra support
 		name = stalliongrad.5.c
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.b" }
-		custom_effect_tooltip = STG_increase_o_2
-			add_to_variable = {
-			    var = STG_opposition_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_opposition_support_v
-	            min = 0
-	            max = 100
-            }
-			subtract_from_variable = {
-			    var = STG_vasya_support_v
-			    value = 2
-		    }
-		    clamp_variable = {
-	            var = STG_vasya_support_v
-	            min = 0
-	            max = 100
-            }
-		}
+		opposition_STG_effect_LEFT = yes
+		set_country_flag = STG_EASY_LEFT
 }
 country_event = {
 	id = stalliongrad.6

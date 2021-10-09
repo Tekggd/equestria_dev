@@ -106,7 +106,6 @@ focus_tree = {
 	default = no
 	
 	shared_focus = STG_sladkova_wins
-	shared_focus = STG_dark_wing_opposition
 }
 
 shared_focus = {
@@ -901,9 +900,7 @@ shared_focus = {
 		has_country_flag = STG_flag_status_quo
 		has_country_flag = STG_flag_sladkova_wins
 	}
-	mutually_exclusive = {
-		focus = STG_dark_wing_opposition
-	}
+
 	x = 6
 	y = 0
 	ai_will_do = {
@@ -915,25 +912,374 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = STG_dark_wing_opposition
-	icon = GFX_goal_darkwing
+	id = STG_reinforce_the_NEP
+	#icon = GFX_goal_stg_eqs
 	cost = 3
 
-	available = {
-		has_country_flag = STG_flag_status_quo
-		has_country_flag = STG_flag_sladkova_wins
-	}
-	mutually_exclusive = {
+	prerequisite = {
 		focus = STG_sladkova_wins
 	}
-	x = 12
-	y = 0
+	
+	x = 3
+	y = 1
 	ai_will_do = {
 		factor = 5
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
-		add_political_power = -150
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_the_state_is_not_a_union
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+
+	prerequisite = {
+		focus = STG_reinforce_the_NEP
+	}
+
+	x = 3
+	y = 2
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_devolve_economic_planning
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+
+	prerequisite = {
+		focus = STG_reinforce_the_NEP
+	}
+
+	x = 1
+	y = 2
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_local_union_councils
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_the_state_is_not_a_union
+	}
+	prerequisite = {
+		focus = STG_devolve_economic_planning
+	}
+
+	x = 2
+	y = 3
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_no_more_mandatory_collectivization
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_the_state_is_not_a_union
+	}
+	prerequisite = {
+		focus = STG_prepare_for_the_cold_season
+	}
+
+	x = 4
+	y = 3
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_continue_light_industry_buildup
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_devolve_economic_planning
+	}
+
+	x = 1
+	y = 4
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_we_cannot_reject_the_world
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_no_more_mandatory_collectivization
+	}
+
+	x = 3
+	y = 4
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+
+shared_focus = {
+	id = STG_prepare_for_the_cold_season
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_sladkova_wins
+	}
+
+	x = 6
+	y = 1
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_rural_storehouses
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_prepare_for_the_cold_season
+	}
+
+	x = 6
+	y = 2
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_food_distribution_brigades
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_rural_storehouses
+	}
+
+	x = 6
+	y = 3
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_buy_food_from_equestria
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_food_distribution_brigades
+	}
+
+	x = 6
+	y = 4
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_destroy_the_party_vanguard_policy
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_sladkova_wins
+	}
+
+	x = 9
+	y = 1
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_a_socialist_is_active
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_destroy_the_party_vanguard_policy
+	}
+
+	x = 9
+	y = 2
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_sins_of_the_son
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_destroy_the_party_vanguard_policy
+	}
+
+	x = 11
+	y = 2
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_allow_private_charities
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_prepare_for_the_cold_season
+	}
+	prerequisite = {
+		focus = STG_a_socialist_is_active
+	}
+
+	x = 8
+	y = 3
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_all_power_to_the_soviets
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_a_socialist_is_active
+	}
+	prerequisite = {
+		focus = STG_sins_of_the_son
+	}
+
+	x = 10
+	y = 3
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_a_new_spirit_of_freedom
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_allow_private_charities
+	}
+
+	x = 9
+	y = 4
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_abolish_the_autocratic_cabinet
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+
+	prerequisite = {
+		focus = STG_sins_of_the_son
+	}
+
+	x = 11
+	y = 4
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = STG_the_right_solidified
+	#icon = GFX_goal_stg_eqs
+	cost = 3
+	prerequisite = {
+		focus = STG_continue_light_industry_buildup
+	}
+	prerequisite = {
+		focus = STG_we_cannot_reject_the_world
+	}
+	prerequisite = {
+		focus = STG_buy_food_from_equestria
+	}
+	prerequisite = {
+		focus = STG_a_new_spirit_of_freedom
+	}
+	prerequisite = {
+		focus = STG_abolish_the_autocratic_cabinet
+	}
+
+	x = 6
+	y = 5
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_political_power = 150
 	}
 }
 ################

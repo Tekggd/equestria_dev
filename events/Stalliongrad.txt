@@ -139,6 +139,7 @@ country_event = {
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.5.b" }
 		opposition_STG_effect_LEFT = yes
 		set_country_flag = STG_EASY_LEFT
+	}
 }
 country_event = {
 	id = stalliongrad.6
@@ -160,6 +161,7 @@ country_event = {
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.6.b" }
 		add_stability = 0.10
 		opposition_STG_effect = yes
+	}
 }
 country_event = {
 	id = stalliongrad.7
@@ -451,12 +453,10 @@ country_event = {
 		#	}
 		#}
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.12.a" }
-		hidden_effect = {
-			set_country_flag = STG_flag_unity_in_party
-		}
+		ebaniy_rot_etoy_matematiki_blyat = yes
 	}
-	option = {
-		name = stalliongrad.12.b
+	#option = {
+	#	name = stalliongrad.12.b
 		#trigger = { 
 		#	AND = {
 		#		check_variable = {
@@ -471,11 +471,11 @@ country_event = {
 		#		}
 		#	}
 		#}
-		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.12.b" }
-		hidden_effect = {
-			set_country_flag = STG_flag_status_quo
-		}
-	}
+	#	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.12.b" }
+	#	hidden_effect = {
+	#		set_country_flag = STG_flag_status_quo
+	#	}
+	#}
 }
 country_event = {
 	id = stalliongrad.13

@@ -318,12 +318,12 @@ vasya_STG_effect = {
 opposition_STG_effect = {
 	add_to_variable = {
 		var = STG_main_party_support
-		value = 2
+		value = -2
 		tooltip = STG_main_party_party_support_tt
 	}
 	add_to_variable = {
 		var = STG_opposition_support
-		value = -2
+		value = 2
 		tooltip = STG_opposition_support_tt
 	}
 	STG_check_party_variables = yes
@@ -354,12 +354,12 @@ vasya_adv_STG_effect = {
 opposition_STG_effect_LEFT = {
 	add_to_variable = {
 		var = STG_main_party_support
-		value = 4
+		value = -4
 		tooltip = STG_main_party_party_support_tt
 	}
 	add_to_variable = {
 		var = STG_opposition_support
-		value = -4
+		value = 4
 		tooltip = STG_opposition_support_tt
 	}
 }
@@ -372,7 +372,7 @@ ebaniy_rot_etoy_matematiki_blyat = {
 	}
 	else_if = { 
 		limit = {
-			check_variable = { STG_main_party_support < 70 }
+			check_variable = { STG_main_party_support < 71 }
 			has_country_flag = STG_EASY_LEFT
 		}
 		set_country_flag = STG_flag_status_quo
@@ -391,7 +391,7 @@ ebaniy_rot_etoy_matematiki_blyat = {
 	}
 	else_if = { 
 		limit = {
-			check_variable = { STG_main_party_support < 70 }
+			check_variable = { STG_main_party_support < 71 }
 		}
 		set_country_flag = STG_flag_status_quo
 		set_temp_variable = { temp1 = STG_main_party_support }
@@ -411,12 +411,12 @@ ebaniy_rot_etoy_matematiki_blyat = {
 opposition_adv_STG_effect = {
 	add_to_variable = {
 		var = STG_main_party_support
-		value = 2
+		value = -2
 		tooltip = STG_main_party_party_support_tt
 	}
 	add_to_variable = {
 		var = STG_opposition_support
-		value = -2
+		value = 2
 		tooltip = STG_opposition_support_tt
 	}
 	add_to_variable = {

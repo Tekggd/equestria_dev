@@ -387,8 +387,14 @@ ebaniy_rot_etoy_matematiki_blyat = {
 		set_temp_variable = { temp4 = STG_right_opposition_support }
 		add_to_temp_variable = { temp4 = temp1 }
 		multiply_temp_variable = { temp4 = 1 }
+		set_temp_variable = { temp5 = STG_opposition_support }
+		divide_temp_variable = { temp5 = 2 }
+		add_to_variable = { STG_left_opposition_support = temp5 }
+		add_to_variable = { STG_right_opposition_support = temp5 }
+		add_to_variable = { STG_main_party_support_2 = temp2 }
+		add_to_variable = { STG_left_opposition_support = temp3 }
+		add_to_variable = { STG_right_opposition_support = temp4 }
 		}
-	}
 	else_if = { 
 		limit = {
 			check_variable = { STG_main_party_support < 71 }
@@ -405,8 +411,14 @@ ebaniy_rot_etoy_matematiki_blyat = {
 		set_temp_variable = { temp4 = STG_right_opposition_support }
 		add_to_temp_variable = { temp4 = temp1 }
 		multiply_temp_variable = { temp4 = 1 }
+		set_temp_variable = { temp5 = STG_opposition_support }
+		divide_temp_variable = { temp5 = 2 }
+		add_to_variable = { STG_left_opposition_support = temp5 }
+		add_to_variable = { STG_right_opposition_support = temp5 }
+		add_to_variable = { STG_main_party_support_2 = temp2 }
+		add_to_variable = { STG_left_opposition_support = temp3 }
+		add_to_variable = { STG_right_opposition_support = temp4 }
 		}
-	}
 }
 opposition_adv_STG_effect = {
 	add_to_variable = {

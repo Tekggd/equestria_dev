@@ -453,7 +453,7 @@ country_event = {
 		#	}
 		#}
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.12.a" }
-		ebaniy_rot_etoy_matematiki_blyat = yes
+		I_WANT_TO_FINISH_THIS_MECHANIC_WHEN_I_AM_ALIVE = yes
 	}
 	#option = {
 	#	name = stalliongrad.12.b

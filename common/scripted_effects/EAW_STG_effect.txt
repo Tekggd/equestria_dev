@@ -363,7 +363,7 @@ opposition_STG_effect_LEFT = {
 		tooltip = STG_opposition_support_tt
 	}
 }
-ebaniy_rot_etoy_matematiki_blyat = {
+I_WANT_TO_FINISH_THIS_MECHANIC_WHEN_I_AM_ALIVE = {
 	if = {
 		limit = {
 			check_variable = { STG_opposition_support < 30 }

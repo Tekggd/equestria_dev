@@ -107,6 +107,23 @@ focus_tree = {
 	
 	shared_focus = STG_sladkova_wins
 }
+focus_tree = {
+	id = stalliongrad_mil_karamelka
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = STG
+		}
+	}
+	
+	continuous_focus_position = { x = 1000 y = 1000 }
+	
+	default = no
+	
+	shared_focus = STG_orders_for_the_red_army
+	shared_focus = STG_failed_red_guards
+}
 
 shared_focus = {
 		id = STG_12th_year_of_revolution
@@ -1306,3 +1323,173 @@ shared_focus = {
 		add_political_power = 150
 	}
 }
+##########################
+###Karamelka's mil tree###
+##########################
+shared_focus = {
+	id = STG_orders_for_the_red_army
+	#icon
+	cost = 2
+	x = 10
+	y = 0
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus STG_orders_for_the_red_army"
+		army_experience = 10
+		country_event = { id=stalliongrad_mil.1 }
+	}
+}
+shared_focus = {
+	id = STG_failed_red_guards
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_orders_for_the_red_army
+	}
+	relative_position_id = STG_orders_for_the_red_army
+	x = 0
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_failed_red_guards"
+		country_event = { id=stalliongrad_mil.2 }
+	}
+}
+shared_focus = {
+	id = STG_some_good_ideas
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_failed_red_guards
+	}
+	relative_position_id = STG_failed_red_guards
+	x = -3
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_some_good_ideas"
+		country_event = { id=stalliongrad_mil.3 }
+	}
+}
+shared_focus = {
+	id = STG_shields_of_proletariat 
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_some_good_ideas
+	}
+	relative_position_id = STG_some_good_ideas
+	x = -4
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_shields_of_proletariat"
+		country_event = { id=stalliongrad_mil.4 }
+	}
+}
+shared_focus = {
+	id = STG_mass_mechanization 
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_shields_of_proletariat 
+	}
+	relative_position_id = STG_shields_of_proletariat 
+	x = 0
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_mass_mechanization"
+		country_event = { id=stalliongrad_mil.5 }
+	}
+}
+shared_focus = {
+	id = STG_guns_or_butter
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_some_good_ideas
+	}
+	relative_position_id = STG_some_good_ideas
+	x = -2
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_guns_or_butter"
+		country_event = { id=stalliongrad_mil.6 }
+	}
+}
+shared_focus = {
+	id = STG_kar_mass_mobilization
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_some_good_ideas
+	}
+	relative_position_id = STG_some_good_ideas
+	x = 0
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_kar_mass_mobilization"
+		country_event = { id=stalliongrad_mil.8 }
+	}
+}
+shared_focus = {
+	id = STG_heroes_of_might_and_magic
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_kar_mass_mobilization
+	}
+	mutually_exclusive = {
+		focus = STG_the_sorcery_of_the_proles
+	}
+	relative_position_id = STG_kar_mass_mobilization
+	x = -1
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_heroes_of_might_and_magic"
+		country_event = { id=stalliongrad_mil.9 }
+	}
+}
+shared_focus = {
+	id = STG_the_sorcery_of_the_proles
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_kar_mass_mobilization
+	}
+	mutually_exclusive = {
+		focus = STG_heroes_of_might_and_magic
+	}
+	relative_position_id = STG_kar_mass_mobilization
+	x = 1
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_sorcery_of_the_proles"
+		country_event = { id=stalliongrad_mil.10 }
+	}
+}
+shared_focus = {
+	id = STG_the_council_of_the_peoples_warriors
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_mass_mechanization
+	}
+	prerequisite = {
+		focus = STG_guns_or_butter
+	}
+	prerequisite = {
+		focus = STG_heroes_of_might_and_magic
+		focus = STG_the_sorcery_of_the_proles
+	}
+	relative_position_id = STG_guns_or_butter
+	x = 0
+	y = 3
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
+}
+
+
+
+##########################

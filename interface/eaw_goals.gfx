@@ -58,6 +58,10 @@ spriteTypes = {
 		name = "GFX_goal_stg_palace"
 		texturefile = "gfx/interface/goals/goal_stg_palace.dds"
 	}
+		SpriteType = {
+		name = "GFX_goal_stg_twelve_years"
+		texturefile = "gfx/interface/goals/goal_stg_twelve_years.dds"
+	}
 	SpriteType = {
 		name = "GFX_goal_industry_stg"
 		texturefile = "gfx/interface/goals/goal_industry_stg.dds"

@@ -127,7 +127,7 @@ focus_tree = {
 
 shared_focus = {
 		id = STG_12th_year_of_revolution
-		icon = GFX_goal_stg_palace
+		icon = GFX_goal_stg_twelve_years
 		cost = 2
 		x = 4
 		y = 0

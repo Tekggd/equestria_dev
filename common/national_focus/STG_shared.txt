@@ -101,28 +101,12 @@ focus_tree = {
 		}
 	}
 	
-	continuous_focus_position = { x = 2675 y = 100 }
+	continuous_focus_position = { x = 3425 y = 0 }
 	
 	default = no
 	
 	shared_focus = STG_sladkova_wins
-}
-focus_tree = {
-	id = stalliongrad_mil_karamelka
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = STG
-		}
-	}
-	
-	continuous_focus_position = { x = 1000 y = 1000 }
-	
-	default = no
-	
 	shared_focus = STG_orders_for_the_red_army
-	shared_focus = STG_failed_red_guards
 }
 
 shared_focus = {
@@ -1300,6 +1284,747 @@ shared_focus = {
 		add_political_power = 150
 	}
 }
+
+##########################
+###Karamelka's mil tree###
+##########################
+shared_focus = {
+	id = STG_orders_for_the_red_army
+	#icon
+	cost = 2
+	x = 23
+	y = 0
+	ai_will_do = {
+		factor = 5
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus STG_orders_for_the_red_army"
+		army_experience = 10
+		country_event = { id=stalliongrad_mil.1 }
+	}
+}
+shared_focus = {
+	id = STG_failed_red_guards
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_orders_for_the_red_army
+	}
+	x = 23
+	y = 1
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_failed_red_guards"
+		country_event = { id=stalliongrad_mil.2 }
+	}
+}
+shared_focus = {
+	id = STG_some_good_ideas
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_failed_red_guards
+	}
+	mutually_exclusive = {
+		focus = STG_krasnova_and_lunin
+	}
+	x = 21
+	y = 2
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_some_good_ideas"
+		country_event = { id=stalliongrad_mil.3 }
+	}
+}
+shared_focus = {
+	id = STG_mass_mechanization 
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_some_good_ideas 
+	}
+	x = 17
+	y = 3
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_mass_mechanization"
+		country_event = { id=stalliongrad_mil.5 }
+	}
+}
+shared_focus = {
+	id = STG_shields_of_proletariat 
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_mass_mechanization
+	}
+	x = 17
+	y = 4
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_shields_of_proletariat"
+		country_event = { id=stalliongrad_mil.4 }
+	}
+}
+shared_focus = {
+	id = STG_guns_or_butter
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_some_good_ideas
+	}
+	x = 19
+	y = 3
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_guns_or_butter"
+		country_event = { id=stalliongrad_mil.6 }
+	}
+}
+shared_focus = {
+	id = STG_kar_mass_mobilization
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_some_good_ideas
+	}
+	x = 21
+	y = 3
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_kar_mass_mobilization"
+		country_event = { id=stalliongrad_mil.8 }
+	}
+}
+shared_focus = {
+	id = STG_heroes_of_might_and_magic
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_kar_mass_mobilization
+	}
+	mutually_exclusive = {
+		focus = STG_the_sorcery_of_the_proles
+	}
+	x = 20
+	y = 4
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_heroes_of_might_and_magic"
+		country_event = { id=stalliongrad_mil.9 }
+	}
+}
+shared_focus = {
+	id = STG_the_sorcery_of_the_proles
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_kar_mass_mobilization
+	}
+	mutually_exclusive = {
+		focus = STG_heroes_of_might_and_magic
+	}
+	x = 22
+	y = 4
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_sorcery_of_the_proles"
+		country_event = { id=stalliongrad_mil.10 }
+	}
+}
+shared_focus = {
+	id = STG_the_council_of_the_peoples_warriors
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_shields_of_proletariat
+	}
+	prerequisite = {
+		focus = STG_guns_or_butter
+	}
+	prerequisite = {
+		focus = STG_heroes_of_might_and_magic
+		focus = STG_the_sorcery_of_the_proles
+	}
+	x = 19
+	y = 6
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
+}
+shared_focus = {
+	id = STG_krasnova_and_lunin
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_failed_red_guards
+	}
+	mutually_exclusive = {
+		focus = STG_some_good_ideas
+	}
+	x = 25
+	y = 2
+}
+shared_focus = {
+	id = STG_industry_for_red_army
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_failed_red_guards
+	}
+	x = 28
+	y = 2
+}
+shared_focus = {
+	id = STG_infantry_will_support_tanks
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_krasnova_and_lunin
+	}
+	x = 24
+	y = 3
+}
+shared_focus = {
+	id = STG_enforce_absolute_discipline
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_krasnova_and_lunin
+	}
+	x = 26
+	y = 3
+}
+shared_focus = {
+	id = STG_finish_depoliticization
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_industry_for_red_army
+	}
+	x = 28
+	y = 3
+}
+shared_focus = {
+	id = STG_allow_foreign_research_firms
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_krasnova_and_lunin
+	}
+	x = 25
+	y = 4
+}
+shared_focus = {
+	id = STG_found_the_guards_divisions
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_finish_depoliticization
+	}
+	x = 28
+	y = 4
+}
+shared_focus = {
+	id = STG_larger_tank_projects
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_infantry_will_support_tanks
+	}
+	x = 23
+	y = 5
+}
+shared_focus = {
+	id = STG_the_inventors_of_armor
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_allow_foreign_research_firms
+	}
+	mutually_exclusive = {
+		focus = STG_the_royal_peoples_institute_for_armor_development
+	}
+	x = 25
+	y = 5
+}
+shared_focus = {
+	id = STG_the_royal_peoples_institute_for_armor_development
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_allow_foreign_research_firms
+	}
+	prerequisite = {
+		focus = STG_finish_depoliticization
+	}
+	mutually_exclusive = {
+		focus = STG_the_inventors_of_armor
+	}
+	x = 27
+	y = 5
+}
+shared_focus = {
+	id = STG_the_command_hierarchy_enforced
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_enforce_absolute_discipline
+	}
+	x = 26
+	y = 6
+}
+
+### air ###
+
+shared_focus = {
+	id = STG_born_on_earth_can_fly
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_orders_for_the_red_army
+	}
+	x = 14
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name =  air_sup_bonus
+			bonus = 1.0
+			uses = 2
+			category = battlefield_support_tree
+		}
+		air_experience = 25
+	}
+}
+shared_focus = {
+	id = STG_the_severyanian_etazhorka
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_born_on_earth_can_fly
+	}
+	mutually_exclusive = {
+		focus = STG_a_flying_tank
+	}
+	x = 15
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name =  fighter_bonus
+			bonus = 1.0
+			uses = 1
+			category = light_fighter
+		}
+	}
+}
+shared_focus = {
+	id = STG_a_flying_tank
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_born_on_earth_can_fly
+	}
+	mutually_exclusive = {
+		focus = STG_the_severyanian_etazhorka
+	}
+	x = 13
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name = CAS_bonus
+			bonus = 1.0
+			uses = 2
+			category = cas_bomber
+		}
+	}
+}
+shared_focus = {
+	id = STG_red_falcons
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_born_on_earth_can_fly
+	}
+	prerequisite = {
+		focus = STG_the_severyanian_etazhorka
+		focus = STG_a_flying_tank
+	}
+	x = 14
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		air_experience = 55
+	}
+}
+shared_focus = {
+	id = STG_clear_sky_first
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_the_severyanian_etazhorka
+	}
+	x = 15
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name =  air_sup_bonus
+			bonus = 1.0
+			uses = 2
+			category = battlefield_support_tree
+		}
+	}
+}
+shared_focus = {
+	id = STG_the_carousel
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_a_flying_tank
+	}
+	x = 13
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name =  air_sup_bonus
+			bonus = 1.0
+			uses = 2
+			category = battlefield_support_tree
+		}
+	}
+}
+shared_focus = {
+	id = STG_aviation_industry
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_red_falcons
+	}
+	prerequisite = {
+		focus = STG_clear_sky_first
+		focus = STG_the_carousel
+	}
+	x = 14
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		air_experience = 15
+	}
+}
+
+### naval ###
+
+shared_focus = {
+	id = STG_tactics_of_war_against_EQS_in_sea
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_orders_for_the_red_army
+	}
+	x = 32
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		navy_experience = 50
+		add_tech_bonus = {
+			name = ti_bonus
+			bonus = 1.0
+			uses = 3
+			category = trade_interdiction_tree
+		}
+	}
+}
+shared_focus = {
+	id = STG_cruiser_submarines
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_tactics_of_war_against_EQS_in_sea
+	}
+	mutually_exclusive = {
+		focus = STG_large_cruisers
+	}
+	
+	x = 30
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name = submarine_research
+			bonus = 2.0
+			uses = 1
+			category = ss_tech
+		}
+	}
+}
+shared_focus = {
+	id = STG_disstracting_maneuvers
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_cruiser_submarines
+	}
+	x = 30
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		navy_experience = 25
+	}
+}
+shared_focus = {
+	id = STG_hunting_in_packs
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_disstracting_maneuvers
+	}
+	x = 30
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name = ti_bonus
+			bonus = 1.0
+			uses = 1
+			category = trade_interdiction_tree
+		}
+		add_tech_bonus = {
+			name = submarine_research
+			bonus = 1.0
+			uses = 1
+			category = ss_tech
+		}
+	}
+}
+shared_focus = {
+	id = STG_large_cruisers
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_tactics_of_war_against_EQS_in_sea
+	}
+	mutually_exclusive = {
+		focus = STG_cruiser_submarines
+	}
+	x = 34
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Man the Guns"
+					}
+				}
+				create_equipment_variant = {
+					name = "Petershoof Class"
+					name_group = STG_BB_BC_HISTORICAL
+					type = battle_cruiser_1
+					upgrades = {
+						ship_reliability_upgrade = 3
+						ship_engine_upgrade = 5
+						ship_gun_upgrade = 1
+						ship_armor_upgrade = 1
+					}
+				}
+				add_equipment_production = {
+					equipment = {
+						type = battle_cruiser_1
+						creator = "STG" 
+						version_name = "Petershoof Class"
+					}
+					name = "Petershoof"
+					requested_factories = 1
+					progress = 0.60
+					amount = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = battle_cruiser_1
+						creator = "STG" 
+						version_name = "Petershoof Class"
+					}
+					name = "Stalliongrad"
+					requested_factories = 1
+					progress = 0.40
+					amount = 1
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				set_technology = {
+					basic_ship_hull_grand_cruiser = 1
+				}
+				create_equipment_variant = {
+					name = "Petershoof Class"
+					type = ship_hull_grand_cruiser
+					name_group = STG_BB_BC_HISTORICAL
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_heavy_battery_1
+						fixed_ship_anti_air_slot = ship_anti_air_2
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = cruiser_ship_engine_2
+						fixed_ship_armor_slot = ship_armor_cb_1
+						fixed_ship_secondaries_slot = ship_secondaries_2
+						front_1_custom_slot = ship_heavy_battery_1
+						mid_1_custom_slot = ship_anti_air_2
+						mid_2_custom_slot = ship_anti_air_2
+						rear_1_custom_slot = ship_heavy_battery_1
+					}
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_grand_cruiser
+						creator = "STG" 
+						version_name = "Petershoof Class"
+					}
+					name = "Petershoof" 
+					requested_factories = 3
+					progress = 0.60
+					amount = 1
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_grand_cruiser
+						creator = "STG" 
+						version_name = "Petershoof Class"
+					}
+					name = "Stalliongrad" 
+					requested_factories = 2
+					progress = 0.40
+					amount = 1
+				}
+			}
+		navy_experience = 15
+	}
+}
+shared_focus = {
+	id = STG_sword_and_spear
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_large_cruisers
+	}
+	x = 34
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name = ti_bonus
+			bonus = 1.0
+			uses = 1
+			category = trade_interdiction_tree
+		}
+	}
+}
+shared_focus = {
+	id = STG_my_ne_letayem_i_drugim_ne_dayem
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_sword_and_spear
+	}
+	x = 34
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		navy_experience = 30
+	}
+}
+shared_focus = {
+	id = STG_torpedo_cruisers
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_large_cruisers
+		focus = STG_cruiser_submarines
+	}
+	x = 32
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		if = {
+			limit = {
+					not = { has_dlc = "Man the Guns" }
+				}
+				set_technology = { torpedo_cruiser = 1 }
+				add_equipment_production = {
+					equipment = {
+						type = torpedo_cruiser
+						creator = "STG" 
+					}
+					name = "Chayka"
+					requested_factories = 1
+					progress = 0.50
+					amount = 1
+				}
+			}
+			else = {
+				set_technology = { torpedo_cruiser_mtg = 1 }
+				create_equipment_variant = {
+					name = "Chayka Class"
+					type = ship_hull_torpedo_cruiser
+					name_group = STG_CL_HISTORICAL
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_light_medium_battery_2
+						fixed_ship_anti_air_slot = ship_anti_air_2
+						fixed_ship_fire_control_system_slot = ship_torpedo_data_computer_1
+						fixed_ship_radar_slot = empty
+						fixed_ship_engine_slot = cruiser_ship_engine_2
+						fixed_ship_armor_slot = ship_armor_cruiser_2
+						fixed_ship_secondaries_slot = ship_secondaries_2
+						front_1_custom_slot = ship_anti_air_2
+						mid_1_custom_slot = ship_torpedo_2
+						mid_2_custom_slot = ship_torpedo_2
+						rear_1_custom_slot = ship_torpedo_2
+						rear_2_custom_slot = ship_anti_air_2
+					}
+				}
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_torpedo_cruiser
+						creator = "STG"
+						version_name = "Chayka Class"
+					}
+					name = "Chayka"
+					requested_factories = 1
+					progress = 0.50
+					amount = 1
+				}
+			}
+		navy_experience = 25
+	}
+}
+shared_focus = {
+	id = STG_naval_aviation
+	#icon = 
+	cost = 3
+	prerequisite = {
+		focus = STG_my_ne_letayem_i_drugim_ne_dayem
+		focus = STG_hunting_in_packs
+		focus = STG_torpedo_cruisers
+	}
+	x = 32
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		add_tech_bonus = {
+			name = naval_bomber_research
+			bonus = 1.0
+			uses = 2
+			category = naval_bomber
+		}
+		add_tech_bonus = {
+			name = air_sup_bonus
+			bonus = 1.0
+			uses = 1
+			category = battlefield_support_tree
+		}
+	}
+}
+
 ################
 ### Sinister ###
 ################
@@ -1321,172 +2046,6 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 		add_political_power = 150
-	}
-}
-##########################
-###Karamelka's mil tree###
-##########################
-shared_focus = {
-	id = STG_orders_for_the_red_army
-	#icon
-	cost = 2
-	x = 10
-	y = 0
-	ai_will_do = {
-		factor = 5
-	}
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus STG_orders_for_the_red_army"
-		army_experience = 10
-		country_event = { id=stalliongrad_mil.1 }
-	}
-}
-shared_focus = {
-	id = STG_failed_red_guards
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_orders_for_the_red_army
-	}
-	relative_position_id = STG_orders_for_the_red_army
-	x = 0
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_failed_red_guards"
-		country_event = { id=stalliongrad_mil.2 }
-	}
-}
-shared_focus = {
-	id = STG_some_good_ideas
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_failed_red_guards
-	}
-	relative_position_id = STG_failed_red_guards
-	x = -3
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_some_good_ideas"
-		country_event = { id=stalliongrad_mil.3 }
-	}
-}
-shared_focus = {
-	id = STG_shields_of_proletariat 
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_some_good_ideas
-	}
-	relative_position_id = STG_some_good_ideas
-	x = -4
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_shields_of_proletariat"
-		country_event = { id=stalliongrad_mil.4 }
-	}
-}
-shared_focus = {
-	id = STG_mass_mechanization 
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_shields_of_proletariat 
-	}
-	relative_position_id = STG_shields_of_proletariat 
-	x = 0
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_mass_mechanization"
-		country_event = { id=stalliongrad_mil.5 }
-	}
-}
-shared_focus = {
-	id = STG_guns_or_butter
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_some_good_ideas
-	}
-	relative_position_id = STG_some_good_ideas
-	x = -2
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_guns_or_butter"
-		country_event = { id=stalliongrad_mil.6 }
-	}
-}
-shared_focus = {
-	id = STG_kar_mass_mobilization
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_some_good_ideas
-	}
-	relative_position_id = STG_some_good_ideas
-	x = 0
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_kar_mass_mobilization"
-		country_event = { id=stalliongrad_mil.8 }
-	}
-}
-shared_focus = {
-	id = STG_heroes_of_might_and_magic
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_kar_mass_mobilization
-	}
-	mutually_exclusive = {
-		focus = STG_the_sorcery_of_the_proles
-	}
-	relative_position_id = STG_kar_mass_mobilization
-	x = -1
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_heroes_of_might_and_magic"
-		country_event = { id=stalliongrad_mil.9 }
-	}
-}
-shared_focus = {
-	id = STG_the_sorcery_of_the_proles
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_kar_mass_mobilization
-	}
-	mutually_exclusive = {
-		focus = STG_heroes_of_might_and_magic
-	}
-	relative_position_id = STG_kar_mass_mobilization
-	x = 1
-	y = 1
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_the_sorcery_of_the_proles"
-		country_event = { id=stalliongrad_mil.10 }
-	}
-}
-shared_focus = {
-	id = STG_the_council_of_the_peoples_warriors
-	#icon = 
-	cost = 3
-	prerequisite = {
-		focus = STG_mass_mechanization
-	}
-	prerequisite = {
-		focus = STG_guns_or_butter
-	}
-	prerequisite = {
-		focus = STG_heroes_of_might_and_magic
-		focus = STG_the_sorcery_of_the_proles
-	}
-	relative_position_id = STG_guns_or_butter
-	x = 0
-	y = 3
-	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
 	}
 }
 

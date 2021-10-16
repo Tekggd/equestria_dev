@@ -234,8 +234,8 @@ STG_special_constructions = {
 	}
 	STG_palace_construction_effort = {
 		available = {
-			has_completed_focus = the_palace
-			has_country_flag = construction_of_the_palace_began
+			#has_completed_focus = the_palace
+			#has_country_flag = construction_of_the_palace_began
 			has_government = communism
 			is_subject = no
 			has_political_power > 0
@@ -1827,12 +1827,30 @@ STG_debug_category = {
 	STG_debug_status_quo_vasya = {
 		icon = ger_reichskommissariats
 		complete_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Vasiliy Pantsushenko"
+				desc = "VASYA_DESC"
+				picture = "Vasya.tga"
+				expire = "1965.1.1"
+				ideology = leninism
+				traits = { }
+			}
 			load_focus_tree = stalliongrad_vasya_status_quo
 		}
 	}
 	STG_debug_sinnie = {
 		icon = ger_reichskommissariats
 		complete_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Sinister Serov"
+				desc = "SINISTER_DESC"
+				picture = "Sinnie.tga"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = { Dictator }
+			}
 			load_focus_tree = stalliongrad_sinne
 		}
 	}
@@ -1845,6 +1863,16 @@ STG_debug_category = {
 	STG_debug_sladkova = {
 		icon = ger_reichskommissariats
 		complete_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Karamelka Sladkova"
+				desc = "POLITICS_KARAMELKA"
+				picture = "Karamelka.tga"
+				expire = "1965.1.1"
+				ideology = democratic_socialism
+				female = yes
+				traits = {	}
+			}
 			load_focus_tree = stalliongrad_sladkova
 		}
 	}		

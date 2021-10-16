@@ -220,15 +220,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Caramelka Sladkaya"
-	desc = "POLITICS_CARAMELKA"
-	picture = "Caramelka.tga"
+	name = "Dark Wing"
+	desc = "DARKWING_DESC"
+	picture = "Darkwing.tga"
 	expire = "1965.1.1"
 	ideology = socialism
-	female = yes
-	traits = {
-
-	}
+	traits = {	}
 }
 
 create_country_leader = {

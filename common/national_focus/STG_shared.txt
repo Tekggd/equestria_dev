@@ -662,6 +662,15 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.26 }
 			set_country_flag = STG_flag_sinne_wins
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Sinister Serov"
+				desc = "SINISTER_DESC"
+				picture = "Sinnie.tga"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = { Dictator }
+			}
 			hidden_effect = { load_focus_tree = stalliongrad_sinne }
 		}
 	}
@@ -733,6 +742,15 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.29 }
 			set_country_flag = STG_flag_vasya_wins
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Vasiliy Pantsushenko"
+				desc = "VASYA_DESC"
+				picture = "Vasya.tga"
+				expire = "1965.1.1"
+				ideology = leninism
+				traits = { }
+			}
 			hidden_effect = { load_focus_tree = stalliongrad_vasya_status_quo }
 		}
 	}
@@ -841,6 +859,16 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.34 }
 			set_country_flag = STG_flag_sladkova_wins
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Karamelka Sladkova"
+				desc = "POLITICS_KARAMELKA"
+				picture = "Karamelka.tga"
+				expire = "1965.1.1"
+				ideology = democratic_socialism
+				female = yes
+				traits = {	}
+			}
 			hidden_effect = { load_focus_tree = stalliongrad_sladkova }
 		}
 	}

@@ -669,7 +669,7 @@ shared_focus = {
 				picture = "Sinnie.tga"
 				expire = "1965.1.1"
 				ideology = stalinism
-				traits = { Dictator }
+				traits = { demagogue }
 			}
 			hidden_effect = { load_focus_tree = stalliongrad_sinne }
 		}

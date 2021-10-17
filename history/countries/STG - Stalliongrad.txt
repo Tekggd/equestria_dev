@@ -161,6 +161,7 @@ set_variable = { STG_left_opposition_influence = 0 } #out of 5
 set_variable = { STG_left_opposition_support = 0 } #out of 100
 set_variable = { STG_right_opposition_influence = 0 } #out of 5
 set_variable = { STG_right_opposition_support = 0 } #out of 100
+set_variable = { STG_Karamelkas_reform_progress = 0 } #out of 100
 
 #set_variable = {
 #	var = STG_right_wing_support_v

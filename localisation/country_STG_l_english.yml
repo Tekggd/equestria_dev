@@ -35,6 +35,8 @@ STG_status_quo_desc:0 "The party has not reached agreement. The opposition has n
 STG_unity_in_party:0 "Unity Has Been Achieved"
 STG_unity_in_party_desc:0 "Much to everypony's surprise, Comrade Vasily's proposals have each been met with the required majority needed for approval. He will certainly now rise to the position of General Secretary, and his ideas will guide and shape Stalliongrad for the time being. We all expect the glory of the revolution to remain unextinguishable, to spread wherever a worker remains oppressed and unfree."
 
+STG_flag_status_quo:0 "The Party Lives On"
+STG_flag_unity_in_party:0 "Vasily has Unified the Party"
 
 STG_nothing_is_changed:0 "Nothing Has Changed"
 STG_nothing_is_changed_desc:0 "Despite the best efforts of Vasily and his allies, the SCP is still a factionalized mess. This situation cannot go on forever, as while we bicker and argue our ponies lose confidence in us and our agricultural situation deteriorates."
@@ -159,6 +161,7 @@ STG_palace_the_statue:0 "Order The Statue for the Palace"
 #######################################################
 STG_beacon_of_revolution:0 "Beacon of Revolution"
 STG_workers_army:0 "Workers' Red Army"
+STG_workers_army_1:0 "Workers' Red Army"
 STG_new_economic_policy:0 "NEP"
 STG_equestrian_embargo:0 "Equestrian Embargo"
 STG_agrarian_problem:0 "Agricultural Woes"

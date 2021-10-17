@@ -446,3 +446,58 @@ opposition_adv_STG_effect = {
 	}
 	STG_check_party_variables = yes
 }
+karamelkas_reform_increase_5 = {
+	add_to_variable = {
+		var = STG_Karamelkas_reform_progress
+		value = 5
+		tooltip = STG_karamelkas_reform_increase_tt
+	}
+	check_karamelkas_variables = yes
+}
+karamelkas_reform_increase_10 = {
+	add_to_variable = {
+		var = STG_Karamelkas_reform_progress
+		value = 10
+		tooltip = STG_karamelkas_reform_increase_tt
+	}
+	check_karamelkas_variables = yes
+}
+karamelkas_reform_increase_15 = {
+	add_to_variable = {
+		var = STG_Karamelkas_reform_progress
+		value = 15
+		tooltip = STG_karamelkas_reform_increase_tt
+	}
+	check_karamelkas_variables = yes
+}
+karamelkas_reform_decrease_5 = {
+	add_to_variable = {
+		var = STG_Karamelkas_reform_progress
+		value = -5
+		tooltip = STG_karamelkas_reform_decrease_tt
+	}
+	check_karamelkas_variables = yes
+}
+karamelkas_reform_decrease_10 = {
+	add_to_variable = {
+		var = STG_Karamelkas_reform_progress
+		value = -10
+		tooltip = STG_karamelkas_reform_decrease_tt
+	}
+	check_karamelkas_variables = yes
+}
+karamelkas_reform_decrease_15 = {
+	add_to_variable = {
+		var = STG_Karamelkas_reform_progress
+		value = -15
+		tooltip = STG_karamelkas_reform_decrease_tt
+	}
+	check_karamelkas_variables = yes
+}
+check_karamelkas_variables = {
+	clamp_variable = {
+		var = STG_Karamelkas_reform_progress
+		min = 0
+		max = 100
+	}
+}

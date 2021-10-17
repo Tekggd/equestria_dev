@@ -127,7 +127,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = STG_problems_in_party
-		icon = GFX_goal_new_leaders
+		icon = GFX_goal_stg_factions_in_our
 		cost = 2
 		prerequisite = {
 			focus = STG_12th_year_of_revolution
@@ -145,7 +145,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = STG_telegraph_agency
-		icon = GFX_goal_stg_propaganda
+		icon = GFX_goal_stg_sta
 		cost = 2
 		prerequisite = {
 			focus = STG_problems_in_party

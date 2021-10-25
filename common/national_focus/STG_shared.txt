@@ -1388,6 +1388,16 @@ shared_focus = {
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_shields_of_proletariat"
 		country_event = { id=stalliongrad_mil.4 }
+		add_tech_bonus = {
+			name = mech_army_bonus
+			bonus = 1.0
+			uses = 2
+			category = cat_mechanized_equipment
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 150
+		}
 	}
 }
 shared_focus = {
@@ -1433,6 +1443,12 @@ shared_focus = {
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_heroes_of_might_and_magic"
 		country_event = { id=stalliongrad_mil.9 }
+		add_tech_bonus = {
+			name = race_tech_bonus
+			bonus = 1.0
+			uses = 3
+			category = race_tech
+		}
 	}
 }
 shared_focus = {
@@ -1485,6 +1501,10 @@ shared_focus = {
 	}
 	x = 25
 	y = 2
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_industry_for_red_army
@@ -1495,6 +1515,10 @@ shared_focus = {
 	}
 	x = 28
 	y = 2
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_infantry_will_support_tanks
@@ -1505,6 +1529,14 @@ shared_focus = {
 	}
 	x = 24
 	y = 3
+	completion_reward = {
+		add_tech_bonus = {
+			name = tank_research
+			bonus = 1.0
+			uses = 2
+			category = cat_medium_armor
+		}
+	}
 }
 shared_focus = {
 	id = STG_enforce_absolute_discipline
@@ -1515,6 +1547,10 @@ shared_focus = {
 	}
 	x = 26
 	y = 3
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_finish_depoliticization
@@ -1525,6 +1561,10 @@ shared_focus = {
 	}
 	x = 28
 	y = 3
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_allow_foreign_research_firms
@@ -1535,6 +1575,10 @@ shared_focus = {
 	}
 	x = 25
 	y = 4
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_found_the_guards_divisions
@@ -1545,6 +1589,10 @@ shared_focus = {
 	}
 	x = 28
 	y = 4
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_larger_tank_projects
@@ -1555,6 +1603,15 @@ shared_focus = {
 	}
 	x = 23
 	y = 5
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		add_tech_bonus = {
+			name = tank_research
+			bonus = 1.0
+			uses = 2
+			category = cat_heavy_armor
+		}
+	}
 }
 shared_focus = {
 	id = STG_the_inventors_of_armor
@@ -1568,6 +1625,10 @@ shared_focus = {
 	}
 	x = 25
 	y = 5
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_the_royal_peoples_institute_for_armor_development
@@ -1584,6 +1645,10 @@ shared_focus = {
 	}
 	x = 27
 	y = 5
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 shared_focus = {
 	id = STG_the_command_hierarchy_enforced
@@ -1594,6 +1659,10 @@ shared_focus = {
 	}
 	x = 26
 	y = 6
+	completion_reward = { 
+		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
+		country_event = { id=stalliongrad_mil.11 }
+	}
 }
 
 ### air ###
@@ -1638,6 +1707,7 @@ shared_focus = {
 			uses = 1
 			category = light_fighter
 		}
+		add_ideas = STG_clear_sky
 	}
 }
 shared_focus = {

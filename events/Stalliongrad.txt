@@ -734,6 +734,22 @@ country_event = {
 	option = {
 		name = stalliongrad_mil.2.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad_mil.2.a" }
+		add_tech_bonus = {
+			name = cat_mobile_warfare
+			bonus = 2.0
+			uses = 1
+			category = cat_mobile_warfare
+		}
+	}
+	option = {
+		name = stalliongrad_mil.2.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad_mil.2.a" }
+		add_tech_bonus = {
+			name = cat_mass_assault
+			bonus = 2.0
+			uses = 1
+			category = cat_mass_assault
+		}
 	}
 }
 country_event = {
@@ -790,6 +806,12 @@ country_event = {
 	option = {
 		name = stalliongrad_mil.6.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad_mil.6.a" }
+		add_ideas = STG_guns_or_butter_supply
+	}
+	option = {
+		name = stalliongrad_mil.6.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad_mil.6.a" }
+		add_ideas = STG_guns_or_butter_production
 	}
 }
 country_event = {

@@ -95,9 +95,9 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 150
+			add = 15
 			tag = STG
-			#has_country_flag = STG_flag_sladkova_wins
+			has_country_flag = STG_flag_sladkova_wins
 		}
 	}
 	
@@ -1373,7 +1373,10 @@ shared_focus = {
 	y = 3
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_mass_mechanization"
-		country_event = { id=stalliongrad_mil.5 }
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 150
+		}
 	}
 }
 shared_focus = {
@@ -1387,7 +1390,6 @@ shared_focus = {
 	y = 4
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_shields_of_proletariat"
-		country_event = { id=stalliongrad_mil.4 }
 		add_tech_bonus = {
 			name = mech_army_bonus
 			bonus = 1.0
@@ -1426,7 +1428,6 @@ shared_focus = {
 	y = 3
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_kar_mass_mobilization"
-		country_event = { id=stalliongrad_mil.8 }
 		add_ideas = STG_mass_mobilization_kar
 	}
 }
@@ -1443,8 +1444,7 @@ shared_focus = {
 	x = 20
 	y = 4
 	completion_reward = { 
-		log = "[GetDateText]: [Root.GetName]: Focus STG_heroes_of_might_and_magic"
-		country_event = { id=stalliongrad_mil.9 }
+		log = "[GetDateText]: [Root.GetName]: Focus STG_heroes_of_might_and_magic"		
 		add_tech_bonus = {
 			name = race_tech_bonus
 			bonus = 1.0
@@ -1468,7 +1468,6 @@ shared_focus = {
 	y = 4
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_sorcery_of_the_proles"
-		country_event = { id=stalliongrad_mil.10 }
 		add_ideas = STG_heroes_of_might_and_magic_kar_1 
 	}
 }
@@ -1490,7 +1489,6 @@ shared_focus = {
 	y = 6
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
 		add_ideas = STG_council_of_peoples_warriors_kar
 	}
 }
@@ -1508,7 +1506,7 @@ shared_focus = {
 	y = 2
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
+		country_event = { id=stalliongrad_mil.8 }
 	}
 }
 shared_focus = {
@@ -1522,7 +1520,6 @@ shared_focus = {
 	y = 2
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
 	}
 }
 shared_focus = {
@@ -1554,7 +1551,6 @@ shared_focus = {
 	y = 3
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		#country_event = { id=stalliongrad_mil.11 }
 		add_ideas = STG_absolute_discipline_kar
 	}
 }
@@ -1583,7 +1579,7 @@ shared_focus = {
 	y = 4
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
+		country_event = { id=stalliongrad_mil.10 }
 	}
 }
 shared_focus = {
@@ -1597,7 +1593,7 @@ shared_focus = {
 	y = 4
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
+		country_event = { id=stalliongrad_mil.7 }
 	}
 }
 shared_focus = {
@@ -1653,7 +1649,6 @@ shared_focus = {
 	y = 5
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		country_event = { id=stalliongrad_mil.11 }
 	}
 }
 shared_focus = {
@@ -1667,7 +1662,6 @@ shared_focus = {
 	y = 6
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus STG_the_council_of_the_peoples_warriors"
-		#country_event = { id=stalliongrad_mil.11 }
 		effect_tooltip = {
 			swap_ideas = { remove_idea = STG_absolute_discipline_kar add_idea = STG_absolute_discipline_kar_1 }
 		}
@@ -1687,6 +1681,7 @@ shared_focus = {
 	y = 2
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		country_event = { id=stalliongrad_mil.4 }
 		add_tech_bonus = {
 			name =  air_sup_bonus
 			bonus = 1.0
@@ -1758,6 +1753,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 		air_experience = 55
+		country_event = { id=stalliongrad_mil.5 }
 		if = {
 			limit = { has_idea = STG_clear_sky }
 			effect_tooltip = {
@@ -1852,6 +1848,7 @@ shared_focus = {
 	y = 2
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
+		country_event = { id=stalliongrad_mil.9 }
 		navy_experience = 50
 		add_tech_bonus = {
 			name = ti_bonus
@@ -1865,6 +1862,7 @@ shared_focus = {
 					has_tech = dp_secondary_battery
 					is_researching_technology = dp_secondary_battery
 				}
+				has_dlc = "Man the Guns"
 			}
 			set_technology = { dp_secondary_battery = 1 }
 		}
@@ -2000,23 +1998,48 @@ shared_focus = {
 				set_technology = {
 					basic_ship_hull_grand_cruiser = 1
 				}
-				create_equipment_variant = {
-					name = "Petershoof Class"
-					type = ship_hull_grand_cruiser
-					name_group = STG_BB_BC_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_1
-						fixed_ship_anti_air_slot = ship_anti_air_2
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = cruiser_ship_engine_2
-						fixed_ship_armor_slot = ship_armor_cb_1
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						front_1_custom_slot = ship_heavy_battery_1
-						mid_1_custom_slot = ship_anti_air_2
-						mid_2_custom_slot = ship_anti_air_2
-						rear_1_custom_slot = ship_heavy_battery_1
+				if = { 
+					limit = { NOT = { has_tech = dp_secondary_battery } } 
+					create_equipment_variant = {
+						name = "Petershoof Class"
+						type = ship_hull_grand_cruiser
+						name_group = STG_BB_BC_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = ship_heavy_battery_1
+							fixed_ship_anti_air_slot = ship_anti_air_2
+							fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = cruiser_ship_engine_2
+							fixed_ship_armor_slot = ship_armor_cb_1
+							fixed_ship_secondaries_slot = ship_secondaries_2
+							front_1_custom_slot = ship_heavy_battery_1
+							mid_1_custom_slot = ship_anti_air_2
+							mid_2_custom_slot = ship_anti_air_2
+							rear_1_custom_slot = ship_heavy_battery_1
+						}
+					}
+				}
+				if = { 
+					limit = { has_tech = dp_secondary_battery } 
+					create_equipment_variant = {
+						name = "Petershoof Class"
+						type = ship_hull_grand_cruiser
+						name_group = STG_BB_BC_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = ship_heavy_battery_1
+							fixed_ship_anti_air_slot = ship_anti_air_2
+							fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = cruiser_ship_engine_2
+							fixed_ship_armor_slot = ship_armor_cb_1
+							fixed_ship_secondaries_slot = dp_ship_secondaries
+							front_1_custom_slot = ship_heavy_battery_1
+							mid_1_custom_slot = ship_anti_air_2
+							mid_2_custom_slot = dp_ship_secondaries
+							rear_1_custom_slot = ship_heavy_battery_1
+						}
 					}
 				}
 				add_equipment_production = {
@@ -2043,6 +2066,7 @@ shared_focus = {
 				}
 			}
 		navy_experience = 15
+		add_ideas = STG_glory_doctrine
 	}
 }
 shared_focus = {
@@ -2062,7 +2086,9 @@ shared_focus = {
 			uses = 1
 			category = trade_interdiction_tree
 		}
-		add_ideas = STG_glory_doctrine
+		effect_tooltip = {
+			swap_ideas = { remove_idea = STG_glory_doctrine add_idea = STG_glory_doctrine_1 }
+		}
 	}
 }
 shared_focus = {
@@ -2078,7 +2104,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 		navy_experience = 30
 		effect_tooltip = {
-			swap_ideas = { remove_idea = STG_glory_doctrine add_idea = STG_glory_doctrine_1 }
+			swap_ideas = { remove_idea = STG_glory_doctrine_1 add_idea = STG_glory_doctrine_2 }
 		}
 	}
 }
@@ -2096,40 +2122,66 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 		if = {
 			limit = {
-					not = { has_dlc = "Man the Guns" }
-				}
-				set_technology = { torpedo_cruiser = 1 }
-				add_equipment_production = {
-					equipment = {
-						type = torpedo_cruiser
-						creator = "STG" 
-					}
-					name = "Chayka"
-					requested_factories = 1
-					progress = 0.50
-					amount = 1
-				}
+				not = { has_dlc = "Man the Guns" }
 			}
+			set_technology = { torpedo_cruiser = 1 }
+			add_equipment_production = {
+				equipment = {
+					type = torpedo_cruiser
+					creator = "STG" 
+				}
+				name = "Chayka"
+				requested_factories = 1
+				progress = 0.50
+				amount = 1
+			}
+		}
 			else = {
 				set_technology = { torpedo_cruiser_mtg = 1 }
-				create_equipment_variant = {
-					name = "Chayka Class"
-					type = ship_hull_torpedo_cruiser
-					name_group = STG_CL_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_light_medium_battery_2
-						fixed_ship_anti_air_slot = ship_anti_air_2
-						fixed_ship_fire_control_system_slot = ship_torpedo_data_computer_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = cruiser_ship_engine_2
-						fixed_ship_armor_slot = ship_armor_cruiser_2
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						front_1_custom_slot = ship_anti_air_2
-						mid_1_custom_slot = ship_torpedo_2
-						mid_2_custom_slot = ship_torpedo_2
-						rear_1_custom_slot = ship_torpedo_2
-						rear_2_custom_slot = ship_anti_air_2
+				if = { 
+					limit = { NOT = { has_tech = dp_secondary_battery } } 
+					create_equipment_variant = {
+						name = "Chayka Class"
+						type = ship_hull_torpedo_cruiser
+						name_group = STG_CL_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = ship_light_medium_battery_2
+							fixed_ship_anti_air_slot = ship_anti_air_2
+							fixed_ship_fire_control_system_slot = ship_torpedo_data_computer_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = cruiser_ship_engine_2
+							fixed_ship_armor_slot = ship_armor_cruiser_2
+							fixed_ship_secondaries_slot = ship_secondaries_2
+							front_1_custom_slot = ship_anti_air_2
+							mid_1_custom_slot = ship_torpedo_2
+							mid_2_custom_slot = ship_torpedo_2
+							rear_1_custom_slot = ship_torpedo_2
+							rear_2_custom_slot = ship_anti_air_2
+						}
+					}
+				}
+				if = { 
+					limit = { has_tech = dp_secondary_battery } 
+					create_equipment_variant = {
+						name = "Chayka Class"
+						type = ship_hull_torpedo_cruiser
+						name_group = STG_CL_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = ship_light_medium_battery_2
+							fixed_ship_anti_air_slot = ship_anti_air_2
+							fixed_ship_fire_control_system_slot = ship_torpedo_data_computer_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = cruiser_ship_engine_2
+							fixed_ship_armor_slot = ship_armor_cruiser_2
+							fixed_ship_secondaries_slot = dp_ship_secondaries
+							front_1_custom_slot = ship_anti_air_2
+							mid_1_custom_slot = ship_torpedo_2
+							mid_2_custom_slot = ship_torpedo_2
+							rear_1_custom_slot = ship_torpedo_2
+							rear_2_custom_slot = ship_anti_air_2
+						}
 					}
 				}
 				add_equipment_production = {
@@ -2173,9 +2225,9 @@ shared_focus = {
 			category = battlefield_support_tree
 		}
 		if = { 
-			limit = { has_idea = STG_glory_doctrine_1 }
+			limit = { has_idea = STG_glory_doctrine_2 }
 			effect_tooltip = {
-				swap_ideas = { remove_idea = STG_glory_doctrine_1 add_idea = STG_glory_doctrine_naval_aviation }
+				swap_ideas = { remove_idea = STG_glory_doctrine_2 add_idea = STG_glory_doctrine_naval_aviation }
 			}
 		}
 		if = {
@@ -2184,7 +2236,15 @@ shared_focus = {
 				swap_ideas = { remove_idea = STG_gorshkov_doctrine_2 add_idea = STG_gorshkov_doctrine_naval_aviation }
 			}
 		}
-		else = {
+		if = {
+			limit = { 
+				AND = { 
+					NOT = {
+						has_idea = STG_glory_doctrine_2
+						has_idea = STG_gorshkov_doctrine_2
+					}
+				}
+			}
 			add_ideas = STG_naval_aviation
 		}
 	}

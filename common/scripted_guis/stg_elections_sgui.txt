@@ -8,4 +8,17 @@ scripted_gui = {
 		context_type = decision_category
 		window_name = "stg_politics_sgui_2_window"
 	}
+	
+	
+	
+	stg_hunger_sgui = {
+		context_type = decision_category
+		window_name = "stg_hunger_pb_cat"
+		
+		properties = {
+			hunger_level_stg = {
+				frame = hunger_level_100
+			}
+		}
+	}
 } 

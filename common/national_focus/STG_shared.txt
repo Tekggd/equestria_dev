@@ -27,8 +27,8 @@ focus_tree = {
 		modifier = {
 			add = 12
 			tag = STG
-			NOT = { has_country_flag = STG_flag_unity_in_party }
-			has_country_flag = STG_flag_status_quo
+			#NOT = { has_country_flag = STG_flag_unity_in_party }
+			#has_country_flag = STG_flag_status_quo
 		}
 	}
 
@@ -132,7 +132,8 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_12th_year_of_revolution
 		}
-		x = 4
+		relative_position_id = STG_12th_year_of_revolution
+		x = 0
 		y = 1
 		ai_will_do = {
 			factor = 5
@@ -150,8 +151,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_problems_in_party
 		}
-		x = 2
-		y = 2
+		relative_position_id = STG_problems_in_party
+		x = -2
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -169,8 +171,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_telegraph_agency
 		}
-		x = 2
-		y = 3
+		relative_position_id = STG_telegraph_agency
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -187,8 +190,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_commies_in_eqs
 		}
-		x = 2
-		y = 4
+		relative_position_id = STG_commies_in_eqs
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -206,8 +210,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_problems_in_party
 		}
-		x = 4
-		y = 2
+		relative_position_id = STG_problems_in_party
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -224,8 +229,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_about_freedom_and_unity
 		}
-		x = 4
-		y = 3
+		relative_position_id = STG_about_freedom_and_unity
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -253,8 +259,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_red_army_structure
 		}
-		x = 4
-		y = 4
+		relative_position_id = STG_red_army_structure
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -272,8 +279,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_problems_in_party
 		}
-		x = 6
-		y = 2
+		relative_position_id = STG_problems_in_party
+		x = 2
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -305,8 +313,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_reorganize_the_industry
 		}
-		x = 6
-		y = 3
+		relative_position_id = STG_reorganize_the_industry
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -343,8 +352,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_support_the_colhoz
 		}
-		x = 6
-		y = 4
+		relative_position_id = STG_support_the_colhoz
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -367,8 +377,9 @@ shared_focus = {
 		prerequisite = {
 			focus = STG_reminats_of_fleet
 		}
-		x = 4
-		y = 5
+		relative_position_id = STG_reminats_of_fleet
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -392,8 +403,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = status_quo
 		}
-		x = 5
-		y = 6
+		relative_position_id = STG_reminats_of_fleet
+		x = -1
+		y = 2
 		ai_will_do = {
 			factor = 5
 		}
@@ -421,8 +433,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_unity_in_party
 		}
-		x = 3
-		y = 6
+		relative_position_id = STG_reminats_of_fleet
+		x = 1
+		y = 2
 		ai_will_do = {
 			factor = 5
 		}
@@ -461,7 +474,8 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 12
+		relative_position_id = STG_nothing_is_changed
+		x = 0
 		y = 1
 		ai_will_do = {
 			factor = 5
@@ -481,8 +495,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 12
-		y = 2
+		relative_position_id = STG_sysem_of_goszakaz
+		x = -2
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -501,8 +516,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 10
-		y = 2
+		relative_position_id = STG_sysem_of_goszakaz
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -521,8 +537,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 14
-		y = 2
+		relative_position_id = STG_sysem_of_goszakaz
+		x = 2
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -547,8 +564,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 12
-		y = 3
+		relative_position_id = STG_countinue_kolhoz_support
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -570,8 +588,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_save_democracy
 		}
-		x = 10
-		y = 4
+		relative_position_id = STG_atyldia_muhozhuk
+		x = -2
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -590,8 +609,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 10
-		y = 5
+		relative_position_id = STG_save_revolution
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -613,8 +633,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_revolutionary_order
 		}
-		x = 9
-		y = 6
+		relative_position_id = STG_fire_on_right
+		x = -1
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -633,8 +654,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 9
-		y = 7
+		relative_position_id = STG_sinnie_purge
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -653,8 +675,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 9
-		y = 8
+		relative_position_id = STG_sinnie_leatherman
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -687,8 +710,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_sinnie_purge
 		}
-		x = 11
-		y = 6
+		relative_position_id = STG_fire_on_right
+		x = 1
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -703,8 +727,6 @@ shared_focus = {
 		cost = 3
 		prerequisite = {
 			focus = STG_revolutionary_order
-		}
-		prerequisite = {
 			focus = STG_conspiracy_revealed
 		}
 		available = {
@@ -713,8 +735,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_new_thinking
 		}
-		x = 12
-		y = 7
+		relative_position_id = STG_revolutionary_order
+		x = 1
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -733,8 +756,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 12
-		y = 8
+		relative_position_id = STG_Vasya_unity
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -767,8 +791,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_save_revolution
 		}
-		x = 14
-		y = 4
+		relative_position_id = STG_atyldia_muhozhuk
+		x = 2
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -787,8 +812,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 14
-		y = 5
+		relative_position_id = STG_save_democracy
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -807,8 +833,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 14
-		y = 6
+		relative_position_id = STG_remove_radicals
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -830,8 +857,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = STG_unity_in_party
 		}
-		x = 15
-		y = 7
+		relative_position_id = STG_conspiracy_revealed
+		x = 1
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}
@@ -850,8 +878,9 @@ shared_focus = {
 		available = {
 			has_country_flag = STG_flag_status_quo
 		}
-		x = 15
-		y = 8
+		relative_position_id = STG_new_thinking
+		x = 0
+		y = 1
 		ai_will_do = {
 			factor = 5
 		}

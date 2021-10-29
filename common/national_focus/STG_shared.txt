@@ -27,8 +27,8 @@ focus_tree = {
 		modifier = {
 			add = 12
 			tag = STG
-			#NOT = { has_country_flag = STG_flag_unity_in_party }
-			#has_country_flag = STG_flag_status_quo
+			NOT = { has_country_flag = STG_flag_unity_in_party }
+			has_country_flag = STG_flag_status_quo
 		}
 	}
 

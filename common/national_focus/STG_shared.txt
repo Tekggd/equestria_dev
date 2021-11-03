@@ -166,7 +166,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = STG_commies_in_eqs
-		icon = GFX_goal_stg_com_civil_war
+		icon = GFX_goal_stg_southern_comrades
 		cost = 2
 		prerequisite = {
 			focus = STG_telegraph_agency
@@ -185,7 +185,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = STG_socialism_in_one_country
-		icon = GFX_goal_collectivization
+		icon = GFX_goal_stg_socialism_in_one
 		cost = 2
 		prerequisite = {
 			focus = STG_commies_in_eqs

@@ -60,6 +60,121 @@ country_event = {
 	}
 }
 country_event = {
+	id = stalliongrad.11003
+	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11003" }
+	title = stalliongrad.11003.t
+	desc = stalliongrad.11003.d
+	picture = GFX_event_stg_red_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = stalliongrad.11003.a
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11003.a" }
+		vasya_STG_effect = yes
+	}
+	option = {
+		name = stalliongrad.11003.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11003.a" }
+		opposition_STG_effect = yes
+	}
+}
+country_event = {
+	id = stalliongrad.11004
+	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11004" }
+	title = stalliongrad.11004.t
+	desc = stalliongrad.11004.d
+	picture = GFX_event_stg_red_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = stalliongrad.11004.a
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11004.a" }
+		vasya_STG_effect = yes
+	}
+	option = {
+		name = stalliongrad.11004.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11004.b" }
+		opposition_STG_effect = yes
+	}
+}
+country_event = {
+	id = stalliongrad.11005
+	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11005" }
+	title = stalliongrad.11005.t
+	desc = stalliongrad.11005.d
+	picture = GFX_event_stg_red_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = stalliongrad.11005.a
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11005.a" }
+		vasya_STG_effect = yes
+	}
+	option = {
+		name = stalliongrad.11005.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11005.b" }
+		opposition_STG_effect = yes
+	}
+}
+country_event = {
+	id = stalliongrad.11006
+	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11006" }
+	title = stalliongrad.11006.t
+	desc = stalliongrad.11006.d
+	picture = GFX_event_stg_red_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = stalliongrad.11006.a
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11006.a" }
+		vasya_STG_effect = yes
+	}
+}
+country_event = {
+	id = stalliongrad.11007
+	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11007" }
+	title = stalliongrad.11007.t
+	desc = stalliongrad.11007.d
+	picture = GFX_event_stg_red_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = stalliongrad.11007.a
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11007.a" }
+		vasya_STG_effect = yes
+	}
+	option = {
+		name = stalliongrad.11007.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11007.b" }
+		opposition_STG_effect = yes
+	}
+}
+country_event = {
+	id = stalliongrad.11008
+	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11008" }
+	title = stalliongrad.11008.t
+	desc = stalliongrad.11008.d
+	picture = GFX_event_stg_red_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = stalliongrad.11008.a
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11008.a" }
+		vasya_STG_effect = yes
+	}
+	option = {
+		name = stalliongrad.11008.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.11008.b" }
+		opposition_STG_effect = yes
+	}
+}
+country_event = {
 	id = stalliongrad.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.3" }
 	title = stalliongrad.3.t

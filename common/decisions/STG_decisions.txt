@@ -2142,12 +2142,10 @@ military_training_category = {
 	STG_improved_molniya_class = {
 		icon = generic_naval
 		available = {
-			tag = STG
 			has_tech = dp_secondary_battery
 		}
 		visible = {
 			tag = STG
-			has_tech = dp_secondary_battery
 			has_dlc = "Man the Guns"
 		}
 		ai_will_do = {
@@ -2201,12 +2199,10 @@ military_training_category = {
 	STG_improved_gnevny_class = {
 		icon = generic_naval
 		available = {
-			tag = STG
 			has_tech = dp_secondary_battery
 		}
 		visible = {
 			tag = STG
-			has_tech = dp_secondary_battery
 			has_dlc = "Man the Guns"
 		}
 		ai_will_do = {

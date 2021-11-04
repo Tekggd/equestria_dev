@@ -58,17 +58,29 @@ spriteTypes = {
 		name = "GFX_goal_stg_palace"
 		texturefile = "gfx/interface/goals/goal_stg_palace.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_stg_twelve_years"
 		texturefile = "gfx/interface/goals/goal_stg_twelve_years.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_stg_factions_in_our"
 		texturefile = "gfx/interface/goals/goal_stg_factions_in_our.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_goal_stg_sta"
 		texturefile = "gfx/interface/goals/goal_stg_sta.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_stg_southern_comrades"
+		texturefile = "gfx/interface/goals/goal_stg_southern_comrades.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_stg_socialism_in_one"
+		texturefile = "gfx/interface/goals/goal_stg_socialism_in_one.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_stg_red_army_discuss"
+		texturefile = "gfx/interface/goals/goal_stg_red_army_discuss.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_industry_stg"

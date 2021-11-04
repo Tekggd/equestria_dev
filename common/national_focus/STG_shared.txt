@@ -28,7 +28,6 @@ focus_tree = {
 			add = 12
 			tag = STG
 			NOT = { has_country_flag = STG_flag_unity_in_party }
-			has_country_flag = STG_flag_status_quo
 		}
 	}
 
@@ -161,12 +160,15 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.3 }
 			add_ideas = STG_propaganda 
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11003 }
+			}
 		}
 	}
 	
 shared_focus = {
 		id = STG_commies_in_eqs
-		icon = GFX_goal_stg_com_civil_war
+		icon = GFX_goal_stg_southern_comrades
 		cost = 2
 		prerequisite = {
 			focus = STG_telegraph_agency
@@ -185,7 +187,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = STG_socialism_in_one_country
-		icon = GFX_goal_collectivization
+		icon = GFX_goal_stg_socialism_in_one
 		cost = 2
 		prerequisite = {
 			focus = STG_commies_in_eqs
@@ -200,6 +202,9 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.5 }
 			add_stability = -0.05
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11005 }
+			}
 		}
 	}
 	
@@ -219,12 +224,15 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.6 }
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11006 }
+			}
 		}
 	}
 	
 shared_focus = {
 		id = STG_red_army_structure
-		icon = GFX_goal_stg_tank_factories
+		icon = GFX_goal_stg_red_army_discuss
 		cost = 2
 		prerequisite = {
 			focus = STG_about_freedom_and_unity
@@ -248,6 +256,9 @@ shared_focus = {
 			create_unit = {
 				division = "name = \"Gvardeyskaya Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 1.0 start_equipment_factor = 0.75"
 				owner = ROOT
+			}
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11007 }
 			}
 		}
 	}
@@ -342,6 +353,9 @@ shared_focus = {
 				add_extra_state_shared_building_slots = 1
 				add_manpower = 75000
 			}
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11004 }
+			}
 		}
 	}
 	
@@ -361,6 +375,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.11 }
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11008 }
+			}
 		}
 	}
 	
@@ -956,7 +973,6 @@ shared_focus = {
 	cost = 3
 
 	available = {
-		has_country_flag = STG_flag_status_quo
 		has_country_flag = STG_flag_sladkova_wins
 	}
 	relative_position_id = STG_new_thinking
@@ -2289,7 +2305,6 @@ shared_focus = {
 	cost = 3
 
 	available = {
-		has_country_flag = STG_flag_status_quo
 		has_country_flag = STG_flag_sinne_wins
 	}
 	x = 6

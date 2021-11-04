@@ -27,7 +27,7 @@ focus_tree = {
 		modifier = {
 			add = 12
 			tag = STG
-			NOT = { has_country_flag = STG_flag_unity_in_party }
+			has_country_flag = STG_flag_status_quo
 		}
 	}
 
@@ -418,7 +418,7 @@ shared_focus = {
 			has_country_flag = STG_flag_unity_in_party
 		}
 		mutually_exclusive = {
-			focus = status_quo
+			focus = STG_status_quo
 		}
 		relative_position_id = STG_reminats_of_fleet
 		x = -1

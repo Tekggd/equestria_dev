@@ -6,7 +6,6 @@ STG_hunger_modifier = {
 		}
 	}
 	
-	icon = GFX_idea_triumphant_will
 	
 		
 	stability_factor = STG_hunger_penalty

@@ -224,7 +224,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = STG_red_army_structure
-		icon = GFX_goal_stg_tank_factories
+		icon = GFX_goal_stg_red_army_discuss
 		cost = 2
 		prerequisite = {
 			focus = STG_about_freedom_and_unity

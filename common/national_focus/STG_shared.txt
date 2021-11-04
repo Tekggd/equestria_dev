@@ -95,7 +95,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 15
+			add = 9999
 			tag = STG
 			has_country_flag = STG_flag_sladkova_wins
 		}
@@ -959,9 +959,9 @@ shared_focus = {
 		has_country_flag = STG_flag_status_quo
 		has_country_flag = STG_flag_sladkova_wins
 	}
-
-	x = 6
-	y = 0
+	relative_position_id = STG_new_thinking
+	x = 0
+	y = 1
 	ai_will_do = {
 		factor = 5
 	}

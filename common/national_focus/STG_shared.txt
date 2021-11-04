@@ -28,7 +28,6 @@ focus_tree = {
 			add = 12
 			tag = STG
 			NOT = { has_country_flag = STG_flag_unity_in_party }
-			has_country_flag = STG_flag_status_quo
 		}
 	}
 
@@ -956,7 +955,6 @@ shared_focus = {
 	cost = 3
 
 	available = {
-		has_country_flag = STG_flag_status_quo
 		has_country_flag = STG_flag_sladkova_wins
 	}
 
@@ -2289,7 +2287,6 @@ shared_focus = {
 	cost = 3
 
 	available = {
-		has_country_flag = STG_flag_status_quo
 		has_country_flag = STG_flag_sinne_wins
 	}
 	x = 6

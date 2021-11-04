@@ -160,6 +160,9 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.3 }
 			add_ideas = STG_propaganda 
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11003 }
+			}
 		}
 	}
 	
@@ -199,6 +202,9 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.5 }
 			add_stability = -0.05
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11005 }
+			}
 		}
 	}
 	
@@ -218,6 +224,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.6 }
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11006 }
+			}
 		}
 	}
 	
@@ -247,6 +256,9 @@ shared_focus = {
 			create_unit = {
 				division = "name = \"Gvardeyskaya Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 1.0 start_equipment_factor = 0.75"
 				owner = ROOT
+			}
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11007 }
 			}
 		}
 	}
@@ -341,6 +353,9 @@ shared_focus = {
 				add_extra_state_shared_building_slots = 1
 				add_manpower = 75000
 			}
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11004 }
+			}
 		}
 	}
 	
@@ -360,6 +375,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus the_palace"
 			country_event = { id=stalliongrad.11 }
+			hidden_effect = {
+			    country_event = { id = stalliongrad.11008 }
+			}
 		}
 	}
 	

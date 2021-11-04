@@ -277,6 +277,29 @@ stalliongrad.11002.a:0 "They seem disruptive."
 stalliongrad.3.t:0 "Telegraph Agency"
 stalliongrad.3.d:0 "#TO DO"
 stalliongrad.3.a:0 "Yay"
+stalliongrad.11003.t:0 "Muffin and ultras" #Danielle suggested
+stalliongrad.11003.d:0 "Muffin talks to some ultras who are kinda on the fence, trying to get them to support majority. Does he convince them?"
+stalliongrad.11003.a:0 "Muffin right"
+stalliongrad.11003.b:0 "Muffin wrong"
+stalliongrad.11004.t:0 "Sinister and farmers" #Danielle suggested
+stalliongrad.11004.d:0 "Sinister tries to rile up some farmers, get them to join party and kick out their rightist delegate, appoint someone more leftist. Does he convince them?"
+stalliongrad.11004.a:0 "Sinister can"
+stalliongrad.11004.b:0 "Sinister can't"
+stalliongrad.11005.t:0 "Masha and Karamelka" #Danielle suggested
+stalliongrad.11005.d:0 "Masha and Karamelka get into an argument, show they really don't like each other. Do they put aside their differences to make plan to oppose majority, or does Masha storm out?"
+stalliongrad.11005.a:0 "Masha right"
+stalliongrad.11005.b:0 "Karamelka right" #Danielle suggested
+stalliongrad.11006.t:0 "Sinister, Muffin and Vasily go to fishing"
+stalliongrad.11006.d:0 "Sinister, Muffin and Vasily go out for drinks, discuss plans but mostly just chill together. Show them being friends. Gives small boost to majority support."
+stalliongrad.11006.a:0 "Life is good"
+stalliongrad.11007.t:0 "Nestor and Masha" #Danielle suggested
+stalliongrad.11007.d:0 "Masha speaks to Nestor Lunin about army involvement in politics. She's unsure whether it's appropriate for her to be a party delegate and a general. Nestor can either say it's her right to participate in party politics, or tell her that she should probably not be involved, but he won't outright order her not to."
+stalliongrad.11007.a:0 "You can do it, Masha"
+stalliongrad.11007.b:0 "Problay that a bad idea"
+stalliongrad.11008.t:0 "Tension between Dark Wing and Karamelka" #Danielle suggested
+stalliongrad.11008.d:0 "#TO DO"
+stalliongrad.11008.a:0 "The right faction splits"
+stalliongrad.11008.b:0 "We should to stick together"
 stalliongrad.4.t:0 "Communists in Equestria"
 stalliongrad.4.d:0 ""...Although our efforts have thus far focused on supporting comrades in Baltimare's trade unions and the socialist sailors in Vanhoover, we the undersigned believe in accordance with the principle of internationalism that more must be done. In particular, there are two major untapped populations. First, we hold that the Crystal Ponies would be receptive to us, as they feel the alienation of capitalism more acutely due to only recently being proletarianised after long existence in a pre-capitalist state."\n\n"For similar reasons, the batponies of Equestria would turn to socialism easily if given the right push. Many batponies have only recently joined the proletariat, having been displaced into the cities by primitive accumulation and facing particularly poor working conditions. While many of them cling to monarchism in the vain hope that Princess Luna will help, the last seven years of inaction have resulted in many turning to more radical voices. If we do not act soon, they will turn to reactionary nationalism or other alternative ideologies for a solution. To facilitate this, we the undersigned recommend a 20% increase in funding to the program for helping revolutionaries abroad..."\n\nAltidiya considered the proposal. It was signed not only by Masha's clique of radicals, but by several members of the majority, including Sinister Serov and Gold Muffin. It was bold, dangerous even. Karamelka had just come to her last week, suggesting that funding communists in Equestria was taking vital resources away from the people of Stalliongrad, and that "poking the Equestrian Ursa" risked an unwinnable war if our operations were discovered.\n\nVasily, for his part, had insisted that our current operations were quite secure, but that expanding to the Crystal Empire and the batponies would surely result in our discovery. As a matter of clandestine operations, the decision was Altidiya's alone to make."
 stalliongrad.4.a:0 "Vasily is right."

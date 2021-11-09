@@ -829,3 +829,5 @@ STG_left_opposition_influence_tt:0 "Left opposition influence will change on $RI
 STG_left_opposition_support_tt:0 "Left opposition support will change by $RIGHT|0+$\n"
 STG_right_opposition_influence_tt:0 "Right opposition influence will change on $RIGHT|0+$\n levels"
 STG_right_opposition_support_tt:0 "Right opposition support will change by $RIGHT|0+$\n"
+
+change_stg_hunger_level:0 "§GFood shortage§! will lower by $RIGHT|0+$\n"

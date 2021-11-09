@@ -581,6 +581,15 @@ shared_focus = {
 		id = STG_save_revolution
 		icon = GFX_goal_purge
 		cost = 3
+		available = {
+			custom_trigger_tooltip = {
+				OR = {
+					check_variable = { STG_left_opposition_influence = 5 }
+					check_variable = { STG_main_party_influence_2 = 5 }
+				}
+				tooltip = STG_left_opposition_influence_tt_f
+			}
+		}
 		prerequisite = {
 			focus = STG_atyldia_muhozhuk
 		}
@@ -620,6 +629,12 @@ shared_focus = {
 		id = STG_sinnie_purge
 		icon = GFX_focus_generic_join_comintern
 		cost = 3
+		available = {
+			custom_trigger_tooltip = {
+				check_variable = { STG_left_opposition_influence = 5 }
+				tooltip = STG_left_opposition_influence_tt_f_1
+			}
+		}
 		prerequisite = {
 			focus = STG_fire_on_right
 		}
@@ -688,6 +703,12 @@ shared_focus = {
 		id = STG_revolutionary_order
 		icon = GFX_goal_support_communism
 		cost = 3
+		available = {
+			custom_trigger_tooltip = {
+				check_variable = { STG_main_party_influence_2 = 5 }
+				tooltip = STG_main_influence_tt_f
+			}
+		}
 		prerequisite = {
 			focus = STG_fire_on_right
 		}
@@ -709,6 +730,12 @@ shared_focus = {
 		id = STG_Vasya_unity
 		icon = GFX_goal_stg_worst_case
 		cost = 3
+		available = {
+			custom_trigger_tooltip = {
+				check_variable = { STG_main_party_influence_2 = 5 }
+				tooltip = STG_main_influence_tt_f
+			}
+		}
 		prerequisite = {
 			focus = STG_revolutionary_order
 			focus = STG_conspiracy_revealed
@@ -760,6 +787,15 @@ shared_focus = {
 		id = STG_save_democracy
 		icon = GFX_goal_stg_eqs
 		cost = 3
+		available = {
+			custom_trigger_tooltip = {
+				OR = {
+					check_variable = { STG_right_opposition_influence = 5 }
+					check_variable = { STG_main_party_influence_2 = 5 }
+				}
+				tooltip = STG_right_opposition_influence_tt_f
+			}
+		}
 		prerequisite = {
 			focus = STG_atyldia_muhozhuk
 		}
@@ -817,6 +853,12 @@ shared_focus = {
 		id = STG_new_thinking
 		icon = GFX_goal_stg_worst_case
 		cost = 3
+		available = {
+			custom_trigger_tooltip = {
+				check_variable = { STG_right_opposition_influence = 5 }
+				tooltip = STG_right_opposition_influence_tt_f_1
+			}
+		}
 		prerequisite = {
 			focus = STG_conspiracy_revealed
 		}

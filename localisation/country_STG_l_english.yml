@@ -803,6 +803,7 @@ Advisors_gone_to_GRW:0 "Military Mission to GLA"
 STG_elections_category:0 "Power of the Opposition"
  STG_elections_category_desc:0 "Thought eradicated by the policies of Steel Stallion, §Rfactionalism§! is once again reering its head within Stalliongrad. For now, the party's §Corthodox center§! under §YAltidiya§! and her right hand §GVasily§! still maintain most of the control over the party Congress. However, issues remain. Problems that Altidiya promised she would solve, like the food issue and the unclear position of the NEP, remain in the forefront of the nation's mind. These perceived failures have lead many representatives to put their trust in the growing §Ropposition groups§! within the Congress. Lead on the left by §gGeneral Masha Norushkina§! and on the right by §OKaramelka Sladkova§!, their policies are perceived as radical by many, and necessary by others. While they disagree on almost everything, they often vote together to oppose the status quo, but there is one position they can both agree on.\n\n§RThe Center will not hold.§R"
  STG_elections_category_2:0 "The Broken Status Quo"
+STG_elections_category_2_desc:0 "Thought eradicated by the policies of Steel Stallion, §Rfactionalism§! is once again reering its head within Stalliongrad. For now, the party's §Corthodox center§! under §YAltidiya§! and her right hand §GVasily§! still maintain most of the control over the party Congress. However, issues remain. Problems that Altidiya promised she would solve, like the food issue and the unclear position of the NEP, remain in the forefront of the nation's mind. These perceived failures have lead many representatives to put their trust in the growing §Ropposition groups§! within the Congress. Lead on the left by §gGeneral Masha Norushkina§! and on the right by §OKaramelka Sladkova§!, their policies are perceived as radical by many, and necessary by others. While they disagree on almost everything, they often vote together to oppose the status quo, but there is one position they can both agree on.\n\n§RThe Center will not hold.§R"
  STG_main_party:0 "The Orthodox Party"
  STG_opposition:0 "Intra-Party Opposition"
  STG_main_party_2:0 "Vasily's Center"
@@ -829,5 +830,13 @@ STG_left_opposition_influence_tt:0 "Left opposition influence will change on $RI
 STG_left_opposition_support_tt:0 "Left opposition support will change by $RIGHT|0+$\n"
 STG_right_opposition_influence_tt:0 "Right opposition influence will change on $RIGHT|0+$\n levels"
 STG_right_opposition_support_tt:0 "Right opposition support will change by $RIGHT|0+$\n"
+<<<<<<< Updated upstream
 
 change_stg_hunger_level:0 "§GFood shortage§! will lower by $RIGHT|0+$\n"
+=======
+STG_right_opposition_influence_tt_f:0 "Right OR center influence is Very High"
+STG_left_opposition_influence_tt_f:0 "Left OR center influence is Very High"
+STG_right_opposition_influence_tt_f_1:0 "Right influence is Very High"
+STG_main_influence_tt_f:0 "Main influence is Very High"
+STG_left_opposition_influence_tt_f_1:0 "Left influence is Very High"
+>>>>>>> Stashed changes

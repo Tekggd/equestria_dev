@@ -163,6 +163,7 @@ set_variable = { STG_right_opposition_influence = 3 } #out of 5
 set_variable = { STG_right_opposition_support = 0 } #out of 100
 set_variable = { STG_Karamelkas_reform_progress = 0 } #out of 100
 set_variable = { hunger_level_100 = 100 }
+set_country_flag = famine_in_stg_flag
 
 #set_variable = {
 #	var = STG_right_wing_support_v

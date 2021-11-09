@@ -73,6 +73,9 @@ STG_hunger = {
 	priority = {
 		base = 500000
 	}
+	visible = {
+		has_country_flag = famine_in_stg_flag
+	}
 	visible_when_empty = yes
 	
 	scripted_gui = stg_hunger_sgui

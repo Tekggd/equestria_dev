@@ -32,8 +32,8 @@ on_actions = {
 				set_variable = { stg_food_gain = stg_hunger_exp }
 				set_variable = { stg_food_change = 0 }
 				#add_to_variable = { stg_food_change = stg_food_gain }
-				subtract_from_variable = { stg_food_change = stg_food_lose }
-				round_variable = stg_food_change
+				subtract_from_variable = { stg_food_change = 10 }
+				#round_variable = stg_food_change
 				add_to_variable = { hunger_level_100 = stg_food_change }
 				clamp_variable = {
 					var = hunger_level_100

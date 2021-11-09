@@ -828,7 +828,7 @@ STG_main_party_influence_2_tt:0 "Main party influence will change on $RIGHT|0+$\
 STG_main_party_support_2_tt:0 "Main party support will change by $RIGHT|0+$\n"
 STG_left_opposition_influence_tt:0 "Left opposition influence will change on $RIGHT|0+$\n levels"
 STG_left_opposition_support_tt:0 "Left opposition support will change by $RIGHT|0+$\n"
-
+STG_right_opposition_influence_tt:0 "Right opposition influence will change on $RIGHT|0+$\n levels"
 STG_right_opposition_support_tt:0 "Right opposition support will change by $RIGHT|0+$\n"
 
 change_stg_hunger_level:0 "§GFood shortage§! will lower by $RIGHT|0+$\n"
@@ -838,5 +838,5 @@ STG_right_opposition_influence_tt_f_1:0 "Right influence is Very High"
 STG_main_influence_tt_f:0 "Main influence is Very High"
 STG_left_opposition_influence_tt_f_1:0 "Left influence is Very High"
 
-STG_right_opposition_support_tt:0 "Right opposition support will change by $RIGHT|0+$\n"
+
 

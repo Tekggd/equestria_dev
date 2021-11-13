@@ -420,14 +420,100 @@ opposition_STG_effect_LEFT = {
 }
 vasya_STG_effect_2 = {
 	add_to_variable = {
-		var = STG_main_party_support
+		var = STG_main_party_support_2
 		value = 2
-		tooltip = STG_main_party_party_support_tt
+		tooltip = STG_main_party_party_support_2_tt
 	}
 	add_to_variable = {
-		var = STG_opposition_support
+		var = STG_left_opposition_support
 		value = -2
-		tooltip = STG_opposition_support_tt
+		tooltip = STG_left_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_right_opposition_support
+		value = -2
+		tooltip = STG_right_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_main_party_influence_2
+		value = 1
+		tooltip = STG_main_party_influence_2_tt
+	}
+	add_to_variable = {
+		var = STG_left_opposition_influence
+		value = -1
+		tooltip = STG_left_opposition_influence_tt
+	}
+	add_to_variable = {
+		var = STG_right_opposition_influence
+		value = -1
+		tooltip = STG_right_opposition_influence_tt
+	}
+	STG_check_party_variables = yes
+}
+left_STG_effect_2 = {
+	add_to_variable = {
+		var = STG_main_party_support_2
+		value = -2
+		tooltip = STG_main_party_party_support_2_tt
+	}
+	add_to_variable = {
+		var = STG_left_opposition_support
+		value = 2
+		tooltip = STG_left_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_right_opposition_support
+		value = -2
+		tooltip = STG_right_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_main_party_influence_2
+		value = -1
+		tooltip = STG_main_party_influence_2_tt
+	}
+	add_to_variable = {
+		var = STG_left_opposition_influence
+		value = 1
+		tooltip = STG_left_opposition_influence_tt
+	}
+	add_to_variable = {
+		var = STG_right_opposition_influence
+		value = -1
+		tooltip = STG_right_opposition_influence_tt
+	}
+	STG_check_party_variables = yes
+}
+right_STG_effect_2 = {
+	add_to_variable = {
+		var = STG_main_party_support_2
+		value = -2
+		tooltip = STG_main_party_support_2_tt
+	}
+	add_to_variable = {
+		var = STG_left_opposition_support
+		value = -2
+		tooltip = STG_left_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_right_opposition_support
+		value = 2
+		tooltip = STG_right_opposition_support_tt
+	}
+	add_to_variable = {
+		var = STG_main_party_influence_2
+		value = -1
+		tooltip = STG_main_party_influence_2_tt
+	}
+	add_to_variable = {
+		var = STG_left_opposition_influence
+		value = -1
+		tooltip = STG_left_opposition_influence_tt
+	}
+	add_to_variable = {
+		var = STG_right_opposition_influence
+		value = 1
+		tooltip = STG_right_opposition_influence_tt
 	}
 	STG_check_party_variables = yes
 }

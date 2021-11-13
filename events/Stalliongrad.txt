@@ -549,6 +549,17 @@ country_event = {
 	option = {
 		name = stalliongrad.17.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.17.a" }
+		vasya_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.17.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.17.b" }
+		left_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.17.c
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.17.c" }
+		right_STG_effect_2 = yes
 	}
 }
 country_event = {
@@ -563,6 +574,17 @@ country_event = {
 	option = {
 		name = stalliongrad.18.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.18.a" }
+		vasya_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.18.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.18.b" }
+		left_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.18.c
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.18.c" }
+		right_STG_effect_2 = yes
 	}
 }
 country_event = {
@@ -577,6 +599,17 @@ country_event = {
 	option = {
 		name = stalliongrad.19.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.19.a" }
+		vasya_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.19.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.19.b" }
+		left_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.19.c
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.19.c" }
+		right_STG_effect_2 = yes
 	}
 }
 country_event = {
@@ -591,6 +624,17 @@ country_event = {
 	option = {
 		name = stalliongrad.20.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.20.a" }
+		vasya_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.20.b
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.20.b" }
+		left_STG_effect_2 = yes
+	}
+	option = {
+		name = stalliongrad.20.c
+		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.20.c" }
+		right_STG_effect_2 = yes
 	}
 }
 country_event = {
@@ -605,14 +649,17 @@ country_event = {
 	option = {
 		name = stalliongrad.21.a
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.21.a" }
+		vasya_STG_effect_2 = yes
 	}
 	option = {
 		name = stalliongrad.21.b
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.21.b" }
+		left_STG_effect_2 = yes
 	}
 	option = {
 		name = stalliongrad.21.c
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.21.c" }
+		right_STG_effect_2 = yes
 	}
 }
 country_event = {

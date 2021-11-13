@@ -418,6 +418,19 @@ opposition_STG_effect_LEFT = {
 	}
 	STG_check_party_variables = yes
 }
+vasya_STG_effect_2 = {
+	add_to_variable = {
+		var = STG_main_party_support
+		value = 2
+		tooltip = STG_main_party_party_support_tt
+	}
+	add_to_variable = {
+		var = STG_opposition_support
+		value = -2
+		tooltip = STG_opposition_support_tt
+	}
+	STG_check_party_variables = yes
+}
 I_WANT_TO_FINISH_THIS_MECHANIC_WHEN_I_AM_ALIVE = {
 	if = {
 		limit = {

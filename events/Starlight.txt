@@ -299,5 +299,6 @@ country_event = { ## Burlap coup
 			name = STL_equal_party
 			long_name = STL_equal_party_long
 		}
+		load_focus_tree = stl_burlap
 	}
 }

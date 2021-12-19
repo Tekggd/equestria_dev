@@ -66,3 +66,14 @@ focus_tree = {
 	shared_focus = STL_a_new_millenium
 	shared_focus = STL_sugar_belle_wins
 }
+focus_tree = {
+	id = stl_burlap
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = -1500 y = 10 }
+	shared_focus = STL_our_future_uncertain
+	shared_focus = STL_a_new_millenium
+	shared_focus = STL_burlap_coup
+}

@@ -677,6 +677,21 @@
 		}
 	}
 
+	### SEKRIT TREE ###
+	shared_focus = {
+		id = STL_burlap_coup
+		icon = GFX_equalist
+		cost = 5
+		x = 15
+		y = 8
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STL_burlap_coup"
+			add_country_leader_trait = dictator
+			add_country_leader_trait = incompetent_leader
+		}
+	}
+
 	### INDUSTRY TREE ###
 	shared_focus = {
 		id = STL_a_new_millenium

@@ -252,9 +252,9 @@ ideas = {
 		#	}
 		#}
 	}
-         country = {
+    country = {
 
-         severe_famine = {	
+        severe_famine = {	
 	
 			
 			allowed = {
@@ -278,7 +278,7 @@ ideas = {
 
 	country = {
 
-         	incomplete_industrialization = {	
+        incomplete_industrialization = {	
 	
 			
 			allowed = {
@@ -298,7 +298,7 @@ ideas = {
 
 	country = {
 
-         severe_famine2 = {	
+        severe_famine2 = {	
 	
 			
 			allowed = {
@@ -321,7 +321,7 @@ ideas = {
 	}
 	country = {
 
-         severe_famine3 = {	
+        severe_famine3 = {	
 	
 			
 			allowed = {
@@ -343,7 +343,7 @@ ideas = {
 	}
 	country = {
 
-         severe_famine4 = {	
+        severe_famine4 = {	
 	
 			
 			allowed = {
@@ -365,7 +365,7 @@ ideas = {
 	}
 	country = {
 
-         severe_famine5 = {	
+        severe_famine5 = {	
 	
 			
 			allowed = {
@@ -387,7 +387,7 @@ ideas = {
 	}
 	country = {
 
-         severe_famine6 = {	
+        severe_famine6 = {	
 	
 			
 			allowed = {
@@ -409,7 +409,7 @@ ideas = {
 	}
 	country = {
 
-         		propaganda = {	
+        propaganda = {	
 	
 			
 			allowed = {
@@ -427,7 +427,7 @@ ideas = {
 	}
 	country = {
 
-         		industry_funds = {	
+        industry_funds = {	
 	
 			
 			allowed = {
@@ -452,7 +452,7 @@ ideas = {
 	
 	country = {
 
-         		collectivization_effort = {	
+        collectivization_effort = {	
 			
 
 			
@@ -473,7 +473,7 @@ ideas = {
 	}
 	country = {
 
-         		collectivization_effort2 = {	
+        collectivization_effort2 = {	
 	
 			picture = collectivization_effort
 			allowed = {
@@ -494,7 +494,7 @@ ideas = {
 	}
 	country = {
 
-         		collectivization_effort3 = {	
+        collectivization_effort3 = {	
 	
 			picture = collectivization_effort
 			allowed = {
@@ -514,7 +514,7 @@ ideas = {
 	}
 	country = {
 
-         		kulak_sabotage = {	
+        kulak_sabotage = {	
 	
 			allowed = {
 				always = no
@@ -532,7 +532,7 @@ ideas = {
 	
 	country = {
 
-         		sinnie_food_subsidies = {	
+        sinnie_food_subsidies = {	
 	
 			
 			allowed = {
@@ -550,7 +550,7 @@ ideas = {
 	}
 	country = {
 
-         		food_market = {	
+        food_market = {	
 	
 			
 			allowed = {
@@ -569,7 +569,7 @@ ideas = {
 	}
 	country = {
 
-         		less_bureaucracy = {	
+        less_bureaucracy = {	
 	
 			
 			allowed = {
@@ -588,7 +588,7 @@ ideas = {
 	
 	country = {
 
-         		materialist_manifesto = {	
+        materialist_manifesto = {	
 	
 			
 			allowed = {
@@ -607,7 +607,7 @@ ideas = {
 	}
 	country = {
 
-         		materialist_manifesto2 = {	
+        materialist_manifesto2 = {	
 	
 			
 			allowed = {
@@ -624,7 +624,7 @@ ideas = {
 	}
 	country = {
 
-         		stg_secret_police = {	
+        tg_secret_police = {	
 	
 			
 			allowed = {
@@ -646,7 +646,7 @@ ideas = {
 	}
 	country = {
 
-         		STG_army_reorganization = {	
+        STG_army_reorganization = {	
 	
 			
 			allowed = {
@@ -666,7 +666,7 @@ ideas = {
 	
 	country = {
 
-         		stalliongrad_propaganda = {	
+        stalliongrad_propaganda = {	
 	
 			
 			allowed = {
@@ -686,7 +686,7 @@ ideas = {
 	}
 	country = {
 
-         		socialist_culture = {	
+        socialist_culture = {	
 	
 			
 			allowed = {
@@ -712,7 +712,7 @@ ideas = {
 	}
 	country = {
 
-         		socialist_culture2 = {	
+        socialist_culture2 = {	
 	
 			
 			allowed = {
@@ -738,7 +738,7 @@ ideas = {
 	}
 	country = {
 
-         		pioneers = {	
+        pioneers = {	
 	
 			
 			allowed = {
@@ -761,7 +761,7 @@ ideas = {
 	}
 	country = {
 
-         		pioneers2 = {	
+        pioneers2 = {	
 	
 			
 			allowed = {
@@ -785,7 +785,7 @@ ideas = {
 	}
 	country = {
 
-         		pioneers3 = {	
+        pioneers3 = {	
 	
 			
 			allowed = {
@@ -815,7 +815,7 @@ ideas = {
 	}
 	country = {
 
-         		sinister_conscription_law = {	
+        sinister_conscription_law = {	
 	
 			
 			allowed = {
@@ -836,7 +836,7 @@ ideas = {
 	}
 	
 	country = {
-	workers_culture_stg = {	
+		workers_culture_stg = {	
 	
 			
 			allowed = {

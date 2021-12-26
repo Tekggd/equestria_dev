@@ -1128,4 +1128,72 @@ characters={
 			ideology = nazism
 		}
 	}
+	
+	STG_valalevtina_qubysheva = {
+		name = alevtina_qubysheva
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/STG/STG_alevtina_qubysheva.dds"
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = alevtina_qubysheva
+			
+			allowed = {
+				original_tag = STG
+			}
+
+			research_bonus = {
+				electronics = 0.10
+			}
+
+			traits = { STG_alevtina_qubysheva }
+		}
+		
+	}
+	
+	STG_amber_flyagin = {
+		name = amber_flyagin
+		portraits = {
+			army = {
+				large = ""
+				small = ""
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = amber_flyagin
+			
+			allowed = {
+				original_tag = STG
+			}
+			traits = { STG_amber_flyagin }
+		}
+	}
+		
+	STG_alexandra_mistina = {
+		name = alexandra_mistina
+		portraits = {
+			army = {
+				large = ""
+				small = ""
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = alexandra_mistina
+			
+			allowed = {
+				original_tag = STG
+			}
+			traits = { STG_alexandra_mistina }
+		}
+	}
+	
+	
+	
 }	

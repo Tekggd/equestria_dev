@@ -1,457 +1,5 @@
 ideas = {
-	political_advisor = {
 
-		gold_muffin = {
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = {
-					any_other_country = {
-						has_country_leader = {
-							ruling_only = yes name = "Gold Muffin"
-						}
-					}
-					AND = {
-						has_global_flag = gold_and_spike_sent
-						BAL = {
-							exists = yes
-							has_government = communism
-						}
-					}
-				}
-				NOT = { has_country_flag = polya_government }
-			}
-			traits = { popular_figurehead }
-		}
-
-		sinnie = {
-			
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = { has_country_flag = polya_government }
-				NOT = { has_country_flag = sinister_elected }
-				has_government = communism
-				if = {
-					limit = { has_country_flag = STG_turned_to_GEU }
-					always = no
-				}
-				hidden_trigger = {
-					NOT = {
-						has_country_flag = sinister_assasination_success
-					}
-				}
-			}
-			traits = { ideological_crusader demagogue }
-		}
-		alevtina_qubysheva = {
-
-			allowed = {
-				original_tag = STG
-			}
-
-			research_bonus = {
-				electronics = 0.10
-			}
-
-			traits = { STG_alevtina_qubysheva }
-		}
-
-		
-
-		dank_wing = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = { 
-				OR = { 
-					has_country_flag = polya_government
-					has_country_flag = stg_compromise 
-				}
-				NOT = { 
-					has_country_flag = vasya_government 
-					has_country_flag = nestor_coup
-				} 
-			}
-
-			traits = { smooth_talking_charmer }
-		}
-		cranberry_branch = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = { 
-			has_completed_focus = pioneer_movement
-			has_government = communism
-				if = {
-					limit = { has_country_flag = STG_turned_to_GEU }
-					always = no
-				}
-			}
-
-			traits = { pioneer_activist }
-		}
-
-		vasya = {
-			
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = { has_country_flag = polya_government }
-				NOT = { has_country_flag = vasya_leaves }
-				NOT = { has_country_flag = vasya_elected }
-				has_government = communism
-				hidden_trigger = {
-					NOT = {
-						has_country_flag = vasya_assasination_success
-					}
-				}
-			}
-			traits = { war_industrialist }
-		}
-		danilka = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				OR = {
-					has_government = communism
-					has_country_leader = {
-						ruling_only = yes
-						name = "Dark Wing"
-					}
-				}
-			}
-			traits = { prince_of_terror }
-		}
-		spikestg = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = { 
-					has_country_flag = polya_government 
-					AND = {
-						has_global_flag = gold_and_spike_sent
-						BAL = {
-							exists = yes
-							has_government = communism
-						}
-					}
-				}
-				OR = {
-					has_government = communism
-					has_country_leader = {
-						ruling_only = yes
-						name = "Dark Wing"
-					}
-				}
-				
-			}
-			traits = { captain_of_industry }
-		}
-		amber_flyagin = {
-		
-			allowed = {
-				original_tag = STG
-			}
-			traits = { STG_amber_flyagin }
-		}
-		alexandra_mistina = {
-		
-			allowed = {
-				original_tag = STG
-			}
-			
-			traits = { STG_alexandra_mistina }
-		}
-	}
-	army_chief = {
-		kors_relux = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = { 
-			OR = { has_country_flag = polya_government
-			has_country_flag = stg_compromise }
-			NOT = { has_country_flag = vasya_government } 
-			}
-			
-			traits = { army_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		rilla = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			
-			traits = { army_chief_offensive_1 }
-			
-			ai_will_do = {
-				factor = 2
-			}
-		}
-		that_girl = {
-			
-			
-			allowed = {
-				original_tag = STG
-
-			}
-			available = {
-				OR = {
-					has_government = communism
-					has_country_leader = {
-						ruling_only = yes
-						name = "Dark Wing"
-					}
-				}
-				NOT = {
-					AND = {
-						has_global_flag = sofia_and_nevsky_sent
-						BAL = {
-							exists = yes
-							has_government = communism
-						}
-					}
-				}
-			}
-			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-	}
-	air_chief = {
-		
-		varray = {
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				OR = {
-					has_government = communism
-					has_country_leader = {
-						ruling_only = yes
-						name = "Dark Wing"
-					}
-				}
-			}
-			
-			traits = { air_chief_ground_support_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		comrade_ivan = {
-			
-			
-			allowed = {
-				original_tag = STG
-
-			}
-			available = { 
-			OR = { has_country_flag = polya_government
-			has_country_flag = stg_compromise }
-			NOT = { has_country_flag = vasya_government } 
-			}
-			
-
-			
-			# PURGED
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-	}
-	navy_chief = {
-		
-		STG_navy_Gorshkov = {
-
-			allowed = {
-				original_tag = STG
-			}
-			
-			traits = { navy_submarine_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		STG_navy_Glory = {
-
-			allowed = {
-				original_tag = STG
-			}
-			
-			traits = { navy_chief_maneuver_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-	high_command = {
-		ponyarchuk = {
-			ledger = army
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = { 
-				OR = { has_country_flag = polya_government
-				has_country_flag = stg_compromise }
-				NOT = { has_country_flag = vasya_government } 
-			}
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
-		}
-		STG_vinous_kostylev = {
-			ledger = army
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = { 
-			}
-			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
-		}
-		wild_vet = {
-			ledger = army
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = { has_country_flag = sent_vet_to_CRY }
-			}
-
-			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
-		}
-		nevsky = {
-			ledger = army
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = {
-					AND = {
-						has_global_flag = sofia_and_nevsky_sent
-						BAL = {
-							exists = yes
-							has_government = communism
-						}
-					}
-				}
-			}
-
-			traits = { army_logistics_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
-		}
-		STG_veronika_advisor = {
-		
-		ledger = army
-		
-			allowed = {
-				original_tag = STG
-			}
-			
-			traits = { army_armored_3 }
-			
-			ai_will_do = {
-				factor = 3
-			}
-		}
-
-	}
-	theorist = {
-		nestor_lunin = {
-			ledger = army
-
-
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				NOT = { has_country_flag = polya_government }
-				OR = {
-					has_government = communism
-					has_country_leader = {
-						ruling_only = yes
-						name = "Dark Wing"
-					}
-				}
-			}
-			research_bonus = {
-				land_doctrine = 0.07
-			}
-			
-			traits = { military_theorist }
-			ai_will_do = {
-				factor = 2
-			}
-		}
-		fleetfoot = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = STG
-			}
-			available = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-					has_country_leader = {
-						ruling_only = yes
-						name = "Dark Wing"
-					}
-				}
-			}
-			research_bonus = {
-				air_doctrine = 0.08
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-	}
 	tank_manufacturer = {
 		designer = yes
 		stalliongrad_tractor_factory = {
@@ -465,7 +13,7 @@ ideas = {
 					has_government = communism
 					has_country_leader = {
 						ruling_only = yes
-						name = "Dark Wing"
+						character = STG_dark_wing
 					}
 				}
 			}
@@ -486,7 +34,7 @@ ideas = {
 					has_government = communism
 					has_country_leader = {
 						ruling_only = yes
-						name = "Dark Wing"
+						character = STG_dark_wing
 					}
 				}
 			}
@@ -511,7 +59,7 @@ ideas = {
 					has_government = communism
 					has_country_leader = {
 						ruling_only = yes
-						name = "Dark Wing"
+						character = STG_dark_wing
 					}
 				}
 			}
@@ -559,7 +107,7 @@ ideas = {
 					has_government = communism
 					has_country_leader = {
 						ruling_only = yes
-						name = "Dark Wing"
+						character = STG_dark_wing
 					}
 				}
 			}
@@ -633,7 +181,7 @@ ideas = {
 					has_government = communism
 					has_country_leader = {
 						ruling_only = yes
-						name = "Dark Wing"
+						character = STG_dark_wing
 					}
 				}
 			}
@@ -704,795 +252,817 @@ ideas = {
 		#	}
 		#}
 	}
-		country = {
-			STG_beacon_of_revolution = {
-				picture = less_bureaucracy
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					monthly_population = 0.10
-					non_core_manpower = 0.05
-					army_core_defence_factor = 0.05
-					communism_acceptance = 20
-				}
+         country = {
+
+         severe_famine = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.1
+				industrial_capacity_factory = -0.17
+				industrial_capacity_dockyard = -0.17
+				conscription_factor = -0.2
+				consumer_goods_factor = 0.12
+				political_power_gain = -0.5
+				research_speed_factor = -0.1
 			}
 		}
-		country = {
-			STG_workers_army = {
-				picture = pony_soldier
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				research_bonus = {
-					land_doctrine = -1.0
-				}
-				modifier = {
-					command_power_gain_mult = -0.15
-					army_org_Factor = -0.1
-					army_attack_factor = -0.10
-					army_defence_factor = -0.10
-					conscription_factor = 0.15
-					mobilization_speed = 0.15
-					
+	}
+
+	country = {
+
+         	incomplete_industrialization = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+	
+			modifier = {
+				war_support_factor = -0.005
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				research_speed_factor = -0.1
+			}
+		}
+	}
+
+	country = {
+
+         severe_famine2 = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.12
+				war_support_factor = -0.05
+				industrial_capacity_factory = -0.13
+				industrial_capacity_dockyard = -0.13
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.3
+				research_speed_factor = -0.07
+			}
+		}
+	}
+	country = {
+
+         severe_famine3 = {	
+	
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = -0.10
+				industrial_capacity_factory = -0.08
+				industrial_capacity_dockyard = -0.08
+				conscription_factor = -0.07
+				consumer_goods_factor = 0.08
+				political_power_gain = -0.25
+				research_speed_factor = -0.065
+			}
+		}
+	}
+	country = {
+
+         severe_famine4 = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.07
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				conscription_factor = -0.05
+				consumer_goods_factor = 0.06
+				political_power_gain = -0.19
+				research_speed_factor = -0.045
+			}
+		}
+	}
+	country = {
+
+         severe_famine5 = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.04
+				industrial_capacity_factory = -0.03
+				industrial_capacity_dockyard = -0.03
+				conscription_factor = -0.025
+				consumer_goods_factor = 0.04
+				political_power_gain = -0.10
+				research_speed_factor = -0.03
+			}
+		}
+	}
+	country = {
+
+         severe_famine6 = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.02
+				industrial_capacity_factory = -0.01
+				industrial_capacity_dockyard = -0.015
+				conscription_factor = -0.01
+				consumer_goods_factor = 0.015
+				political_power_gain = -0.05
+				research_speed_factor = -0.01
+			}
+		}
+	}
+	country = {
+
+         		propaganda = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+	
+			modifier = {
+				stability_factor = 0.2
+				political_power_gain = 0.45
+				communism_drift = 0.02
+			}
+		}
+	}
+	country = {
+
+         		industry_funds = {	
+	
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			research_bonus = {
+				industry = 0.05
+			}
+	
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+				conscription = -0.005
+				stability_weekly = 0.001
+			}
+		}
+	}
+	
+	country = {
+
+         		collectivization_effort = {	
+			
+
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				stability_factor = -0.1
+				conscription = -0.003
+				industrial_capacity_factory = 0.07
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+	country = {
+
+         		collectivization_effort2 = {	
+	
+			picture = collectivization_effort
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				stability_factor = -0.1
+				conscription = -0.003
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.05
+				research_speed_factor = -0.05
+			}
+		}
+	}
+	country = {
+
+         		collectivization_effort3 = {	
+	
+			picture = collectivization_effort
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				stability_factor = -0.05
+				conscription = -0.001
+				industrial_capacity_factory = 0.07
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+	country = {
+
+         		kulak_sabotage = {	
+	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				stability_factor = -0.075
+				political_power_gain = -0.25
+			}
+		}
+	}
+	
+	country = {
+
+         		sinnie_food_subsidies = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.15
+			}
+		}
+	}
+	country = {
+
+         		food_market = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+				political_power_gain = -0.15
+			}
+		}
+	}
+	country = {
+
+         		less_bureaucracy = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+	}
+	
+	
+	country = {
+
+         		materialist_manifesto = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			available = {
+				has_government = communism
+			}
+			removal_cost = -1
+
+	
+			modifier = {
+				research_speed_factor = 0.04
+			}
+		}
+	}
+	country = {
+
+         		materialist_manifesto2 = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+	}
+	country = {
+
+         		stg_secret_police = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				stability_factor = 0.05
+				resistance_damage_to_garrison = -0.2
+				enemy_operative_detection_chance_factor = 0.1
+				own_operative_detection_chance_factor = -0.2
+				subversive_activites_upkeep = -0.3
+				land_reinforce_rate = 0.1
+			}
+		}
+	}
+	country = {
+
+         		STG_army_reorganization = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				land_reinforce_rate = 0.05
+				army_morale_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+	}
+	
+	country = {
+
+         		stalliongrad_propaganda = {	
+	
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				communism_drift = 0.1
+			}
+		}
+	}
+	country = {
+
+         		socialist_culture = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+			removal_cost = -1
+
+	
+			modifier = {
+				communism_drift = 0.002
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				political_power_gain = 0.1
+				research_speed_factor = 0.02
+			}
+		}
+	}
+	country = {
+
+         		socialist_culture2 = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+			removal_cost = -1
+
+	
+			modifier = {
+				communism_drift = 0.002
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				political_power_gain = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+	}
+	country = {
+
+         		pioneers = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+			removal_cost = -1
+
+	
+			modifier = {
+				communism_drift = 0.01
+				political_power_gain = 0.05
+			}
+		}
+	}
+	country = {
+
+         		pioneers2 = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+			removal_cost = -1
+
+	
+			modifier = {
+				communism_drift = 0.002
+				political_power_gain = 0.07
+				conscription= 0.025
+			}
+		}
+	}
+	country = {
+
+         		pioneers3 = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+			research_bonus = {
+				armor = 0.05
+				air_equipment = 0.05
+				electronics = 0.05
+				magical_tech = 0.03
+			}
+			removal_cost = -1
+
+	
+			modifier = {
+				communism_drift = 0.002
+				political_power_gain = 0.07
+				conscription= 0.025
+			}
+		}
+	}
+	country = {
+
+         		sinister_conscription_law = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+	
+			modifier = {
+				political_power_gain = -0.3
+				conscription= 0.075
+			}
+		}
+	}
+	
+	country = {
+	workers_culture_stg = {	
+	
+			
+			allowed = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+			removal_cost = -1
+	
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				conscription = 0.05
+				consumer_goods_factor = -0.1
+				global_building_slots_factor = 0.1
+			}
+		}
+	}
+	country = {
+	world_revolution = {
 		
-				}
-				on_add = {
-					country_lock_all_division_template = yes
-				}
-				on_remove = {
-					country_lock_all_division_template = no
-				}
+			allowed = {
+				has_government = communism
+			}
+			available = {
+				has_government  = communism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.2
+				political_power_gain = 0.5
+				army_morale_factor = 0.05
+				drift_defence_factor = 0.4
 			}
 		}
-		country = {
-			STG_workers_army_1 = {
-				picture = pony_soldier
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					command_power_gain_mult = -0.15
-					army_org_Factor = -0.1
-					army_attack_factor = -0.10
-					army_defence_factor = -0.10
-					conscription_factor = 0.15
-					mobilization_speed = 0.15
-					
-		
-				}
-				on_add = {
-					country_lock_all_division_template = yes
-				}
-				on_remove = {
-					country_lock_all_division_template = no
-				}
-			}
-		}
-		country = {
-			STG_new_economic_policy = {
-				picture = trade
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					political_power_gain = 0.05
-					consumer_goods_factor = -0.05
-					production_speed_arms_factory_factor = -0.1
-					production_speed_dockyard_factor = -0.1
-					production_speed_industrial_complex_factor = -0.1
-					
-				}
-			}
-		}
-		country = {
-			STG_equestrian_embargo = {
-				picture = communist_civil_war
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					consumer_goods_factor = 0.05
-					stability_factor = -0.1
-					industrial_capacity_factory = -0.10
-					industrial_capacity_dockyard = -0.10
-				}
-			}
-		}
-		country = {
-			STG_equestrian_embargo_vasya_1 = {
-				picture = communist_civil_war
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					consumer_goods_factor = 0.03
-					stability_factor = -0.10
-					industrial_capacity_factory = -0.10
-					industrial_capacity_dockyard = -0.10
-				}
-			}
-		}
-		country = {
-			STG_equestrian_embargo_kar_1 = {
-				picture = communist_civil_war
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					consumer_goods_factor = 0.05
-					stability_factor = -0.05
-					industrial_capacity_factory = -0.10
-					industrial_capacity_dockyard = -0.10
-				}
-			}
-		}
-		country = {
-			STG_agrarian_problem = {
-				#picture =
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					political_power_gain = -0.5
-					conscription_factor = -0.2
-					stability_factor = -0.2
-					consumer_goods_factor = 0.05
-				}
-			}
-		}
-		country = {
-			STG_agrarian_problem_vasya_1 = {
-				#picture =
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					political_power_gain = -0.45
-					conscription_factor = -0.2
-					stability_factor = -0.2
-					consumer_goods_factor = 0.04
-				}
-			}
-		}
-		country = {
-			STG_agrarian_problem_karamelka_1 = {
-				#picture =
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					political_power_gain = -0.4
-					conscription_factor = -0.2
-					stability_factor = -0.15
-					consumer_goods_factor = 0.05
-				}
-			}
-		}
-		country = {
-
-			STG_propaganda = {	
-
-	   
-	    	allowed = {
-		    	always = no
-	    	}
-
-	    	removal_cost = -1
-
-	    	modifier = {
-		   			stability_factor = 0.2
-		   			political_power_gain = 0.2
-		   			communism_drift = 0.01
-	    		}
-    		}
-		}
-		country = {
-
-			STG_vasya_industry = {	
-
-	   
-	   		allowed = {
-		   		always = no
-	   		}
-
-	   		removal_cost = -1
-
-	   		research_bonus = {
-		   		industry = 0.05
-	   		}
-
-	   		modifier = {
-				production_speed_buildings_factor = 0.1
-		   		production_speed_industrial_complex_factor = 0.15
-		   		production_speed_arms_factory_factor = 0.15
-		   		conscription_factor = -0.05
-				consumer_goods_factor = -0.02
-	   			}
-   			}
-		}
-		country = {
-
-			STG_sladkova_industry = {	
-
-	   
-	   		allowed = {
-		   		always = no
-	   		}
-
-	   		removal_cost = -1
-
-	   		research_bonus = {
-		   		industry = 0.05
-	   		}
-
-	   		modifier = {
-		   		consumer_goods_factor = -0.05
-		   		conscription_factor = 0.10
-	   			}
-   			}
-		}
-		country = {
-		
-			STG_create_new_ships_idea = {
-				allowed = {
-					always = no
-				}
-				allowed_civil_war = {
+	}
+	country = {
+		together_for_victory = {
+			
+				allowed = { 
+					always = yes }
+				available = {
 					always = yes
-				}
-				picture = generic_the_london_naval_treaty
-				removal_cost = -1
-				equipment_bonus = {
-					convoy = {
-						build_cost_ic = -0.25
-						instant = yes
-					}
-					destroyer = {
-						build_cost_ic = -0.20
-						instant = yes
-					}
-					light_cruiser = {
-						build_cost_ic = -0.20
-						instant = yes
-					}
-					heavy_cruiser = {
-						build_cost_ic = -0.20
-						instant = yes
-					}
-					submarine = {
-						build_cost_ic = -0.20
-						instant = yes
-					}
-					battle_cruiser = {
-						build_cost_ic = -0.15
-						instant = yes
-					}
-					battleship = {
-						build_cost_ic = -0.15
-						instant = yes
-					}
-					carrier = {
-						build_cost_ic = -0.15
-						instant = yes
-					}
-				}
-				modifier = {
-					consumer_goods_factor = 0.10
-				}
-			}
-		}
-		country = {
-			STG_restore_old_ships_idea = {
-				allowed = {
-					always = no
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-				picture = generic_the_london_naval_treaty
-				removal_cost = -1
-				modifier = {
-					industrial_capacity_dockyard = -0.50
-					production_speed_dockyard_factor = -0.50
-					consumer_goods_factor = 0.10
-				}
-			}
-		}
-		country = {
-			STG_another_stupid_name_for_rename_vasya_edition = {
-				allowed = {
-					always = no
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-				#picture
-				removal_cost = -1
-				modifier = {
-					production_speed_arms_factory_factor = -0.05
-					stability_weekly = -0.05
-					production_speed_buildings_factor = -0.05
-					consumer_goods_factor = 0.05
-				}
-			}
-		}
-		country = {
-			STG_another_stupid_name_for_rename_right_edition = {
-				allowed = {
-					always = no
-				}
-				allowed_civil_war = {
-					always = yes
-				}
-				#picture
-				removal_cost = -1
-				modifier = {
-					production_speed_buildings_factor = -0.10
-					production_speed_arms_factory_factor = -0.10
-					political_power_cost = 0.2
-					consumer_goods_factor = 0.1
-				}
-			}
-		}
-		country = {
-			STG_another_stupid_name_for_rename_left_edition = {
-				allowed = {
-					always = no
-				}
-				allowed_civil_war = {
-					always = yes
+					# CHN = {
+						# has_government = fascism
+					# }
 				}
 				removal_cost = -1
 				modifier = {
-					stability_weekly = -1
-					stability_factor = -0.1
+					war_support_factor = 0.25
+					land_doctrine_cost_factor = -0.05
+					naval_doctrine_cost_factor = -0.05
+					air_doctrine_cost_factor = -0.05
 				}
 			}
 		}
+	country = {
+		STG_Nestor_Administration = {
+			
+			allowed = { 
+				always = yes }
+			available = {
+				has_government = communism
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.075
+				enemy_operative_detection_chance_factor = 0.1
+				foreign_subversive_activites = -0.1
+				send_volunteers_tension = -0.2
+				political_power_gain = 0.05
+			}
+		}
+	}
+	
+	country = {
+	crusaders = {
 		
-		country = {
-			STG_clear_sky = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_air_superiority_agility_factor = 0.03
-					air_air_superiority_attack_factor = 0.03
-					air_air_superiority_defence_factor = 0.03
-				}
+			allowed = { 
+				always = yes }
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.15
+				land_reinforce_rate = 0.1
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
 			}
 		}
-		
-		country = {
-			STG_clear_sky_red_falcons = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_air_superiority_agility_factor = 0.03
-					air_air_superiority_attack_factor = 0.03
-					air_air_superiority_defence_factor = 0.03
-					air_ace_generation_chance_factor = 0.15
-				}
+	}
+	country = {
+		Advisors_gone_to_GRW = {
+			picture = stalliongradian_advisors
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				max_command_power = -20
 			}
 		}
-		
-		country = {
-			STG_clear_sky_1 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_air_superiority_agility_factor = 0.03
-					air_air_superiority_attack_factor = 0.03
-					air_air_superiority_defence_factor = 0.03
-					air_ace_generation_chance_factor = 0.15
-					air_superiority_efficiency = 0.15
-				}
+	}
+	country = {
+		trade_relations_with_stalliongrad = {
+			picture = stalliongradian_advisors
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				STG = { exists = yes has_government = communism }
+				has_government = communism
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.015
+				industrial_capacity_factory = 0.05
+				research_speed_factor = 0.05
 			}
 		}
-		
-		country = {
-			STG_flying_tanks = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_close_air_support_attack_factor = 0.1
-					air_close_air_support_defence_factor = 0.1
-				}
+	}
+	country = {
+		trade_relations_with_stalliongrad_close = {
+			picture = trade_relations_with_stalliongrad
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				STG = { exists = yes }
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.07
+				research_speed_factor = 0.07
 			}
 		}
-		
-		country = {
-			STG_flying_tanks_red_falcons = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_close_air_support_attack_factor = 0.1
-					air_close_air_support_defence_factor = 0.1
-					air_ace_generation_chance_factor = 0.15
-				}
+	}
+	country = {
+		trade_relations_with_stalliongrad_bad_times = {
+			picture = trade_relations_with_stalliongrad
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				STG = { exists = yes }
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.01
+				industrial_capacity_factory = 0.03
+				research_speed_factor = 0.03
 			}
 		}
-		
-		country = {
-			STG_flying_tanks_1 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_close_air_support_attack_factor = 0.1
-					air_close_air_support_defence_factor = 0.1
-					air_ace_generation_chance_factor = 0.15
-					air_cas_present_factor = 0.15
-				}
+	}
+	country = {
+		trade_relations_with_stalliongrad_terrible_times = {
+			picture = trade_relations_with_stalliongrad
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = communism
+			}
+			available = {
+				STG = { exists = yes }
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.005
+				industrial_capacity_factory = 0.01
+				research_speed_factor = 0.01
 			}
 		}
-		
-		country = {
-			STG_air_red_falcons = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_ace_generation_chance_factor = 0.15
-				}
+	}
+	country = {
+         		STG_progressive_leader = {
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				send_volunteers_tension = -0.2
+				send_volunteer_divisions_required = -0.3
+				send_volunteer_size = 1
+				political_power_gain = 0.05
 			}
 		}
-		country = {
-			STG_aviation_industry_idea = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				equipment_bonus = {
-					fighter_equipment = {
-						build_cost_ic = -0.1
-						instant = yes
-					}
-					CAS_equipment = {
-						build_cost_ic = -0.1
-						instant = yes
-					}
-				}
+	}
+	country = {
+         		STG_palace_constructed = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_government = communism
+				is_subject = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = 0.15
+				war_support_factor = 0.05
 			}
 		}
-		
-		country = {
-			STG_gorshkov_doctrine = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					navy_max_range_factor = 0.15
-					navy_visibility = -0.05
-				}
-			}
-		}
-		
-		country = {
-			STG_gorshkov_doctrine_1 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					navy_max_range_factor = 0.15
-					navy_visibility = -0.05
-					naval_defense_factor = 0.15
-				}
-			}
-		}
-		
-		country = {
-			STG_gorshkov_doctrine_2 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					navy_max_range_factor = 0.15
-					navy_visibility = -0.05
-					naval_defense_factor = 0.15
-					navy_submarine_attack_factor = 0.15
-				}
-			}
-		}
-		country = {
-			STG_gorshkov_doctrine_naval_aviation = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					navy_max_range_factor = 0.15
-					navy_visibility = -0.05
-					naval_defense_factor = 0.15
-					navy_submarine_attack_factor = 0.15
-					air_nav_efficiency = 0.1
-				}
-			}
-		}
-		country = {
-			STG_glory_doctrine = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					naval_retreat_chance = 0.1
-					naval_retreat_speed = 0.1
-				}
-			}
-		}
-		country = {
-			STG_glory_doctrine_1 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					naval_retreat_chance = 0.1
-					naval_retreat_speed = 0.1
-					navy_screen_attack_factor = 0.1
-					naval_torpedo_hit_chance_factor = 0.05
-				}
-			}
-		}
-		country = {
-			STG_glory_doctrine_2 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					naval_retreat_chance = 0.1
-					naval_retreat_speed = 0.1
-					navy_screen_attack_factor = 0.1
-					naval_torpedo_hit_chance_factor = 0.05
-					navy_anti_air_attack_factor = 0.1
-				}
-			}
-		}
-		country = {
-			STG_glory_doctrine_naval_aviation = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					naval_retreat_chance = 0.1
-					naval_retreat_speed = 0.1
-					navy_screen_attack_factor = 0.1
-					naval_torpedo_hit_chance_factor = 0.05
-					navy_anti_air_attack_factor = 0.1
-					air_nav_efficiency = 0.1
-				}
-			}
-		}
-		country = {
-			STG_naval_aviation = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					air_nav_efficiency = 0.1
-				}
-			}
-		}
-		
-		country = {
-			STG_absolute_discipline_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					army_org_factor = 0.1
-					army_speed_factor = 0.05
-					conscription_factor = -0.05
-				}
-			}
-		}
-		
-		country = {
-			STG_absolute_discipline_kar_1 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					army_org_factor = 0.1
-					army_speed_factor = 0.05
-					conscription_factor = -0.05
-					army_morale_factor = 0.1
-					dig_in_speed_factor = 0.05
-					org_loss_when_moving = -0.05
-				}
-			}
-		}
-		
-		country = {
-			STG_inventors_of_armor_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				equipment_bonus = {
-					light_tank_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-					medium_tank_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-					heavy_tank_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-					modern_tank_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-					super_heavy_tank_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-					amphibious_tank_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-					mechanized_equipment = {
-						build_cost_ic = -0.1
-						armor_value  = 0.05
-						instant = yes
-					}
-				}
-			}
-		}
-		
-		country = {
-			STG_shields_of_proletariat_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				equipment_bonus = {
-					motorized_equipment = {
-						maximum_speed = 0.05
-						instant = yes
-					}
-					mechanized_equipment = {
-						maximum_speed = 0.05
-						armor_value  = 0.05
-						instant = yes
-					}
-				}
-			}
-		}
-		
-		country = {
-			STG_mass_mechanization_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				equipment_bonus = {
-					motorized_equipment = {
-						build_cost_ic = -0.2
-						instant = yes
-					}
-				}
-			}
-		}
-		
-		country = {
-			STG_mass_mobilization_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					conscription = 0.025
-					mobilization_speed = 0.1
-				}
-			}
-		}
-		country = {
-			STG_guns_or_butter_supply = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					supply_consumption_factor = 0.1
-				}
-			}
-		}
-		country = {
-			STG_guns_or_butter_production = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				equipment_bonus = {
-					infantry_equipment = {
-						build_cost_ic = -0.1
-						instant = yes
-					}
-				}
-			}
-		}
-		country = {
-			STG_heroes_of_might_and_magic_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					unicorn_tech = 0.2
-					modifier_army_sub_unit_unicorn_company_attack_factor = 0.15
-					modifier_army_sub_unit_unicorn_company_defence_factor = 0.15
-				}
-			}
-		}
-		country = {
-			STG_heroes_of_might_and_magic_kar_1 = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				equipment_bonus = {
-					magical_equipment = {
-						unicorn_tech = 0.2
-						build_cost_ic = -0.1
-						instant = yes
-					}
-				}
-			}
-		}
-		country = {
-			STG_council_of_peoples_warriors_kar = {
-				allowed = {
-					always = no
-				}
-				removal_cost = -1
-				modifier = {
-					max_command_power = 20
-					army_morale_factor = 0.1
-					experience_gain_factor = 0.05
-				}
-			}
-		}
-		
-		
+	}
 }

@@ -2,22 +2,46 @@
 
 oob = "STL_1007"
 
-set_research_slots = 2
+set_research_slots = 3
 
 set_technology = {
-	early_fighter = 1
 	pony_race = 1
 	melee_weapons = 1
 	melee_weapons1 = 1
 	pre_gw_artillery = 1
-	gwtank = 1
 	infantry_weapons = 1
 	interwar_antitank = 1
 	gw_artillery = 1
 	tech_support = 1
+	tech_pegasi = 1
+	early_fighter = 1
+	early_bomber = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	interwar_antiair = 1
+	basic_train = 1
 }
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -42,164 +66,35 @@ generic_CL_template = yes
 
 set_convoys = 69
 set_popularities = {
-	democratic = 15
-	fascism = 0
-	communism = 80
-	neutrality = 5
+	democratic = 23
+	fascism = 1
+	communism = 75
+	neutrality = 1
 }
 set_politics = {
-
 	ruling_party = communism
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
 }
 
-set_variable = {
-	var = STL_feather_bangs_support
-	value = 5
-}
-clamp_variable = {
-	var = STL_feather_bangs_support
-	min = 0
-	max = 100
-}
-set_variable = {
-	var = STL_party_favor_support
-	value = 30
-}
-clamp_variable = {
-	var = STL_party_favor_support
-	min = 0
-	max = 100
-}
-set_variable = {
-	var = STL_double_diamond_support
-	value = 20
-}
-clamp_variable = {
-	var = STL_double_diamond_support
-	min = 0
-	max = 100
-}
-set_variable = {
-	var = STL_night_glider_support
-	value = 30
-}
-clamp_variable = {
-	var = STL_night_glider_support
-	min = 0
-	max = 100
-}
-set_variable = {
-	var = STL_sugar_belle_support
-	value = 15
-}
-clamp_variable = {
-	var = STL_sugar_belle_support
-	min = 0
-	max = 100
-}
-
 add_ideas = {
 	STL_city_state
 	STL_equality_past
-	STL_collapsing_coalition
-	feather_bangs
-	night_glider
-	sugar_belle
-	party_flavour
 }
 
-set_stability = 0.9
-set_war_support = 0.45
+set_stability = 0.5
 
-create_country_leader = {
-	name = "Feather Bangs"
-	desc = "POLITICS_FEATHERBANGS"
-	picture = "FeatherBangs.tga"
-	expire = "1965.1.1"
-	ideology = populism
-	traits = {
-		STL_pop_star_politician
-	}
-}
-
-create_country_leader = {
-	name = "Sugar Belle"
-	desc = "POLITICS_SUGARBELLE"
-	picture = "SugarBelle.tga"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		STL_eqs_simp
-	}
-}
-
-create_country_leader = {
-	name = "Nobody"
-	desc = ""
-	picture = "Nobody.tga"
-	expire = "1965.1.1"
-	ideology = ultranationalism
-	traits = {
-		provisional
-	}
-}
-
-create_country_leader = {
-	name = "Double Diamond"
-	desc = "POLITICS_DOUBLEDIAMOND"
-	picture = "DoubleDiamond.tga"
-	expire = "1965.1.1"
-	ideology = equalism
-	traits = {
-		STL_moderate_equalist
-		cabinet_crisis
-	}
-}
-
-create_field_marshal = {
-	name = "Double Diamond"
-	picture = "DoubleDiamond.tga"
-	traits = { pony_race_trait commissar_general organizer }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "Party Favor"
-	picture = "PartyFavor.tga"
-	traits = { pony_race_trait inspiring_commissar trickster }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Sugar Belle"
-	picture = "SugarBelle.tga"
-	traits = { pony_race_trait commando }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Feather Bangs"
-	picture = "FeatherBangs.tga"
-	traits = { pony_race_trait promising_general }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	female = yes
-}
+recruit_character = STL_feather_bangs
+recruit_character = STL_double_diamond
+recruit_character = STL_spymaster_trochanter
+recruit_character = STL_grey_bread
+recruit_character = STL_liquid_miracle
+recruit_character = STL_magic_fly
+recruit_character = STL_evening_cloud
+recruit_character = STL_charity_punch
+recruit_character = STL_party_flavour
+recruit_character = STL_sugar_belle
 
 set_rule = {
 	can_generate_female_aces = yes

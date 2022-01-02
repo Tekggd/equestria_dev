@@ -1005,6 +1005,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_danilka.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_STG_Mistina"
+		texturefile = "gfx/interface/ideas/STG/idea_STG_Mistina.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_STG_Flyagin"
+		texturefile = "gfx/interface/ideas/STG/idea_STG_Flyagin.tga"
+	}
+	spriteType = {
 		name = "GFX_idea_gold_muffin"
 		texturefile = "gfx/interface/ideas/idea_gold_muffin.dds"
 	}

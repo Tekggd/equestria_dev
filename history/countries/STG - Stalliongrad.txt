@@ -163,6 +163,7 @@ if = {
 	}
 	add_ideas = {
 		ideological_loyalty_spirit
+		STG_red_guard_spirit
 	}
 }
 set_stability = 0.6
@@ -218,6 +219,8 @@ recruit_character = STG_vasiliy_pantsushenko
 recruit_character = STG_dark_wing
 recruit_character = STG_cranberry_branch
 recruit_character = STG_danilka
+recruit_character = STG_alexandra_mistina
+recruit_character = STG_amber_flyagin
 recruit_character = STG_spikestg
 recruit_character = STG_kors_relux
 recruit_character = STG_rilla

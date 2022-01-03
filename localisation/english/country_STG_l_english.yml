@@ -246,190 +246,250 @@ polya_government:0 "New ponies in government"
 stalliongrad.1.t:0 "Home of the Revolution"
 stalliongrad.1.d:0 "When Bilon Plinth and Day Ray each wrote their vaunted works on economic theory, it would later attract the attention of two friends and colleagues, Caramel Marks and Fire Angel. They would travel across Equestria, seeking to observe how the nation was changing in the wake of the industrial revolution. What did they uncover? Systematic exploitation by an uncaring, basically slaveholding class of aristocrats, while the workers were living in misery, poverty and uncertainty.\n\nBut the two comrades against injustice would not see the results of their labour. They laid the seeds through their organisations and ideas, which would culminate in the alliance of Karamelka Sladkova and Steel Stallion. The two of them would break the stagnation and infighting that grew common within the Union of Struggle for Justice (USJ), a precursor to the modern day Stalliongrad Communist Party (SCP). Thus the following events were inevitable: the Petershoof uprising, Pastilá Strike, declaration of the Severyana Republic, the first tanks deployed in battle and ultimately, freedom and independence.\n\nWhat is left to be done? Even after twelve years, the revolution has not yet entrenched itself in Stalliongrad. Ponies, thestrals, griffons and others live in much better conditions than they ever did under Celestia, but the infighting within the SCP has grown steady over the last years, especially after the death of Steel Stallion. Various socialist movements have sprung up beyond the borders of Severyana, but very few have achieved success compared to ours. If the workers are to be liberated, and petty bourgeoisie destroyed as a class, then we have much work ahead of us."
 stalliongrad.1.a:0 "Slava Revolyutsii!"
+
 stalliongrad.2.t:0 "A Party Divided"
 stalliongrad.2.d:0 "Since Steel Stallion's death, the situation in the SCP has deteriorated. While the party has become more open and democratic under Altidiya, and the worker's soviets have largely remained supportive, the party has lost its sense of purpose. The problems of trade, agriculture, and economic planning stil plague us, and though we have had twelve years to muster it, the Red Army is still hardly a mighty force.\n\nWhile the majority of the party still believes in the program set out by Steel Stallion, they frequently disagree on the specifics, and opposition factions have pointed to our failure to solve the problems brought on by the Winter Revolution as evidence that a major change of course is needed. They have grown increasingly popular both among older workers who have lost the optimism of the early days and among young socialists full of starry-eyed idealism and yearning to recapture the true spirit of revolution.\n\nWith factionalism, clashing egos, infighting and bureaucracy stymyeing efforts at implementing long-term solutions, party unity has become the number one issue. For without unity, none of the other problems can be solved, and the revolution will never be completed."
 stalliongrad.2.a:0 "We must stand together, or we shall fall."
+
 stalliongrad.10002.t:0 "Majority"
 stalliongrad.10002.d:0 "The Majority is not officially a faction, but in the leadup to the Tenth Party Congress they have become tired of the infighting and are ready to move forward, rallying around a triumvirate of prominent figures to bring unity to the party.\n\nPremier Vasily Pantsushenko is the leader, and many hope that he will one day become General Secretary. Long thought of as a policymaker above factional conflict, he has come out strongly against disunity and revisionism in the party, arguing that the SCP must remember its purpose and serve the people and the revolution rather than their private interests. He has announced that he will propose an ambitious program of unity and anti-corruption measures at the next Congress.\n\nThe second figure is Gold Muffin, the Changeling revolutionary. He was also considered a figure who did not engage in factionalism, instead serving as a voice of comradeship, reconciliation, and compromise among the different factions. He is vital to holding the majority together, and creating lasting unity after the Congress should they succeed.\n\nThe final figure is the most controversial: the firebrand, Sinister Serov. A dangerous pony, many blame him for the Winter Revolution being so bloody, and he has flirted with the ultra-left opposition. However, it seems his deep friendship with Vasily has caused him to throw his support behind Vasily's program, at least for now, and his charismatic appeals have swayed many on-the-fence party members. Only time will tell if this coalition will last."
 stalliongrad.10002.a:0 "Let us hope Vasily succeeds..."
+
 stalliongrad.11002.t:0 "The Opposition"
 stalliongrad.11002.d:0 "Since Steel Stallion's death, opposition factions have formed. They vote together, consistently support each other, and frequently reopen debates which were previously closed, skirting the principle of democratic centralism and aggravating the party's indecisiveness. The main opposition factions are the rightists and the ultra-leftists. While they both agree on preserving their ability to oppose the majority and frequently vote together on administrative and procedural issues, they could not be more different in terms of their ultimate aims.\n\nThe rightists, led by the universally-respected Karamelka and the universally-despised Dark Wing, advocate consolidating the NEP and an approach of "new thinking" and "openness," whereby they would reintroduce some capitalist elements into the Stalliongrad economy and pursue a thaw in relations with Harmonist neighbours, with the goal of slowly spreading socialist ideas in Equestria. They maintain that under their program, our productive capacities and standard of living would leapfrog past Equestria, and in the long term socialism would become more popular than if we hold strictly to Marksist orthodoxy.\n\nThe ultra-left faction on the other hoof has no official leader, but is generally dominated by radical general Masha Norushkina. They argue Steel Stallion did not go far enough, and that the NEP should be immediately scrapped and collectivisation accelerated. They also advocate for massive military buildup, a drastic reduction in bureaucracy, and immediate preparation for total war with Equestria to bring the revolution by force."
 stalliongrad.11002.a:0 "They seem disruptive."
+
 stalliongrad.3.t:0 "Telegraph Agency"
 stalliongrad.3.d:0 "#TO DO"
 stalliongrad.3.a:0 "Yay"
+
 stalliongrad.11003.t:0 "Muffin and ultras" #Danielle suggested
 stalliongrad.11003.d:0 "Muffin talks to some ultras who are kinda on the fence, trying to get them to support majority. Does he convince them?"
 stalliongrad.11003.a:0 "Muffin right"
 stalliongrad.11003.b:0 "Muffin wrong"
+
 stalliongrad.11004.t:0 "Sinister and farmers" #Danielle suggested
 stalliongrad.11004.d:0 "Sinister tries to rile up some farmers, get them to join party and kick out their rightist delegate, appoint someone more leftist. Does he convince them?"
 stalliongrad.11004.a:0 "Sinister can"
 stalliongrad.11004.b:0 "Sinister can't"
+
 stalliongrad.11005.t:0 "Masha and Karamelka" #Danielle suggested
 stalliongrad.11005.d:0 ""Comrade Sladkova," said General Masha Norushkina, "I assume you have brought me here to discuss Vasily's plan?"\n\n"Of course, Vampirenok," said Karamelka, referring to Masha by her nickname, "Please, sit down." Masha sat down stiffly, thanking the waiter as he brought them their meal of fish and potatoes. Masha sniffed the fish.\n\n"Tartar sauce, Sladkova?"\n"Yes?"\n"I am sure you are aware that none of my enlisted soldiers get tartar sauce on their fish rations. Why should generals like me and party officials like yourself eat better than the common soldier?"\n\n"Mashka, I merely wanted to-"\n"To subtly bribe me? To curry favour? And another thing. My friends can call me "Mashka" or "Vampirenok," but from you it is insulting. I am not some child any more, comrade Sladkova."\n\nKaramelka sighed. So young, so fiery... she just needed a few more years to figure herself out and she'd be an admirable communist, but until that happened she was just insufferable.\n\n"Look, Comrade Norushkina. Are we going to discuss how to prevent Vasily from destroying both of our factions' ability to do anything, and possibly have us both expelled from the party as revisionists-"\n"I am no revisionist!"\n"Once Vasily secures control, he'll get to decide who is and is not a revisionist. So, are we going to discuss strategy, or are we going to bicker all night?""
-stalliongrad.11005.a:0 "The two get down to discussing strategy."
-stalliongrad.11005.b:0 "The two bicker all night."
+stalliongrad.11005.a:0 "The two bicker all night."
+stalliongrad.11005.b:0 "The two get down to discussing strategy."
+
 stalliongrad.11006.t:0 "Three Comrades"
 stalliongrad.11006.d:0 "Sinister took another sip of Muffin's special vodka, savouring the taste. It had been mixed with distilled love, passively gathered by Gold Muffin from all the friends and comrades he'd made since his fateful flight cacross the tundra to Stalliongrad. Vasily was waxing poetic about his plans again, more than a little tipsy. Sinister liked him like this, casual and enthusiastic. It was a side not many got to see of the premier, who most thought was a dour bureaucrat all the time.\n\n"And thank you, Sinister!" the red-maned stallion slurred, turning to his friend, "Without you, and uh, and you too Muffin! And you too. But I'll get to that in a sec, without you, I woulda stayed in the planning office forever! And everypony told me to ditch you, but I knew, I knew! You've really come through Sinister, with all those things you've been doing in the place with those ponies..."\n\nGold muffin laughed. Sinister gave a mock curtsy. "I live to serve the revolution, my dear Vasya!"\n\n"To the revolution!" Vasily proclaimed, then realized his glass was empty. Muffin gave a tiny shake of his head, indicating there would be no more for the premier. Sinister smiled. He didn't know why Vasily trusted him, after all the enemies he'd made, but he was grateful he did. Without friends like Vasily and Muffin, Sinister would be lost. So he raised his glass with a toast of his own."
 stalliongrad.11006.a:0 ""To Vasily, the next general secretary!""
+
 stalliongrad.11007.t:0 "Nestor and Masha" #Danielle suggested
 stalliongrad.11007.d:0 "Masha speaks to Nestor Lunin about army involvement in politics. She's unsure whether it's appropriate for her to be a party delegate and a general. Nestor can either say it's her right to participate in party politics, or tell her that she should probably not be involved, but he won't outright order her not to."
 stalliongrad.11007.a:0 "You can do it, Masha"
 stalliongrad.11007.b:0 "Problay that a bad idea"
+
 stalliongrad.11008.t:0 "Tension between Dark Wing and Karamelka" #Danielle suggested
 stalliongrad.11008.d:0 "#TO DO"
 stalliongrad.11008.a:0 "The right faction splits"
 stalliongrad.11008.b:0 "We should to stick together"
+
 stalliongrad.4.t:0 "Communists in Equestria"
 stalliongrad.4.d:0 ""...Although our efforts have thus far focused on supporting comrades in Baltimare's trade unions and the socialist sailors in Vanhoover, we the undersigned believe in accordance with the principle of internationalism that more must be done. In particular, there are two major untapped populations. First, we hold that the Crystal Ponies would be receptive to us, as they feel the alienation of capitalism more acutely due to only recently being proletarianised after long existence in a pre-capitalist state."\n\n"For similar reasons, the batponies of Equestria would turn to socialism easily if given the right push. Many batponies have only recently joined the proletariat, having been displaced into the cities by primitive accumulation and facing particularly poor working conditions. While many of them cling to monarchism in the vain hope that Princess Luna will help, the last seven years of inaction have resulted in many turning to more radical voices. If we do not act soon, they will turn to reactionary nationalism or other alternative ideologies for a solution. To facilitate this, we the undersigned recommend a 20% increase in funding to the program for helping revolutionaries abroad..."\n\nAltidiya considered the proposal. It was signed not only by Masha's clique of radicals, but by several members of the majority, including Sinister Serov and Gold Muffin. It was bold, dangerous even. Karamelka had just come to her last week, suggesting that funding communists in Equestria was taking vital resources away from the people of Stalliongrad, and that "poking the Equestrian Ursa" risked an unwinnable war if our operations were discovered.\n\nVasily, for his part, had insisted that our current operations were quite secure, but that expanding to the Crystal Empire and the batponies would surely result in our discovery. As a matter of clandestine operations, the decision was Altidiya's alone to make."
 stalliongrad.4.a:0 "Vasily is right."
 stalliongrad.4.b:0 "Masha is right, we should be bolder."
 stalliongrad.4.c:0 "Karamelka is right, we need to be cautious."
+
 stalliongrad.5.t:0 "Socialism in One Country?"
 stalliongrad.5.d:0 "One of the more controversial doctrines adopted during the Altidiya years is Socialism In One Country, that is to say, the doctrine that our efforts should primarily focus on building a shining, self-sufficient socialist state in Severyana.\n\nThe ultra-lefts in particular have always opposed that move, arguing in line with classical Marksism that the revolution is international in character and that our worker's state will degenerate into state capitalism unless we rapidly spread the revolution to Equestria, at the bare minimum.\n\nThe right opposition are also skeptical, but instead argue that a period of state capitalism is actually necessary to expand the means of production and improve standards of living. All in preparation for spreading the revolution through economics, diplomacy, and force as a last resort. Still, they advocate against scrapping the policy because it clearly communicates to the world that we are not going to invade our neighbours at will.\n\nThe center is divided on the topic, with Sinister Serov largely siding with the ultra-lefts, but Vasily arguing that it is possible. He believes that the material conditions in Stalliongrad are sufficient to support, if not full communism, then at least a robust socialism, but only if we are courageous and unified in our pursuit of a better life."
 stalliongrad.5.a:0 "We will build socialism here and now."
 stalliongrad.5.b:0 "Our central concern must be to develop the means of production."
 stalliongrad.5.c:0 "If we do not liberate all the workers of the world, we shall perish."
+
 stalliongrad.6.t:0 "Freedom of factions or unity?"
 stalliongrad.6.d:0 "The SCP runs on the principle of democratic centralism, meaning that issues are to be vigorously debated and voted on but then considered closed: once the party has made a decision, it behooves all representatives of the party to support that decision, or to resign. This allows us to maintain democracy and make good decisions, but also to move forward with unity and purpose. "Freedom of Debate, Unity of Action," in theory.\n\nIn practice, the emergence of factions within the party undermines the efficacy of this principle. Party members privately dissent from policies they already had a chance to contest publicly, then those dissensions find their way to the press and chip away at even the appearance of unity. Debates are reopened again and again each time a faction thinks it can win.\n\nVasily's ally Sinister Serov has argued that if this principle is to mean anything, we must take steps to curtail factionalism. While it is too soon to ban factions outright, the general secretary can release an official statement condemning division and factionalism within the SCP, and institute new rules of order within the Supreme Soviet to better enforce democratic centralism. The ultra-leftist and rightist factions have both objected that these rules will stifle the freedom of debate within the party and lead to rigidity and dogmatism, to which Vasily retorted that they would not have been necessary if the factions had not made them necessary with their ceaseless infighting."
 stalliongrad.6.a:0 "We must clamp down on all this bickering!"
 stalliongrad.6.b:0 "We cannot curtail our party member's freedom to debate."
+
 stalliongrad.7.t:0 "The Red Army doctrine"
 stalliongrad.7.d:0 "#discussion about army"
 stalliongrad.7.a:0 "#Support Mobile Warfare"
 stalliongrad.7.b:0 "#Support Mass Assult"
+
 stalliongrad.8.t:0 "The Legacy of the Royal Navy"
 stalliongrad.8.d:0 "#discussiun between Glory and Gorshkov about doctrine"
 stalliongrad.8.a:0 "#Support surface fast ships doctrine"
 stalliongrad.8.b:0 "#Support submarine doctrine"
+
 stalliongrad.9.t:0 "A New Industrial Minister"
 stalliongrad.9.d:0 "Adding new members to the Politburo is always cause for debate, and often the Supreme Soviet will argue for weeks before settling on somepony to fill a vacancy. With Vasily Pantsushenko taking an increasingly active role in party politics, he has announced that he will resign as People's Commissar for Industrial Planning. This surprised many, who expected him to keep his role as it provided him considerable influence, but Vasily insisted that for the good of the people, he had to allow somepony else to fill the role who has more time to devote to it.\n\nHis ally Gold Muffin has suggested Konzan University engineering professor Alevtina Qubysheva as his replacement. She has only ever dabbled in politics, but seems to be a forceful advocate of central planning and prioritizing high-tech industries as the core of Stalliongrad's economic progress.\n\nThe right opposition has put forward their own candidate, a more well-known pony named Psychic Sigil who was responsible for the most succcessful parts of the NEP, and has since played a major role in developing our armaments industry. Whoever is chosen will have a big task ahead of them, as Stalliongrad's industry grows larger and more complicated by the day, and coordinating it all is quickly becoming a monumental task."
 stalliongrad.9.a:0 "We trust Alevtina."
 stalliongrad.9.b:0 "Psychic Sigil has already proven himself."
+
 stalliongrad.10.t:0 "Support Collective Farms"
 stalliongrad.10.d:0 "Although the NEP allowed market forces into the agricultural sector, the core of our food supply comes from collective farms. These farms have had difficulty meeting quotas, and between the Equestrian embargo and the loss of our most arable land in the revolution, food insecurity has been a constant problem. While we have not had a true famine yet, the People's Commissariat of Agriculture reports that we are perhaps one bad winter away from one.\n\nAccordingly, the party voted at the 1004 SCP Congress to prioritise the production of agricultural machinery. Now we must decide where to distribute these combine harvesters, tractors, and other equipment. Vasily suggests that we send the majority out to the collective farms, and if the private farms want them, they can buy them from the state. This will cause more farmers to embrace collectivisation and generate state revenue.\n\nThe opposition argue that now is not the time to play favourites and that we should ship the machinery out to all our farmers. Many suspect the left opposition has sided with the rightists on this because of some deal, or because they see no need to encourage collectivisation through economics when they plan to do it by force."
 stalliongrad.10.a:0 "Collective agriculture is the way forward."
 stalliongrad.10.b:0 "All of our farmers need help."
+
 stalliongrad.11.t:0 "Kulaks and peasants"
 stalliongrad.11.d:0 "#TO DO"
 stalliongrad.11.a:0 "#Vasya suggestion"
 stalliongrad.11.b:0 "#opposition suggestion"
+
 stalliongrad.121.t:0 "Wrangling the Firebrand" #To be integrated into tenth congress event chain, thanks Honcho!
 stalliongrad.121.d:0 "Sinister Serov was having a lovely bath, listening to some music on his gramophone. It was truly exquisite, the way Prokoniev's sonatas sounded with one's head immersed in hot water. Or at least it would be if it weren't for the muffled sounds of somepony pounding on his door.\n\n"Is it the NKGB or the mailpony? Either way come back later," Sinister drawled, poking his head just above the water.\n"It's Vasya!" came a muffled voice from the other side of the door. Sinister blinked. What did Vasily want?\n"Fine, fine, you have the spare key, just come on in!"\n\nVasily entered the suite mid-sentence: "...didn't want to barge in if you were- oh-for-the-love-of-Tartarus!"\n"Bathing?" finished Sinister, grinning devilishly as Vasily gave an exasperated sigh.\n"Yes, that. What are you doing?"\n"Bathing."\n""The Party Congress starts in less than an hour and we need to coordinate!"\n"Oh I'm terribly sorry Vasya, it slipped my mind. I'm sure I can make it up to you by blowing everypony away at the Congress with another stellar speech in your favour..."\n"Have you even prepared anything?"\n"Come now, you know I simply get going and say what I feel like."\n\nVasily finally made eye contact with his friend, narrowing his eyes.\n"Not this time, Sinnie. This time you're not riling up a crowd, you're making a case to party delegates who deserve to know what they're getting into if they endorse my program. You need to actually be professional, for once."\n"Oh I'll need more than an hour of prep for that, my dear Vasya!"\n"Oh, don't worry. Your only job today is to sit near Mashka and make sure she doesn't disrupt everything. Your big day is tomorrow. I know you, Sinister, and I knew I'd have to wrangle you one way or another."\n\nSinister Serov chuckled, rising out of the bath and making Vasily look away in embarrassment as he lazily walked over to get a towel."
 stalliongrad.121.a:0 ""Indeed you do know me, Vasya. Indeed you do.""
+
 stalliongrad.122.t:0 "Call to Order"
 stalliongrad.122.d:0 "Vasily Pantsuschenko couldn't help but feel giddy as the last delegates took their seats at the Tenth Party Congress. All his efforts had come to this: either Sinister's fire, Muffin's diplomacy and Vasily's hard work would unite the party, or it would all come to nothing. Vasily waited as Altidiya officially opened the tenth party Congress, barely hearing her words as his mind raced with what could go wrong. He almost didn't hear when the General Secretary announced it was time for him to propose his first resolution.\n\nIt had taken so much effort to get Vasily's anti-corruption resolution to the top of the list, but Vasily knew it would be worth it. This would allow him to set the tone for the entire Congress. Stepping up to the podium, he began:\n"Comrades, I am not going to mince words. The Party is in distress. I have long spoken out against factionalism, this you all know, but today I would like to begin with something that unites us all: the duty of every representative of the SCP to serve the interests of the people and the revolution, rather than their private interests."\n\n"It is precisely the temptation to profit off of their offices which turns factionalism from a healthy part of party democracy into a source of deadlock. Therefore, I propose a new set of countermeasures to ensure that every official be subject to proper performance evaluations, and that corruption be dealt with swiftly and conclusively."\n\nAfter a few minutes of clarifying questions from Karamelka, the vote was called, and the resolution passed easily."
 stalliongrad.122.a:0 "So far so good..."
+
 stalliongrad.123.t:0 "The collectivisation debate"
 stalliongrad.123.d1:0 "After several uncontroversial resolutions, the first real battle began. Gold Muffin got up, arguing in his usual soft tones that the time had come to do what Steel Stallion had always intended, and to phase out the NEP so that collectivisation could be completed.\n\n"This is not to condemn the NEP," Muffin said, "It is merely to acknowledge that it has succeeded. Comrade Sladkova, your efforts kept us from famine, and brought the prosperity you have always believed we needed before creating socialism. For that, we thank you."\n\nVasily glanced at Masha's crowd. Good. Sinister was where he was supposed to be, keeping the batpony distracted so she couldn't rally her faction to denounce Muffin as a revisionist or whatever insult she thought of for somecreature with something good to say about the NEP. Muffin finished his speech. As expected, Karamelka Sladkova got up to argue against him.\n\n"Thank you, comrade Muffin, for your kind words. However, I argue that we have not achieved the prosperity necessary to go forward with collectivisation. As Comrade Muffin said, the NEP generates prosperity and security, increasing median real income yearly since its adoption and limiting inflation. Why should we throw it away?"\n\nVasily relaxed. Of course, Karamelka would argue against it, but he could already feel her losing the delegates as she got into dry economic data, sounding more like a bourgeois economist by the moment. Sinister was joking around with some of the delegates, and it was clear Karamelka wouldn't be able to stop it. When the vote came, even some of the rightists voted in favour of phasing out the NEP."
 stalliongrad.123.d2:0 "After several uncontroversial resolutions, the first real battle began. Gold Muffin got up, arguing in his usual soft tones that the time had come to do what Steel Stallion had always intended, and to phase out the NEP so that collectivisation could be completed.\n\n"This is not to condemn the NEP," Muffin said, "It is merely to acknowledge that it has succeeded. Comrade Sladkova, your efforts kept us from famine, and brought the prosperity you have always believed we needed before creating socialism. For that, we thank you."\n\nThe first sign something was wrong was when Dark Wing, not Karamelka, got up to speak against the resolution.\n"Comrade Muffin mentioned that we are prosperous. Prosperous relative to whom? Certainly not Manehattan, or any of the other large cities which have access to the Equestrian market." Dark Wing took a moment, letting the ultra-left faction jeer at him, Sinister failing to stop Masha from yelling "Counter-revolutionary!"\n"And I find it interesting. Obviously, Comrade Muffin, you are complimenting Karamelka as part of Vasily's plans to implement your measures to, oh what was it? 'Advance the revolution and serve the people?' As if those are always the same thing. I did find it ironic you started with anti-corruption, when everypony knows where Sinnie gets the money for his walk-in closet full of dresses and his other one full of suits."\n\n"This again, Dark Wing?" Sinister shouted, "You and your cronies have already had me investigated for corruption twice and they found nothing; I am simply very good at shopping!"\n"Very good at not getting caught!" hollered one of the rightist delegates.\n"Comrades, enough shouting!" said  Dark Wing, but by his smirk it was clear this was what he'd intended. The room descended into accusations, recriminations, and personal attacks, with every leader of every faction feeling the need to deliver a lengthy speech on the last speech. The first day fo the Congress closed before they got to voting on the resolution."
 stalliongrad.123.a:0 "The first deadlock is finally broken."
 stalliongrad.123.b:0 "We can still turn this around!"
+
 stalliongrad.12.t:0 "Tenth Party Congress"
 stalliongrad.12.d:0 "#TO DO"
 stalliongrad.12.a:0 "Unity, finally!"
 stalliongrad.12.b:0 "Myabe we need to change something?"
+
 stalliongrad.13.t:0 "Status Quo in the Party"
 stalliongrad.13.d:0 "#situation get worse."
 stalliongrad.13.a:0 "The 11th congress will be decisive for the fate of Stalliongrad!"
+
 stalliongrad.14.t:0 "Unity Has Been Achieved"
 stalliongrad.14.d:0 "#happyend for Vasily"
 stalliongrad.14.a:0 "Ura tovarishchu Pantsushenko!"
+
 stalliongrad.16.t:0 "The Steady Course"
 stalliongrad.16.d:0 "#Nothing has changed, Altidiya decides she just needs to press ahead"
 stalliongrad.16.a:0 ""
+
 stalliongrad.17.t:0 "Desk of the General Secretary, Economic Report -432"
 stalliongrad.17.d:0 "#boring economic data, entails modifications to the NEP, Altidiya should be unsatisfied with her work"
 stalliongrad.17.a:0 ""
+
 stalliongrad.18.t:0 "To Feed a Nation"
 stalliongrad.18.d:0 "#Food stocks are doing okay, but they need to prepare for winter"
 stalliongrad.18.a:0 "Winter is coming..."
+
 stalliongrad.19.t:0 "Those who work together..."
 stalliongrad.19.d:0 "#Altidiya doing some visit to a collective farm, should be upbet but tense. Futher sowing doubt in her mind"
 stalliongrad.19.a:0 "...Thrive together."
+
 stalliongrad.20.t:0 "A Revolution Surrounded by Ice"
 stalliongrad.20.d:0 "#holsum 100 skynavia stuff idk"
 stalliongrad.20.a:0 "Hurrah for our comrades a world away!"
+
 stalliongrad.21.t:0 "What makes a Party?"#Kingston
 stalliongrad.21.d:0 "#Altidiya feels the storm coming. She decides to resign. I wrote this one but I am looking for approval"
 stalliongrad.21.a:0 ""
+
 stalliongrad.22.t:0 "A New Path" #Danielle
 stalliongrad.22.d:0 "#Sinnie takes a stand against the Right opposition"
 stalliongrad.22.a:0 ""
+
 stalliongrad.23.t:0 "A Meeting of Minds" #Danielle
 stalliongrad.23.d:0 "#Sinnie invites some Right opposition intellectuals to negotiate, expells them from the party"
 stalliongrad.23.a:0 ""
+
 stalliongrad.24.t:0 "Final Victory" #Danielle
 stalliongrad.24.d:0 "#Sinnie arrests Vasily and Karamelka, his final victory"
 stalliongrad.24.a:0 ""
+
 stalliongrad.25.t:0 "A New Red Star" #Danielle
 stalliongrad.25.d:0 "#Sinnie gets appointed to some high post, this is a formality, he is already in control"
 stalliongrad.25.a:0 ""
+
 stalliongrad.26.t:0 "A New Day in the Soviet" #Danielle
 stalliongrad.26.d:0 "#Sinnie gets voted in as GenSec"
 stalliongrad.26.a:0 ""
+
 stalliongrad.27.t:0 "Unity Among Equals" #Danielle
 stalliongrad.27.d:0 "Sinister paced about his apartment. The three SKVD ponies outside his door had been completely silent, refusing to answer any of his questions, and had telekinetically shoved him back in when he'd tried to leave. He'd tried his telephone, but the line had been cut. It had been almost three days, and Sinister had heard gunshots outside. He didn't know how, but somepony had taken Sinister prisoner in his own suite. Sinister's door opened, and Vasily Pantsuschenko slipped inside.\n\n"Oh, Vasya!" cried Sinister, "What ever is happening?"\n"I have become general secretary. As you wanted."\n"So it's over then? We've won?"\n\n"No, Sinister. You have lost. Norushkina is in custody, and soon you will be tried for treason."\n\n"W-what? But if you're-"\n"You have been held here under my orders. What were you thinking, Sinister?"\n"Oh, come now- Vasya, Vasya!"\n"Don't Vasya, Vasya me!" Vasily snapped, "You betrayed the party, you betrayed Steel Stallion's legacy, you betrayed me! I trusted you when everypony else told me you were a snake. Well, from now on your venom will not influence me."\n\n"What do you want from me?" Sinister asked, still not quite believing his ears, "This must be one of your games, or, or something-"\n\n"I want you to confess!" Vasily snarled, "When you're taken before the court I want you to confess everything and beg not to be shot! Confess to espionage, confess to treason, confess to anti-Soviet activity, and confess to bribery or blackmail or whatever methods you used to get the Red Guard to join you!"\n\nFinally, Sinister understood. Drawing himself up, he looked into Vasily's eyes. "I will confess to treason and to anti-Soviet activity. But I will not confess falsely. I did not pay a single bribe, or issue a single threat. The Red Guard, the ultra-left faction, Masha... all I did was talk to them, telling them that the revolution had lost its way and that it was their duty to save it. Think upon that, my dear Vasily.""
 stalliongrad.27.a:0 "Thus ended the ambitions of Sinister Serov."
+
 stalliongrad.28.t:0 "We are Reasonable Ponies" #Danielle
 stalliongrad.28.d:0 "Vasily, empowered by stopping Sinister's moves begins to remove elements who supported sinister, and those who let it happen. He has wrangled the coup and come out safely"
 stalliongrad.28.a:0 ""
+
 stalliongrad.29.t:0 "Forwards Once Again"
 stalliongrad.29.d:0 "#Vasily is in control, there's no right to cooperate with now, but he's still in charge"
 stalliongrad.29.a:0 ""
+
 stalliongrad.30.t:0 "Late Night Lessons"
 stalliongrad.30.d:0 ""Sladkova? Are you in there?"\n\nKaramelka looked up from the papers on her desk, it had been hours since she had sat down to get some work done for the upcoming congress, and she barely knew what time it was. But judging from the lack of light outside, it was probably the early hours of the morning already. She got up from her desk, having to steady herself after sitting down for so long.\n\nWho could it be at this time? Why does someone need to talk to her now of all hours?\n\nOpening the door, she did not see a familiar face. Rather one she had only met once or twice in person. But she could remember his name.\n\n"Major Morozov. How... interesting to see you at this hour?" The stallion looked visibly regretful that he had come at such a strange time, but equally insistent he be let inside.\n\n"Comrade Sladkova, I apologize for disturbing you but I have something that will be of utmost importance to you." He jostled his right hoof, shaking a manila folder stuffed hastily with papers. "I need to come inside. Please." Karamelka knew the sound in his voice, and she knew it well. It was the sound of someone making a very hard decision that they were about to back out of. So she stood aside, and let the major in.\n\nThe pegasus began to pace around her office, gripping the papers extremely hard, "As you know, during the revolution I had the honor of commanding our pegasi shock corps. And I have continued this responsibility to this day." Karamelka nodded as Morozov rattled off his accomplishments during the revolution, "And during that time I formed a good friendship with general Masha. But it was just that, we were friends. I stayed out of politics, I didn’t want to get involved."\n\nKaramelka put her hoof in front of him, stopping his pacing. "Major Morozov. I know you are not a stallion of intrigue, I trust you, what is going on?"\n\nThe pegasus sighed and threw the folder onto the desk, "Three days ago I was contacted by general Masha asking for her help in a plot. She has made a pact with Sinister Serov to overthrow the government at the next Congress. She wanted my unit to play a role, so I said yes to get out of the conversation. I knew I had to tell someone, I know you’re the only one Sinister would never be able to get on side. I’ll do whatever you need me to. Just stop Sinister. I don’t know how he bent Masha’s leg, but we can’t let this happen."\n\nKaramelka took everything in, and laughed internally. It was just like the days of the revolution. But it seemed this time she was on the other end of things. "Of course, thank you for your help.""
 stalliongrad.30.a:0 "We must stop this."
+
 stalliongrad.31.t:0 "Dusk to Dawn"
 stalliongrad.31.d:0 "Masha looked over the plans in front of her. The maneuvers for the day of reckoning, when she would finally save the revolution. Everything was in place. The Red Guards would enter the Congress building, the shock troops would secure the important government buildings. Sinister would make his speech, and everything would go as planned. There was just the issue of-\n\n"Masha..." the thestral looked up to see Major Morozov standing in the doorway. The stallion stared her dead in the eyes with an expression like steel. What was going on? "There's a visitor for you." Before Masha could respond, Morozov stepped out of the way, revealing Karamelka Sladkova.\n\nThe General spoke with aprehension, "Comrade Sladkova, it's a surprise to see you." Masha shifted slightly, she didn't know what was going on, and she began to move for where she kept her hidden pistol.\n\n"It's not a surprise to see you, General. And don't bother looking for your weapon, it's not there." Masha's eyes widened and her heart sank when she realized what had happened. The coup had been sold out, and she had no way to fight back. As Masha froze, Karamelka walked over and put a hoof on her shoulder, "I'm sorry child. Your zeal got the better of you." Before turning around to the door, "Comrade Flyagin, place Masha Norushkina under arrest."\n\nAnd as Masha was put into a car outside her building, she could only wonder how it all went so wrong."
 stalliongrad.31.a:0 "At least no blood was spilled tonight."
+
 stalliongrad.32.t:0 "A New Motion"
 stalliongrad.32.d:0 ""Order! Order! I call order to this congress!" Gold Muffin bellowed from his podium before the Supreme Soviet. The timid and reserved changeling let his voice out for the first time in many months to calm the chaos of the chamber. Delegates stood, not taking their seats, and whispered to one another, it was complete anarchy. "I will not have this congress devolve into chaos!"\n\nSinister Serov rose and shouted above the murmuring, "This congress will achieve order once we find out what happened to General Norushkina! We cannot have officers of the state disappearing with no action from the administration!"\n\nGold Muffin began to lose patience, but then, out of the corner of his eye, he saw Karamelka enter the chamber. Finally, this torture could end. He despised acting like this to the congress, and especially his friend Sinister. Or, what was once his friend. Karamelka looked the changeling in the eyes and nodded.\n\nMuffin took in a deep breath, and bellowed as loud as his voice would allow him, "Silence!" Waiting for the room to become quiet, he continued, "I believe Comrade Sladkova has something to say." Muffin looked from Sladkova to Sinister. Sinister wasn't looking back. His eyes were trained on Karamelka, an unnatural focus consuming him. His plot couldn't proceed without Masha, but he didn't know it was all over already.\n\nKaramelka stood from her seat and cleared her voice, "I would like to present a motion on the condemnation of the conduct of Comrade Serov." On queue, the left wing of the hall erupted. Sinister himself soon rose and fired back, "Doing the wishes of Dark Wing now are you? I thought this nonsense was his job!"\n\n"Seconded!"\n\nThe hall went silent, as all eyes looked to Gold Muffin. He never approved motions before, so all knew something was afoot. Karamelka smirked as horror set in on Serov's face, "I formally charge Sinister Serov with collaboration with and participation in a military coup against the Communist Party, I charge him with anti-socialist behavior-" By now the yelling in the hall was getting louder, with left delegates trying to snuff out Karamelka's cries. "With working with the traitorous General Masha Norushkina, and with plotting to destroy the revolution! And I declare you under arrest!"\n\nOn queue with the finishing of her speech, Gold Muffin sighed, and pressed the button under his podium. The next few minutes were a blur as Morozov's soldiers stormed the hall and arrested the plotters, but Muffin couldn't stop thinking about how it all came to this."
 stalliongrad.32.a:0 "Where did he lose his way?"
+
 stalliongrad.33.t:0 "An Old Comrade"
 stalliongrad.33.d:0 "Gold Muffin, Chaircreature of the Supreme Soviet, normally didn't have much actual power. He had a lot of soft power, everypony liked him except for a few hardliners, but he wasn't in charge of any serious portfolio. But for what Karamelka was about to do, the Changeling Revolutionary was vital.\n\nShe needed somepony - or someling, in his case - who was seen as unimpeachable, not part of the rightist faction and only vaguely associated with the center. And as chair of the Supreme Soviet, Muffin could second her motion to arrest Sinister from a position where everypony would listen.\n\nKaramelka made no appeals. She just gave Muffin her dossier and waited. Muffin's compound eyes betrayed nothing, but the slight quivering of his jaw told her everything she needed to know. He believed her.\n\n"I..." Muffin began, "I wish it hadn't come to this. I really thought... Oh Karamelka, is there any way this is a misunderstanding?"\n"I'm afraid not."\n"I knew Sinister was trouble, but I really thought..." he took a drink of water, and then looked at her with a pleading expression. "I know what I have to do, but... Sinister... I don't want to. Is there any other way?"\n"I suppose you could talk to him."\nMuffin laughed bitterly.\n\n"No, you're right. Talk never worked for Sinister. I really thought that between Vasily and me, if he just had some good friends who really cared about him... but no, Sinister Serov is Sinister Serov. He won't change, and he won't back down.""
 stalliongrad.33.a:0 ""So we'll have to cut him down.""
+
 stalliongrad.34.t:0 "Blast From the Past"
 stalliongrad.34.d:0 "#Karamelka inaugerated as GenSec"
 stalliongrad.34.a:0 ""
+
+###Karamelka mil stuff?###
+
 STG_karamelka_reform_progress_category:0 "Karamelka's reform progress"
 STG_karamelka_reform_progress_category_desc:0 "[?STG_Karamelkas_reform_progress] reform progress"
 stalliongrad_mil.1.t:0 "#TO DO"
 stalliongrad_mil.1.d:0 "event about karamelka dictating her military policy"
 stalliongrad_mil.1.a:0 "#TO DO"
+
 stalliongrad_mil.2.t:0 "#TO DO"
 stalliongrad_mil.2.d:0 "fire event, choose between army modernization plans, each completing the respective focus"
 stalliongrad_mil.2.a:0 "#TO DO"
+
 stalliongrad_mil.3.t:0 "#TO DO"
 stalliongrad_mil.3.d:0 "The red guard have some good ideas"
 stalliongrad_mil.3.a:0 "#TO DO"
+
 stalliongrad_mil.4.t:0 "#TO DO"
 stalliongrad_mil.4.d:0 "event about young pilots, who will be instructed by Lunin and ponification of Pokryshkin(he still haven't name)"
 stalliongrad_mil.4.a:0 "#TO DO"
+
 stalliongrad_mil.5.t:0 "#TO DO"
 stalliongrad_mil.5.d:0 "event about choose by Lunin and Varrayova the best pilots from regular aviation"
 stalliongrad_mil.5.a:0 "#TO DO"
+
 stalliongrad_mil.6.t:0 "#TO DO"
 stalliongrad_mil.6.d:0 "fire event, choose between supply grace and supply consumption modifier and some production modifier, literally choosing between guns and butter"
 stalliongrad_mil.6.a:0 "#TO DO"
+
 stalliongrad_mil.7.t:0 "#TO DO"
 stalliongrad_mil.7.d:0 "Found the Guards Divisions"
 stalliongrad_mil.7.a:0 "#TO DO"
+
 stalliongrad_mil.8.t:0 "#TO DO"
 stalliongrad_mil.8.d:0 "event about Krasnova-Lunin plan of mobile warfare"
 stalliongrad_mil.8.a:0 "#TO DO"
+
 stalliongrad_mil.9.t:0 "#TO DO"
 stalliongrad_mil.9.d:0 "Event with discussion between Gorshkov and Glory about main naval doctrine"
 stalliongrad_mil.9.a:0 "#TO DO"
+
 stalliongrad_mil.10.t:0 "#TO DO"
 stalliongrad_mil.10.d:0 "fire an event, if you allow the foreign firms you get a designer of some sort and you can take either "inventors of armor" or the royal people's institute, as well as a smattering of smaller research bonuses for various techs, if you don't allow them in you get an industrial bonus representing focusing solely on Stalliongrad manufacturing"
 stalliongrad_mil.10.a:0 "#TO DO"
+
 stalliongrad_mil.11.t:0 "#TO DO"
 stalliongrad_mil.11.d:0 "event about finish depolitisation in red army"
 stalliongrad_mil.11.a:0 "#TO DO"
+
 STG_karamelkas_reform_increase_tt:0 "§G[STG_Karamelkas_reform_progress]§"
 STG_karamelkas_reform_decrease_tt:0 "§R[STG_Karamelkas_reform_progress]§"
+
+###News Events###
+
 stalliongrad_news.100.t:0 "Dark Wing Elected General Secretary"
 stalliongrad_news.100.d:0 "[This.GetNewspaperHeader]This morning, Dark Wing was sworn in as General Secretary of the Stalliongrad Communist Party in a short ceremony held in the Supreme Soviet. A close aide to former-Secretary Altidiya, Dark Wing's anti-establishment rhetoric won over support with the proletariat. However, a vocal minority has expressed concern at his support of Stalliongrad-Equestrian relations."
 stalliongrad_news.100.a:0 "Interesting."

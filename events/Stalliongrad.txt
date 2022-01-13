@@ -395,11 +395,11 @@ country_event = {
 
 	option = {
 		name = stalliongrad.9.a
-		add_ideas = alevtina_qubysheva
 		immediate = { log = "[GetDateText]: [Root.GetName]: event stalliongrad.9.a" }
 		vasya_STG_effect = yes
 		STG_vasya_industry_upd = yes 
 		set_country_flag = alevtina_qubysheva_restore_plan
+		add_ideas = alevtina_qubysheva
 	}
 	option = {
 		name = stalliongrad.9.b

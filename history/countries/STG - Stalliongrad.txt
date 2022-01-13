@@ -196,6 +196,7 @@ recruit_character = STG_nestor_lunin
 recruit_character = STG_ember_flare
 recruit_character = STG_veronika_krasnova
 recruit_character = STG_alexia_goldgear
+recruit_character = STG_alevtina_qubysheva
 recruit_character = STG_cherry_swirl
 recruit_character = STG_black_paint
 recruit_character = STG_comrade_ulman

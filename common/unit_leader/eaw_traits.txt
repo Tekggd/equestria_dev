@@ -1815,15 +1815,7 @@ leader_traits = {
 		}
 	}
 	
-	STG_alexandra_mistina_trait = {
-		stability_factor = 0.05
-		enemy_operative_detection_chance_factor = 0.1
-		resistance_damage_to_garrison = -0.2
-	}
-	STG_amber_flyagin_trait = {
-		compliance_gain = 0.025
-		own_operative_detection_chance_factor = -0.15
-	}
+	
 ##################################
 # operative traits (thanks Tallcastle!)
 ##################################

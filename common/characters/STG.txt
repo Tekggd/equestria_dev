@@ -1209,8 +1209,8 @@ characters={
 		}
 	}
 	
-	STG_valalevtina_qubysheva = {
-		name = alevtina_qubysheva
+	STG_alevtina_qubysheva = {
+		name = alevtina_qubysheva_nm
 		portraits = {
 			civilian = {
 				small = "gfx/interface/ideas/STG/STG_alevtina_qubysheva.dds"
@@ -1229,7 +1229,7 @@ characters={
 				electronics = 0.10
 			}
 
-			traits = { STG_alevtina_qubysheva }
+			traits = { STG_alevtina_qubysheva_id }
 		}
 		
 	}
